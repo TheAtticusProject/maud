@@ -1,0 +1,145 @@
+,spec_id,partial,model_name,lr,update_num,aupr,category,n_classes
+0,10.0,1.0,google/bigbird-roberta-base,1e-05,200,0.24018150272126268,Conditions to Closing,60
+1,10.1,1.0,google/bigbird-roberta-base,1e-05,800,0.3124479987897028,Conditions to Closing,60
+2,10.10,1.0,google/bigbird-roberta-base,5e-06,400,0.6113555706397061,Conditions to Closing,56
+3,10.11,1.0,google/bigbird-roberta-base,5e-06,800,0.7691177780446682,Conditions to Closing,56
+4,10.12,1.0,google/bigbird-roberta-base,1e-05,800,0.8023436163128483,Conditions to Closing,56
+5,10.13,1.0,google/bigbird-roberta-base,5e-05,200,0.38291245791245787,Conditions to Closing,58
+6,10.2,1.0,google/bigbird-roberta-base,5e-05,400,0.33003005696594623,Conditions to Closing,56
+7,10.3,1.0,google/bigbird-roberta-base,5e-05,600,0.2984513024958938,Conditions to Closing,60
+8,10.4,1.0,google/bigbird-roberta-base,1e-05,600,0.20137024999077072,Conditions to Closing,58
+9,10.5,1.0,google/bigbird-roberta-base,5e-06,200,0.6267596637615084,Conditions to Closing,52
+10,10.6,1.0,google/bigbird-roberta-base,5e-05,800,0.47962962962962963,Conditions to Closing,57
+11,10.7,1.0,google/bigbird-roberta-base,1e-05,600,0.7338589574480836,Conditions to Closing,57
+12,10.8,1.0,google/bigbird-roberta-base,5e-06,400,0.36781710472540013,Conditions to Closing,56
+13,10.9,1.0,google/bigbird-roberta-base,5e-06,400,0.5911924780081487,Conditions to Closing,60
+14,101,1.0,google/bigbird-roberta-base,5e-05,800,0.9851721050150011,Deal Protection and Related Provisions,61
+15,102,1.0,google/bigbird-roberta-base,5e-05,600,0.954554406732437,Deal Protection and Related Provisions,29
+16,103,1.0,google/bigbird-roberta-base,5e-06,800,0.5941780610987929,Deal Protection and Related Provisions,44
+17,105.0,1.0,google/bigbird-roberta-base,5e-06,600,0.04776269482151835,Deal Protection and Related Provisions,62
+18,105.1,1.0,google/bigbird-roberta-base,1e-05,400,0.9222222222222222,Deal Protection and Related Provisions,56
+19,105.2,1.0,google/bigbird-roberta-base,5e-05,600,0.8033075941852358,Deal Protection and Related Provisions,55
+20,105.3,1.0,google/bigbird-roberta-base,1e-05,800,0.7736344930789375,Deal Protection and Related Provisions,50
+21,105.4,1.0,google/bigbird-roberta-base,5e-06,200,1.0,Deal Protection and Related Provisions,60
+22,105.5,1.0,google/bigbird-roberta-base,1e-05,200,0.15429599640125954,Deal Protection and Related Provisions,54
+23,105.6,1.0,google/bigbird-roberta-base,5e-06,600,0.0785650109100244,Deal Protection and Related Provisions,58
+24,105.7,1.0,google/bigbird-roberta-base,5e-06,400,0.22934472934472935,Deal Protection and Related Provisions,60
+25,105.8,1.0,google/bigbird-roberta-base,1e-05,800,0.9025902718879567,Deal Protection and Related Provisions,51
+26,105.9,1.0,google/bigbird-roberta-base,5e-05,600,0.8626066243091864,Deal Protection and Related Provisions,52
+27,106,1.0,google/bigbird-roberta-base,5e-06,200,0.6909025849737923,Deal Protection and Related Provisions,25
+28,107.0,1.0,google/bigbird-roberta-base,1e-05,600,0.5618637595391981,Deal Protection and Related Provisions,57
+29,107.1,1.0,google/bigbird-roberta-base,5e-06,200,0.73061405384724,Deal Protection and Related Provisions,47
+30,107.2,1.0,google/bigbird-roberta-base,1e-05,200,0.7242175805485305,Deal Protection and Related Provisions,46
+31,107.3,1.0,google/bigbird-roberta-base,1e-05,800,0.7471649858216578,Deal Protection and Related Provisions,42
+32,108,1.0,google/bigbird-roberta-base,5e-05,600,0.26661763089299323,Deal Protection and Related Provisions,25
+33,109,1.0,google/bigbird-roberta-base,1e-05,600,0.9964305428786272,Deal Protection and Related Provisions,162
+34,11.0,1.0,google/bigbird-roberta-base,5e-06,200,0.17211301230697784,Conditions to Closing,64
+35,11.1,1.0,google/bigbird-roberta-base,5e-05,800,0.16066215913414553,Conditions to Closing,50
+36,11.2,1.0,google/bigbird-roberta-base,5e-05,400,0.23464638636543564,Conditions to Closing,62
+37,11.3,1.0,google/bigbird-roberta-base,1e-05,600,0.4351544134877468,Conditions to Closing,56
+38,113,1.0,google/bigbird-roberta-base,5e-05,400,0.4524005727848775,Deal Protection and Related Provisions,23
+39,115,1.0,google/bigbird-roberta-base,1e-05,800,0.6873015873015872,Deal Protection and Related Provisions,11
+40,117,1.0,google/bigbird-roberta-base,5e-05,200,1.0,Operating and Efforts Covenant,58
+41,118,1.0,google/bigbird-roberta-base,1e-05,200,0.9708381977313216,Operating and Efforts Covenant,60
+42,119,1.0,google/bigbird-roberta-base,1e-05,400,1.0,Operating and Efforts Covenant,64
+43,120,1.0,google/bigbird-roberta-base,5e-05,400,0.9880952380952381,Operating and Efforts Covenant,26
+44,122,1.0,google/bigbird-roberta-base,1e-05,200,1.0,Operating and Efforts Covenant,68
+45,123,1.0,google/bigbird-roberta-base,5e-06,600,0.9334776334776335,Operating and Efforts Covenant,58
+46,124,1.0,google/bigbird-roberta-base,5e-06,200,0.8619423461528726,Operating and Efforts Covenant,25
+47,126,1.0,google/bigbird-roberta-base,5e-05,200,0.853764923048146,Operating and Efforts Covenant,79
+48,13,1.0,google/bigbird-roberta-base,1e-05,800,0.7812623216981143,Conditions to Closing,58
+49,130,1.0,google/bigbird-roberta-base,5e-06,600,1.0,Remedies,57
+50,15,1.0,google/bigbird-roberta-base,5e-05,600,0.8285714285714286,Conditions to Closing,7
+51,16,1.0,google/bigbird-roberta-base,1e-05,600,0.9925925925925926,Conditions to Closing,10
+52,21,1.0,google/bigbird-roberta-base,5e-06,400,1.0,Material Adverse Effect,28
+53,22,1.0,google/bigbird-roberta-base,5e-05,600,0.5000915750915751,Material Adverse Effect,33
+54,23,1.0,google/bigbird-roberta-base,5e-05,600,0.6026262626262626,Material Adverse Effect,30
+55,24,1.0,google/bigbird-roberta-base,5e-05,200,0.5582431698736047,Material Adverse Effect,25
+56,25.0,1.0,google/bigbird-roberta-base,5e-05,200,0.7984126984126984,Material Adverse Effect,35
+57,25.1,1.0,google/bigbird-roberta-base,1e-05,400,0.7939582002977051,Material Adverse Effect,38
+58,25.2,1.0,google/bigbird-roberta-base,5e-05,400,0.876578308522753,Material Adverse Effect,38
+59,26,1.0,google/bigbird-roberta-base,5e-05,800,0.9343335918135084,Material Adverse Effect,76
+60,27,1.0,google/bigbird-roberta-base,5e-05,800,0.735529715762274,Material Adverse Effect,43
+61,28,1.0,google/bigbird-roberta-base,5e-05,200,0.6033816425120773,Material Adverse Effect,25
+62,29,1.0,google/bigbird-roberta-base,5e-05,400,0.2473893405600723,Material Adverse Effect,41
+63,3,1.0,google/bigbird-roberta-base,5e-06,600,0.954980931766646,General Information,55
+64,30,1.0,google/bigbird-roberta-base,1e-05,200,0.9069444444444444,Material Adverse Effect,26
+65,31,1.0,google/bigbird-roberta-base,1e-05,200,1.0,Material Adverse Effect,39
+66,32,1.0,google/bigbird-roberta-base,5e-05,800,0.4338963782739375,Material Adverse Effect,31
+67,33,1.0,google/bigbird-roberta-base,5e-05,600,0.29088142645469245,Material Adverse Effect,29
+68,34,1.0,google/bigbird-roberta-base,5e-06,600,0.26017588040614353,Material Adverse Effect,29
+69,35,1.0,google/bigbird-roberta-base,1e-05,200,0.46476924709277645,Material Adverse Effect,39
+70,36,1.0,google/bigbird-roberta-base,5e-05,200,0.40711499146288,Material Adverse Effect,33
+71,37,1.0,google/bigbird-roberta-base,1e-05,600,0.6650642564435668,Material Adverse Effect,41
+72,38,1.0,google/bigbird-roberta-base,1e-05,800,0.7013959429925816,Material Adverse Effect,32
+73,39.0,1.0,google/bigbird-roberta-base,5e-06,600,0.5511355047069333,Material Adverse Effect,50
+74,39.1,1.0,google/bigbird-roberta-base,5e-06,400,0.8401180169037312,Material Adverse Effect,47
+75,39.2,1.0,google/bigbird-roberta-base,5e-06,400,0.7699601245536095,Material Adverse Effect,48
+76,39.3,1.0,google/bigbird-roberta-base,1e-05,800,0.997239475500345,Material Adverse Effect,47
+77,42,1.0,google/bigbird-roberta-base,5e-05,400,0.6748591355734211,Material Adverse Effect,32
+78,43,1.0,google/bigbird-roberta-base,5e-05,600,0.35210537492002025,Material Adverse Effect,30
+79,44,1.0,google/bigbird-roberta-base,1e-05,400,0.18605699855699853,Material Adverse Effect,25
+80,45,1.0,google/bigbird-roberta-base,5e-06,600,0.5454936285197421,Material Adverse Effect,46
+81,46,1.0,google/bigbird-roberta-base,5e-05,200,1.0,Material Adverse Effect,28
+82,47.0,1.0,google/bigbird-roberta-base,5e-05,400,0.691356201927595,Material Adverse Effect,45
+83,47.1,1.0,google/bigbird-roberta-base,1e-05,400,0.9113756613756614,Material Adverse Effect,45
+84,47.2,1.0,google/bigbird-roberta-base,1e-05,200,0.9722222222222222,Material Adverse Effect,44
+85,47.3,1.0,google/bigbird-roberta-base,5e-05,800,0.6984126984126985,Material Adverse Effect,49
+86,47.4,1.0,google/bigbird-roberta-base,1e-05,200,1.0,Material Adverse Effect,50
+87,48.0,1.0,google/bigbird-roberta-base,5e-06,800,0.5379525900035995,Material Adverse Effect,42
+88,48.1,1.0,google/bigbird-roberta-base,1e-05,800,0.4048754520897102,Material Adverse Effect,46
+89,48.2,1.0,google/bigbird-roberta-base,5e-05,600,0.2423707859052687,Material Adverse Effect,47
+90,48.3,1.0,google/bigbird-roberta-base,5e-06,200,0.5977793744098091,Material Adverse Effect,43
+91,48.4,1.0,google/bigbird-roberta-base,5e-06,800,0.8031284216136951,Material Adverse Effect,44
+92,49,1.0,google/bigbird-roberta-base,5e-06,200,0.766969696969697,Material Adverse Effect,30
+93,50,1.0,google/bigbird-roberta-base,1e-05,200,0.9957264957264957,Material Adverse Effect,36
+94,51,1.0,google/bigbird-roberta-base,1e-05,800,0.9196672014853834,Material Adverse Effect,38
+95,52,1.0,google/bigbird-roberta-base,5e-05,200,0.37228925430952237,Material Adverse Effect,42
+96,53,1.0,google/bigbird-roberta-base,5e-05,400,0.1847883597883598,Material Adverse Effect,25
+97,54,1.0,google/bigbird-roberta-base,5e-06,400,0.48601181427268386,Material Adverse Effect,25
+98,55,1.0,google/bigbird-roberta-base,5e-06,800,0.9098772815878079,Material Adverse Effect,25
+99,57,1.0,google/bigbird-roberta-base,1e-05,800,0.8333333333333334,Material Adverse Effect,26
+100,58,1.0,google/bigbird-roberta-base,5e-05,200,0.7120039682539682,Material Adverse Effect,26
+101,59,1.0,google/bigbird-roberta-base,1e-05,400,0.798310619214902,Material Adverse Effect,26
+102,6,1.0,google/bigbird-roberta-base,5e-05,600,1.0,Conditions to Closing,55
+103,60,1.0,google/bigbird-roberta-base,1e-05,400,0.7796296296296296,Material Adverse Effect,26
+104,61.0,1.0,google/bigbird-roberta-base,1e-05,800,0.8699195433622678,Material Adverse Effect,44
+105,61.1,1.0,google/bigbird-roberta-base,5e-06,200,0.8171026504359838,Material Adverse Effect,47
+106,61.2,1.0,google/bigbird-roberta-base,5e-05,400,0.6797516415483873,Material Adverse Effect,45
+107,61.3,1.0,google/bigbird-roberta-base,5e-05,200,0.2995633256802272,Material Adverse Effect,39
+108,61.4,1.0,google/bigbird-roberta-base,5e-06,800,0.7182539682539683,Material Adverse Effect,45
+109,61.5,1.0,google/bigbird-roberta-base,1e-05,400,0.611111111111111,Material Adverse Effect,38
+110,61.6,1.0,google/bigbird-roberta-base,5e-05,600,0.31229743363889706,Material Adverse Effect,46
+111,62,1.0,google/bigbird-roberta-base,5e-05,200,0.43311616932188235,Material Adverse Effect,41
+112,66,1.0,google/bigbird-roberta-base,1e-05,800,0.9189351291247686,Knowledge,45
+113,67,1.0,google/bigbird-roberta-base,5e-06,600,0.8747474747474747,Knowledge,35
+114,68,1.0,google/bigbird-roberta-base,5e-06,200,0.9277777777777777,Knowledge,28
+115,7,1.0,google/bigbird-roberta-base,1e-05,800,0.34941199971918413,Conditions to Closing,63
+116,70,1.0,google/bigbird-roberta-base,5e-05,200,0.2501984126984127,Deal Protection and Related Provisions,25
+117,72,1.0,google/bigbird-roberta-base,5e-06,200,0.6256480784919113,Deal Protection and Related Provisions,52
+118,74,1.0,google/bigbird-roberta-base,1e-05,600,0.961300357662917,Deal Protection and Related Provisions,101
+119,75,1.0,google/bigbird-roberta-base,5e-05,200,0.9384920634920636,Deal Protection and Related Provisions,57
+120,77,1.0,google/bigbird-roberta-base,5e-05,600,0.8787037037037037,Deal Protection and Related Provisions,45
+121,78,1.0,google/bigbird-roberta-base,5e-05,600,0.8764838504249021,Deal Protection and Related Provisions,26
+122,8,1.0,google/bigbird-roberta-base,5e-05,800,0.3811785272776047,Conditions to Closing,56
+123,80,1.0,google/bigbird-roberta-base,1e-05,800,0.7778142837894401,Deal Protection and Related Provisions,102
+124,81,1.0,google/bigbird-roberta-base,1e-05,400,0.4646732715360167,Deal Protection and Related Provisions,48
+125,82,1.0,google/bigbird-roberta-base,1e-05,800,0.836004394186207,Deal Protection and Related Provisions,95
+126,84,1.0,google/bigbird-roberta-base,5e-05,200,0.9465934537888293,Deal Protection and Related Provisions,81
+127,85,1.0,google/bigbird-roberta-base,5e-05,400,0.48703014263777006,Deal Protection and Related Provisions,89
+128,86,1.0,google/bigbird-roberta-base,5e-06,600,0.6112481654148322,Deal Protection and Related Provisions,58
+129,88,1.0,google/bigbird-roberta-base,1e-05,800,0.634994703094601,Deal Protection and Related Provisions,59
+130,89,1.0,google/bigbird-roberta-base,5e-05,600,0.6129077952083891,Deal Protection and Related Provisions,53
+131,9,1.0,google/bigbird-roberta-base,1e-05,600,0.5197987711084281,Conditions to Closing,55
+132,90,1.0,google/bigbird-roberta-base,1e-05,400,0.5003898478731627,Deal Protection and Related Provisions,39
+133,92,1.0,google/bigbird-roberta-base,1e-05,800,0.382425441370182,Deal Protection and Related Provisions,43
+134,93,1.0,google/bigbird-roberta-base,5e-06,200,0.9999999999999997,Deal Protection and Related Provisions,67
+135,94,1.0,google/bigbird-roberta-base,5e-05,800,0.7015260287329491,Deal Protection and Related Provisions,42
+136,95,1.0,google/bigbird-roberta-base,5e-05,800,0.5089596949891066,Deal Protection and Related Provisions,21
+137,97,1.0,google/bigbird-roberta-base,5e-06,200,1.0,Deal Protection and Related Provisions,51
+138,99.0,1.0,google/bigbird-roberta-base,5e-06,800,0.7015089975101566,Deal Protection and Related Provisions,40
+139,99.1,1.0,google/bigbird-roberta-base,5e-05,800,0.4376462229535692,Deal Protection and Related Provisions,52
+140,99.2,1.0,google/bigbird-roberta-base,1e-05,800,0.5170210456810982,Deal Protection and Related Provisions,48
+141,99.3,1.0,google/bigbird-roberta-base,1e-05,200,0.4165223342210613,Deal Protection and Related Provisions,54
+142,99.4,1.0,google/bigbird-roberta-base,1e-05,400,0.6183263724542208,Deal Protection and Related Provisions,40
+143,99.5,1.0,google/bigbird-roberta-base,5e-06,200,0.3611111111111111,Deal Protection and Related Provisions,54

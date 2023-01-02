@@ -1,0 +1,433 @@
+,partial,model_name,spec_id,update_num,lr,aupr,category,n_classes
+0,1.0,bert-base-cased,10.0,100,3e-05,0.4534124408445521,Conditions to Closing,60
+1,1.0,bert-base-cased,10.1,100,0.0001,0.44684127058509127,Conditions to Closing,60
+2,1.0,bert-base-cased,10.10,400,3e-05,0.7178913109270134,Conditions to Closing,56
+3,1.0,bert-base-cased,10.11,400,3e-05,0.6993635350525155,Conditions to Closing,56
+4,1.0,bert-base-cased,10.12,400,3e-05,0.7178142368243051,Conditions to Closing,56
+5,1.0,bert-base-cased,10.13,400,0.0001,0.7994543650793652,Conditions to Closing,58
+6,1.0,bert-base-cased,10.2,300,3e-05,0.4307603577774317,Conditions to Closing,56
+7,1.0,bert-base-cased,10.3,300,3e-05,0.31645936729214935,Conditions to Closing,60
+8,1.0,bert-base-cased,10.4,200,3e-05,0.37268702258875086,Conditions to Closing,58
+9,1.0,bert-base-cased,10.5,300,3e-05,0.44742407847747206,Conditions to Closing,52
+10,1.0,bert-base-cased,10.6,100,1e-05,0.17062685425856783,Conditions to Closing,57
+11,1.0,bert-base-cased,10.7,400,3e-05,0.6950742688962089,Conditions to Closing,57
+12,1.0,bert-base-cased,10.8,400,1e-05,0.5185428939330538,Conditions to Closing,56
+13,1.0,bert-base-cased,10.9,400,3e-05,0.4770347412881643,Conditions to Closing,60
+14,1.0,bert-base-cased,101,400,3e-05,0.7251415769648952,Deal Protection and Related Provisions,61
+15,1.0,bert-base-cased,102,100,0.0001,0.2585976447634546,Deal Protection and Related Provisions,29
+16,1.0,bert-base-cased,103,200,0.0001,0.5259158594684911,Deal Protection and Related Provisions,44
+17,1.0,bert-base-cased,105.0,400,1e-05,0.03743589743589744,Deal Protection and Related Provisions,62
+18,1.0,bert-base-cased,105.1,300,0.0001,0.5750237416904084,Deal Protection and Related Provisions,56
+19,1.0,bert-base-cased,105.2,200,3e-05,0.8981949906941308,Deal Protection and Related Provisions,55
+20,1.0,bert-base-cased,105.3,400,3e-05,0.6108702167386634,Deal Protection and Related Provisions,50
+21,1.0,bert-base-cased,105.4,200,0.0001,0.5833333333333334,Deal Protection and Related Provisions,60
+22,1.0,bert-base-cased,105.5,400,0.0001,0.2722222222222222,Deal Protection and Related Provisions,54
+23,1.0,bert-base-cased,105.6,100,1e-05,0.29507429507429506,Deal Protection and Related Provisions,58
+24,1.0,bert-base-cased,105.7,200,3e-05,0.5,Deal Protection and Related Provisions,60
+25,1.0,bert-base-cased,105.8,300,3e-05,0.7172689148919179,Deal Protection and Related Provisions,51
+26,1.0,bert-base-cased,105.9,300,3e-05,0.7439207166466892,Deal Protection and Related Provisions,52
+27,1.0,bert-base-cased,106,300,3e-05,0.7114775485092822,Deal Protection and Related Provisions,25
+28,1.0,bert-base-cased,107.0,300,1e-05,0.4713557801465438,Deal Protection and Related Provisions,57
+29,1.0,bert-base-cased,107.1,200,3e-05,0.5682022954887245,Deal Protection and Related Provisions,47
+30,1.0,bert-base-cased,107.2,100,1e-05,0.7610755203341394,Deal Protection and Related Provisions,46
+31,1.0,bert-base-cased,107.3,100,0.0001,0.8476555776422291,Deal Protection and Related Provisions,42
+32,1.0,bert-base-cased,108,300,1e-05,0.32180357768593065,Deal Protection and Related Provisions,25
+33,1.0,bert-base-cased,109,400,1e-05,0.9955070292233564,Deal Protection and Related Provisions,162
+34,1.0,bert-base-cased,11.0,100,0.0001,0.20260903597345595,Conditions to Closing,64
+35,1.0,bert-base-cased,11.1,100,0.0001,0.19097966778894712,Conditions to Closing,50
+36,1.0,bert-base-cased,11.2,300,1e-05,0.20393799209913366,Conditions to Closing,62
+37,1.0,bert-base-cased,11.3,100,0.0001,0.4298417130485713,Conditions to Closing,56
+38,1.0,bert-base-cased,113,300,3e-05,0.5087301587301587,Deal Protection and Related Provisions,23
+39,1.0,bert-base-cased,115,100,3e-05,0.8156746031746032,Deal Protection and Related Provisions,11
+40,1.0,bert-base-cased,117,100,3e-05,1.0,Operating and Efforts Covenant,58
+41,1.0,bert-base-cased,118,100,1e-05,0.9660952146935102,Operating and Efforts Covenant,60
+42,1.0,bert-base-cased,119,400,3e-05,0.9718090648821519,Operating and Efforts Covenant,64
+43,1.0,bert-base-cased,120,400,1e-05,0.954440665154951,Operating and Efforts Covenant,26
+44,1.0,bert-base-cased,122,300,1e-05,1.0,Operating and Efforts Covenant,68
+45,1.0,bert-base-cased,123,300,0.0001,0.9072267132611961,Operating and Efforts Covenant,58
+46,1.0,bert-base-cased,124,100,1e-05,0.8678986070290419,Operating and Efforts Covenant,25
+47,1.0,bert-base-cased,126,400,3e-05,0.8496094071718739,Operating and Efforts Covenant,79
+48,1.0,bert-base-cased,13,400,0.0001,0.6692283666155644,Conditions to Closing,58
+49,1.0,bert-base-cased,130,100,0.0001,0.8925700280112044,Remedies,57
+50,1.0,bert-base-cased,15,300,1e-05,0.8134920634920634,Conditions to Closing,7
+51,1.0,bert-base-cased,16,300,0.0001,0.975462962962963,Conditions to Closing,10
+52,1.0,bert-base-cased,21,200,3e-05,0.9078309550531775,Material Adverse Effect,28
+53,1.0,bert-base-cased,22,100,0.0001,0.42737541945686225,Material Adverse Effect,33
+54,1.0,bert-base-cased,23,400,3e-05,0.7038516576016577,Material Adverse Effect,30
+55,1.0,bert-base-cased,24,300,3e-05,0.5804725984369946,Material Adverse Effect,25
+56,1.0,bert-base-cased,25.0,100,3e-05,0.7337986305633365,Material Adverse Effect,35
+57,1.0,bert-base-cased,25.1,300,3e-05,0.7121968384963422,Material Adverse Effect,38
+58,1.0,bert-base-cased,25.2,300,3e-05,0.9620815050962112,Material Adverse Effect,38
+59,1.0,bert-base-cased,26,400,1e-05,0.8108539824571865,Material Adverse Effect,76
+60,1.0,bert-base-cased,27,400,3e-05,0.678071403120953,Material Adverse Effect,43
+61,1.0,bert-base-cased,28,200,3e-05,0.44748977873977874,Material Adverse Effect,25
+62,1.0,bert-base-cased,29,300,3e-05,0.43999323867478024,Material Adverse Effect,41
+63,1.0,bert-base-cased,3,200,3e-05,1.0,General Information,55
+64,1.0,bert-base-cased,30,100,0.0001,1.0,Material Adverse Effect,26
+65,1.0,bert-base-cased,31,400,1e-05,0.9476190476190475,Material Adverse Effect,39
+66,1.0,bert-base-cased,32,200,0.0001,0.5585571436864539,Material Adverse Effect,31
+67,1.0,bert-base-cased,33,400,0.0001,0.26071382959313993,Material Adverse Effect,29
+68,1.0,bert-base-cased,34,400,3e-05,0.3527226631393298,Material Adverse Effect,29
+69,1.0,bert-base-cased,35,100,3e-05,0.610879120879121,Material Adverse Effect,39
+70,1.0,bert-base-cased,36,300,0.0001,0.4117290117290117,Material Adverse Effect,33
+71,1.0,bert-base-cased,37,300,3e-05,0.6173709315375983,Material Adverse Effect,41
+72,1.0,bert-base-cased,38,200,0.0001,0.5924643544286401,Material Adverse Effect,32
+73,1.0,bert-base-cased,39.0,100,3e-05,0.4993577573936079,Material Adverse Effect,50
+74,1.0,bert-base-cased,39.1,100,3e-05,0.385974341173921,Material Adverse Effect,47
+75,1.0,bert-base-cased,39.2,300,1e-05,0.7489617746635758,Material Adverse Effect,48
+76,1.0,bert-base-cased,39.3,100,3e-05,0.7194454871119514,Material Adverse Effect,47
+77,1.0,bert-base-cased,42,100,3e-05,0.41395350859368857,Material Adverse Effect,32
+78,1.0,bert-base-cased,43,100,3e-05,0.35784992784992786,Material Adverse Effect,30
+79,1.0,bert-base-cased,44,100,0.0001,0.14831154684095862,Material Adverse Effect,25
+80,1.0,bert-base-cased,45,200,3e-05,0.4375632556999016,Material Adverse Effect,46
+81,1.0,bert-base-cased,46,200,1e-05,0.684126984126984,Material Adverse Effect,28
+82,1.0,bert-base-cased,47.0,200,3e-05,0.9540213409778627,Material Adverse Effect,45
+83,1.0,bert-base-cased,47.1,100,3e-05,0.7274691358024691,Material Adverse Effect,45
+84,1.0,bert-base-cased,47.2,200,3e-05,0.5439457519917289,Material Adverse Effect,44
+85,1.0,bert-base-cased,47.3,200,1e-05,0.5565922128422128,Material Adverse Effect,49
+86,1.0,bert-base-cased,47.4,400,1e-05,0.8495014814728972,Material Adverse Effect,50
+87,1.0,bert-base-cased,48.0,300,3e-05,0.5530511548139537,Material Adverse Effect,42
+88,1.0,bert-base-cased,48.1,300,0.0001,0.4561203978220841,Material Adverse Effect,46
+89,1.0,bert-base-cased,48.2,200,0.0001,0.2093319373078122,Material Adverse Effect,47
+90,1.0,bert-base-cased,48.3,400,1e-05,0.5951894941478274,Material Adverse Effect,43
+91,1.0,bert-base-cased,48.4,300,0.0001,0.6230029891733779,Material Adverse Effect,44
+92,1.0,bert-base-cased,49,400,1e-05,0.42250272603213784,Material Adverse Effect,30
+93,1.0,bert-base-cased,50,100,3e-05,0.829378576002028,Material Adverse Effect,36
+94,1.0,bert-base-cased,51,100,3e-05,0.6125638592486419,Material Adverse Effect,38
+95,1.0,bert-base-cased,52,200,0.0001,0.4564165992737421,Material Adverse Effect,42
+96,1.0,bert-base-cased,53,400,3e-05,0.24823232323232322,Material Adverse Effect,25
+97,1.0,bert-base-cased,54,200,1e-05,0.612788246611776,Material Adverse Effect,25
+98,1.0,bert-base-cased,55,100,3e-05,0.733085928948932,Material Adverse Effect,25
+99,1.0,bert-base-cased,57,400,3e-05,0.3001787442576916,Material Adverse Effect,26
+100,1.0,bert-base-cased,58,300,3e-05,0.7805555555555556,Material Adverse Effect,26
+101,1.0,bert-base-cased,59,400,3e-05,0.6483664572918959,Material Adverse Effect,26
+102,1.0,bert-base-cased,6,300,3e-05,0.8929076079828201,Conditions to Closing,55
+103,1.0,bert-base-cased,60,200,1e-05,0.8999999999999999,Material Adverse Effect,26
+104,1.0,bert-base-cased,61.0,400,3e-05,0.770016926948688,Material Adverse Effect,44
+105,1.0,bert-base-cased,61.1,400,1e-05,0.6946190156974471,Material Adverse Effect,47
+106,1.0,bert-base-cased,61.2,300,1e-05,0.925162793541593,Material Adverse Effect,45
+107,1.0,bert-base-cased,61.3,300,3e-05,0.6299439081602825,Material Adverse Effect,39
+108,1.0,bert-base-cased,61.4,400,3e-05,0.48999888999889,Material Adverse Effect,45
+109,1.0,bert-base-cased,61.5,100,3e-05,0.38730158730158726,Material Adverse Effect,38
+110,1.0,bert-base-cased,61.6,100,3e-05,0.3988661333173528,Material Adverse Effect,46
+111,1.0,bert-base-cased,62,100,3e-05,0.38030533528233823,Material Adverse Effect,41
+112,1.0,bert-base-cased,66,400,3e-05,0.9248125717451714,Knowledge,45
+113,1.0,bert-base-cased,67,200,0.0001,0.8373015873015873,Knowledge,35
+114,1.0,bert-base-cased,68,200,1e-05,0.9499999999999998,Knowledge,28
+115,1.0,bert-base-cased,7,400,1e-05,0.18194181699537712,Conditions to Closing,63
+116,1.0,bert-base-cased,70,400,3e-05,0.15736284412755,Deal Protection and Related Provisions,25
+117,1.0,bert-base-cased,72,400,1e-05,0.6842095223633002,Deal Protection and Related Provisions,52
+118,1.0,bert-base-cased,74,400,3e-05,0.8004070891329294,Deal Protection and Related Provisions,101
+119,1.0,bert-base-cased,75,300,0.0001,0.959891240446796,Deal Protection and Related Provisions,57
+120,1.0,bert-base-cased,77,100,0.0001,0.9034534534534534,Deal Protection and Related Provisions,45
+121,1.0,bert-base-cased,78,200,3e-05,0.8064940998329155,Deal Protection and Related Provisions,26
+122,1.0,bert-base-cased,8,200,0.0001,0.18770461867554555,Conditions to Closing,56
+123,1.0,bert-base-cased,80,400,3e-05,0.6968028654670941,Deal Protection and Related Provisions,102
+124,1.0,bert-base-cased,81,200,0.0001,0.27455383642923176,Deal Protection and Related Provisions,48
+125,1.0,bert-base-cased,82,400,3e-05,0.7303270105219437,Deal Protection and Related Provisions,95
+126,1.0,bert-base-cased,84,300,3e-05,0.7866593756654439,Deal Protection and Related Provisions,81
+127,1.0,bert-base-cased,85,400,3e-05,0.3194484098825674,Deal Protection and Related Provisions,89
+128,1.0,bert-base-cased,86,400,1e-05,0.45932530710389236,Deal Protection and Related Provisions,58
+129,1.0,bert-base-cased,88,400,1e-05,0.5383952001361194,Deal Protection and Related Provisions,59
+130,1.0,bert-base-cased,89,300,0.0001,0.49883258978668676,Deal Protection and Related Provisions,53
+131,1.0,bert-base-cased,9,400,3e-05,0.4164064710698172,Conditions to Closing,55
+132,1.0,bert-base-cased,90,300,1e-05,0.52263364307967,Deal Protection and Related Provisions,39
+133,1.0,bert-base-cased,92,300,1e-05,0.39844461966671,Deal Protection and Related Provisions,43
+134,1.0,bert-base-cased,93,200,1e-05,0.9999999999999997,Deal Protection and Related Provisions,67
+135,1.0,bert-base-cased,94,400,1e-05,0.5614736965013133,Deal Protection and Related Provisions,42
+136,1.0,bert-base-cased,95,300,0.0001,0.9029761904761905,Deal Protection and Related Provisions,21
+137,1.0,bert-base-cased,97,100,1e-05,1.0,Deal Protection and Related Provisions,51
+138,1.0,bert-base-cased,99.0,100,3e-05,0.5321200330647335,Deal Protection and Related Provisions,40
+139,1.0,bert-base-cased,99.1,100,0.0001,0.3584103651417831,Deal Protection and Related Provisions,52
+140,1.0,bert-base-cased,99.2,200,1e-05,0.5716303851260227,Deal Protection and Related Provisions,48
+141,1.0,bert-base-cased,99.3,200,3e-05,0.42361765481170033,Deal Protection and Related Provisions,54
+142,1.0,bert-base-cased,99.4,400,3e-05,0.8157614856445266,Deal Protection and Related Provisions,40
+143,1.0,bert-base-cased,99.5,100,3e-05,0.08019161378623864,Deal Protection and Related Provisions,54
+144,1.0,microsoft/deberta-v3-base,10.0,300,3e-05,0.4376733894232124,Conditions to Closing,60
+145,1.0,microsoft/deberta-v3-base,10.1,300,1e-05,0.47617614648399154,Conditions to Closing,60
+146,1.0,microsoft/deberta-v3-base,10.10,200,1e-05,0.682263266531072,Conditions to Closing,56
+147,1.0,microsoft/deberta-v3-base,10.11,100,1e-05,0.6799061910590481,Conditions to Closing,56
+148,1.0,microsoft/deberta-v3-base,10.12,100,1e-05,0.7655739267238925,Conditions to Closing,56
+149,1.0,microsoft/deberta-v3-base,10.13,400,1e-05,0.8518518518518517,Conditions to Closing,58
+150,1.0,microsoft/deberta-v3-base,10.2,200,1e-05,0.4347729428653791,Conditions to Closing,56
+151,1.0,microsoft/deberta-v3-base,10.3,300,3e-05,0.36980757814160725,Conditions to Closing,60
+152,1.0,microsoft/deberta-v3-base,10.4,400,3e-05,0.40893436114023185,Conditions to Closing,58
+153,1.0,microsoft/deberta-v3-base,10.5,100,1e-05,0.45165719667811616,Conditions to Closing,52
+154,1.0,microsoft/deberta-v3-base,10.6,300,3e-05,0.35430865430865427,Conditions to Closing,57
+155,1.0,microsoft/deberta-v3-base,10.7,200,1e-05,0.7177217191343973,Conditions to Closing,57
+156,1.0,microsoft/deberta-v3-base,10.8,400,1e-05,0.5405920663479443,Conditions to Closing,56
+157,1.0,microsoft/deberta-v3-base,10.9,200,1e-05,0.5478184416712762,Conditions to Closing,60
+158,1.0,microsoft/deberta-v3-base,101,400,3e-05,0.8950999600513108,Deal Protection and Related Provisions,61
+159,1.0,microsoft/deberta-v3-base,102,200,3e-05,0.29389329485890164,Deal Protection and Related Provisions,29
+160,1.0,microsoft/deberta-v3-base,103,100,1e-05,0.5744438104434896,Deal Protection and Related Provisions,44
+161,1.0,microsoft/deberta-v3-base,105.0,200,1e-05,0.07582173825368017,Deal Protection and Related Provisions,62
+162,1.0,microsoft/deberta-v3-base,105.1,100,0.0001,1.0,Deal Protection and Related Provisions,56
+163,1.0,microsoft/deberta-v3-base,105.2,400,1e-05,0.9832865693976807,Deal Protection and Related Provisions,55
+164,1.0,microsoft/deberta-v3-base,105.3,200,3e-05,1.0,Deal Protection and Related Provisions,50
+165,1.0,microsoft/deberta-v3-base,105.4,100,0.0001,1.0,Deal Protection and Related Provisions,60
+166,1.0,microsoft/deberta-v3-base,105.5,300,1e-05,0.3333333333333333,Deal Protection and Related Provisions,54
+167,1.0,microsoft/deberta-v3-base,105.6,100,3e-05,0.07575067733300538,Deal Protection and Related Provisions,58
+168,1.0,microsoft/deberta-v3-base,105.7,400,1e-05,0.2216931216931217,Deal Protection and Related Provisions,60
+169,1.0,microsoft/deberta-v3-base,105.8,400,1e-05,0.967952696412904,Deal Protection and Related Provisions,51
+170,1.0,microsoft/deberta-v3-base,105.9,400,3e-05,0.9143966218966219,Deal Protection and Related Provisions,52
+171,1.0,microsoft/deberta-v3-base,106,200,3e-05,0.7174871081964902,Deal Protection and Related Provisions,25
+172,1.0,microsoft/deberta-v3-base,107.0,100,3e-05,0.5594433833413373,Deal Protection and Related Provisions,57
+173,1.0,microsoft/deberta-v3-base,107.1,300,3e-05,0.7286986323792854,Deal Protection and Related Provisions,47
+174,1.0,microsoft/deberta-v3-base,107.2,100,1e-05,0.7233506879946026,Deal Protection and Related Provisions,46
+175,1.0,microsoft/deberta-v3-base,107.3,200,3e-05,0.7752497612854916,Deal Protection and Related Provisions,42
+176,1.0,microsoft/deberta-v3-base,108,300,0.0001,0.394508421002229,Deal Protection and Related Provisions,25
+177,1.0,microsoft/deberta-v3-base,109,400,1e-05,0.7769621995099101,Deal Protection and Related Provisions,162
+178,1.0,microsoft/deberta-v3-base,11.0,200,0.0001,0.17346806101190645,Conditions to Closing,64
+179,1.0,microsoft/deberta-v3-base,11.1,100,1e-05,0.23322890559732665,Conditions to Closing,50
+180,1.0,microsoft/deberta-v3-base,11.2,200,0.0001,0.2585600720799337,Conditions to Closing,62
+181,1.0,microsoft/deberta-v3-base,11.3,400,0.0001,0.4647289659135129,Conditions to Closing,56
+182,1.0,microsoft/deberta-v3-base,113,400,3e-05,0.6134259259259259,Deal Protection and Related Provisions,23
+183,1.0,microsoft/deberta-v3-base,115,300,3e-05,0.7587301587301587,Deal Protection and Related Provisions,11
+184,1.0,microsoft/deberta-v3-base,117,200,1e-05,1.0,Operating and Efforts Covenant,58
+185,1.0,microsoft/deberta-v3-base,118,400,1e-05,0.9395045475727608,Operating and Efforts Covenant,60
+186,1.0,microsoft/deberta-v3-base,119,200,1e-05,0.9999999999999999,Operating and Efforts Covenant,64
+187,1.0,microsoft/deberta-v3-base,120,200,3e-05,0.9880952380952381,Operating and Efforts Covenant,26
+188,1.0,microsoft/deberta-v3-base,122,300,1e-05,1.0,Operating and Efforts Covenant,68
+189,1.0,microsoft/deberta-v3-base,123,200,3e-05,0.926750700280112,Operating and Efforts Covenant,58
+190,1.0,microsoft/deberta-v3-base,124,100,1e-05,0.829241664269932,Operating and Efforts Covenant,25
+191,1.0,microsoft/deberta-v3-base,126,400,0.0001,0.8566947459995587,Operating and Efforts Covenant,79
+192,1.0,microsoft/deberta-v3-base,13,400,1e-05,0.7401090641336023,Conditions to Closing,58
+193,1.0,microsoft/deberta-v3-base,130,100,1e-05,1.0,Remedies,57
+194,1.0,microsoft/deberta-v3-base,15,100,0.0001,0.7018518518518518,Conditions to Closing,7
+195,1.0,microsoft/deberta-v3-base,16,400,1e-05,1.0,Conditions to Closing,10
+196,1.0,microsoft/deberta-v3-base,21,100,1e-05,1.0,Material Adverse Effect,28
+197,1.0,microsoft/deberta-v3-base,22,100,0.0001,0.5398872978013846,Material Adverse Effect,33
+198,1.0,microsoft/deberta-v3-base,23,300,1e-05,1.0,Material Adverse Effect,30
+199,1.0,microsoft/deberta-v3-base,24,200,1e-05,0.8194927536231885,Material Adverse Effect,25
+200,1.0,microsoft/deberta-v3-base,25.0,200,3e-05,0.9587301587301588,Material Adverse Effect,35
+201,1.0,microsoft/deberta-v3-base,25.1,300,0.0001,0.8872846837830416,Material Adverse Effect,38
+202,1.0,microsoft/deberta-v3-base,25.2,400,3e-05,0.9486790986790986,Material Adverse Effect,38
+203,1.0,microsoft/deberta-v3-base,26,400,3e-05,0.8817169973039899,Material Adverse Effect,76
+204,1.0,microsoft/deberta-v3-base,27,100,3e-05,0.6905096586011918,Material Adverse Effect,43
+205,1.0,microsoft/deberta-v3-base,28,300,3e-05,0.6830808080808081,Material Adverse Effect,25
+206,1.0,microsoft/deberta-v3-base,29,400,0.0001,0.24323958487941022,Material Adverse Effect,41
+207,1.0,microsoft/deberta-v3-base,3,300,3e-05,0.8794923440756774,General Information,55
+208,1.0,microsoft/deberta-v3-base,30,300,3e-05,0.9590277777777777,Material Adverse Effect,26
+209,1.0,microsoft/deberta-v3-base,31,100,1e-05,1.0,Material Adverse Effect,39
+210,1.0,microsoft/deberta-v3-base,32,400,1e-05,0.3788445101431754,Material Adverse Effect,31
+211,1.0,microsoft/deberta-v3-base,33,200,0.0001,0.2642240533430465,Material Adverse Effect,29
+212,1.0,microsoft/deberta-v3-base,34,300,0.0001,0.3991533793004381,Material Adverse Effect,29
+213,1.0,microsoft/deberta-v3-base,35,100,3e-05,0.5601750101750101,Material Adverse Effect,39
+214,1.0,microsoft/deberta-v3-base,36,400,0.0001,0.41914265716096183,Material Adverse Effect,33
+215,1.0,microsoft/deberta-v3-base,37,100,1e-05,0.5899557913351018,Material Adverse Effect,41
+216,1.0,microsoft/deberta-v3-base,38,400,1e-05,0.7180926916221034,Material Adverse Effect,32
+217,1.0,microsoft/deberta-v3-base,39.0,200,1e-05,0.5081043573524776,Material Adverse Effect,50
+218,1.0,microsoft/deberta-v3-base,39.1,400,3e-05,0.5464323556960272,Material Adverse Effect,47
+219,1.0,microsoft/deberta-v3-base,39.2,100,1e-05,0.751983552433907,Material Adverse Effect,48
+220,1.0,microsoft/deberta-v3-base,39.3,200,3e-05,0.973205975350146,Material Adverse Effect,47
+221,1.0,microsoft/deberta-v3-base,42,200,0.0001,0.5194894611561278,Material Adverse Effect,32
+222,1.0,microsoft/deberta-v3-base,43,100,1e-05,0.38618281500634444,Material Adverse Effect,30
+223,1.0,microsoft/deberta-v3-base,44,100,0.0001,0.20099807599807598,Material Adverse Effect,25
+224,1.0,microsoft/deberta-v3-base,45,400,3e-05,0.47433653578390417,Material Adverse Effect,46
+225,1.0,microsoft/deberta-v3-base,46,200,0.0001,0.47433862433862434,Material Adverse Effect,28
+226,1.0,microsoft/deberta-v3-base,47.0,100,1e-05,0.9283252587131896,Material Adverse Effect,45
+227,1.0,microsoft/deberta-v3-base,47.1,200,3e-05,0.6691658649991984,Material Adverse Effect,45
+228,1.0,microsoft/deberta-v3-base,47.2,400,3e-05,0.4444444444444445,Material Adverse Effect,44
+229,1.0,microsoft/deberta-v3-base,47.3,100,0.0001,0.32082922955938825,Material Adverse Effect,49
+230,1.0,microsoft/deberta-v3-base,47.4,200,3e-05,0.9605106098241111,Material Adverse Effect,50
+231,1.0,microsoft/deberta-v3-base,48.0,400,1e-05,0.709272753318806,Material Adverse Effect,42
+232,1.0,microsoft/deberta-v3-base,48.1,300,3e-05,0.33498986983346574,Material Adverse Effect,46
+233,1.0,microsoft/deberta-v3-base,48.2,400,0.0001,0.19851212412944194,Material Adverse Effect,47
+234,1.0,microsoft/deberta-v3-base,48.3,400,3e-05,0.5898097516518569,Material Adverse Effect,43
+235,1.0,microsoft/deberta-v3-base,48.4,300,1e-05,0.8591551585669234,Material Adverse Effect,44
+236,1.0,microsoft/deberta-v3-base,49,100,1e-05,0.46974011826953005,Material Adverse Effect,30
+237,1.0,microsoft/deberta-v3-base,50,400,1e-05,0.9232698447159232,Material Adverse Effect,36
+238,1.0,microsoft/deberta-v3-base,51,400,1e-05,0.8188125114349433,Material Adverse Effect,38
+239,1.0,microsoft/deberta-v3-base,52,200,0.0001,0.22124938888349924,Material Adverse Effect,42
+240,1.0,microsoft/deberta-v3-base,53,100,0.0001,0.17939814814814814,Material Adverse Effect,25
+241,1.0,microsoft/deberta-v3-base,54,400,3e-05,0.5488422297516725,Material Adverse Effect,25
+242,1.0,microsoft/deberta-v3-base,55,100,1e-05,0.7994218465062454,Material Adverse Effect,25
+243,1.0,microsoft/deberta-v3-base,57,300,1e-05,0.3682084823389171,Material Adverse Effect,26
+244,1.0,microsoft/deberta-v3-base,58,100,1e-05,0.8513888888888888,Material Adverse Effect,26
+245,1.0,microsoft/deberta-v3-base,59,300,0.0001,0.6474335285108943,Material Adverse Effect,26
+246,1.0,microsoft/deberta-v3-base,6,400,1e-05,0.991415705037996,Conditions to Closing,55
+247,1.0,microsoft/deberta-v3-base,60,200,3e-05,0.9444444444444443,Material Adverse Effect,26
+248,1.0,microsoft/deberta-v3-base,61.0,300,1e-05,0.9726495726495727,Material Adverse Effect,44
+249,1.0,microsoft/deberta-v3-base,61.1,200,1e-05,0.8128386682308251,Material Adverse Effect,47
+250,1.0,microsoft/deberta-v3-base,61.2,300,3e-05,0.8756975213832116,Material Adverse Effect,45
+251,1.0,microsoft/deberta-v3-base,61.3,400,1e-05,0.8544264891487114,Material Adverse Effect,39
+252,1.0,microsoft/deberta-v3-base,61.4,400,3e-05,0.9074074074074074,Material Adverse Effect,45
+253,1.0,microsoft/deberta-v3-base,61.5,300,1e-05,0.5277777777777777,Material Adverse Effect,38
+254,1.0,microsoft/deberta-v3-base,61.6,100,3e-05,0.3850262229648194,Material Adverse Effect,46
+255,1.0,microsoft/deberta-v3-base,62,400,3e-05,0.6051606762205367,Material Adverse Effect,41
+256,1.0,microsoft/deberta-v3-base,66,400,3e-05,0.9174417405716869,Knowledge,45
+257,1.0,microsoft/deberta-v3-base,67,100,3e-05,0.7984848484848485,Knowledge,35
+258,1.0,microsoft/deberta-v3-base,68,200,0.0001,0.9555555555555554,Knowledge,28
+259,1.0,microsoft/deberta-v3-base,7,200,3e-05,0.17996936057911347,Conditions to Closing,63
+260,1.0,microsoft/deberta-v3-base,70,400,0.0001,0.38650793650793647,Deal Protection and Related Provisions,25
+261,1.0,microsoft/deberta-v3-base,72,400,1e-05,0.6566524950787834,Deal Protection and Related Provisions,52
+262,1.0,microsoft/deberta-v3-base,74,300,3e-05,0.8922713126474773,Deal Protection and Related Provisions,101
+263,1.0,microsoft/deberta-v3-base,75,200,1e-05,0.9129867046533713,Deal Protection and Related Provisions,57
+264,1.0,microsoft/deberta-v3-base,77,200,3e-05,0.8446303816955991,Deal Protection and Related Provisions,45
+265,1.0,microsoft/deberta-v3-base,78,300,3e-05,0.8160941610642249,Deal Protection and Related Provisions,26
+266,1.0,microsoft/deberta-v3-base,8,100,3e-05,0.2671291623628678,Conditions to Closing,56
+267,1.0,microsoft/deberta-v3-base,80,400,1e-05,0.6401871813683531,Deal Protection and Related Provisions,102
+268,1.0,microsoft/deberta-v3-base,81,200,0.0001,0.262924356345409,Deal Protection and Related Provisions,48
+269,1.0,microsoft/deberta-v3-base,82,400,3e-05,0.8115290809267703,Deal Protection and Related Provisions,95
+270,1.0,microsoft/deberta-v3-base,84,400,3e-05,0.827801513351968,Deal Protection and Related Provisions,81
+271,1.0,microsoft/deberta-v3-base,85,400,3e-05,0.2220833886568501,Deal Protection and Related Provisions,89
+272,1.0,microsoft/deberta-v3-base,86,400,3e-05,0.4148056608724712,Deal Protection and Related Provisions,58
+273,1.0,microsoft/deberta-v3-base,88,400,1e-05,0.6393952800510451,Deal Protection and Related Provisions,59
+274,1.0,microsoft/deberta-v3-base,89,400,3e-05,0.5902771910893563,Deal Protection and Related Provisions,53
+275,1.0,microsoft/deberta-v3-base,9,300,1e-05,0.5255884400590923,Conditions to Closing,55
+276,1.0,microsoft/deberta-v3-base,90,100,3e-05,0.4647958687617808,Deal Protection and Related Provisions,39
+277,1.0,microsoft/deberta-v3-base,92,300,3e-05,0.4238432655918189,Deal Protection and Related Provisions,43
+278,1.0,microsoft/deberta-v3-base,93,200,3e-05,0.9999999999999999,Deal Protection and Related Provisions,67
+279,1.0,microsoft/deberta-v3-base,94,400,1e-05,0.7418361770280963,Deal Protection and Related Provisions,42
+280,1.0,microsoft/deberta-v3-base,95,300,0.0001,0.5314114534702771,Deal Protection and Related Provisions,21
+281,1.0,microsoft/deberta-v3-base,97,200,1e-05,1.0,Deal Protection and Related Provisions,51
+282,1.0,microsoft/deberta-v3-base,99.0,100,1e-05,0.7846371882086167,Deal Protection and Related Provisions,40
+283,1.0,microsoft/deberta-v3-base,99.1,100,3e-05,0.38358685021971023,Deal Protection and Related Provisions,52
+284,1.0,microsoft/deberta-v3-base,99.2,100,3e-05,0.6981181619474427,Deal Protection and Related Provisions,48
+285,1.0,microsoft/deberta-v3-base,99.3,200,3e-05,0.41413541190898434,Deal Protection and Related Provisions,54
+286,1.0,microsoft/deberta-v3-base,99.4,300,3e-05,0.953304206081984,Deal Protection and Related Provisions,40
+287,1.0,microsoft/deberta-v3-base,99.5,200,3e-05,0.19973544973544974,Deal Protection and Related Provisions,54
+288,1.0,roberta-base,10.0,400,3e-05,0.45836993495782846,Conditions to Closing,60
+289,1.0,roberta-base,10.1,400,3e-05,0.37974666593369766,Conditions to Closing,60
+290,1.0,roberta-base,10.10,300,1e-05,0.5900247192596586,Conditions to Closing,56
+291,1.0,roberta-base,10.11,200,3e-05,0.7297009922461437,Conditions to Closing,56
+292,1.0,roberta-base,10.12,200,1e-05,0.7317736245466194,Conditions to Closing,56
+293,1.0,roberta-base,10.13,400,3e-05,0.8564814814814815,Conditions to Closing,58
+294,1.0,roberta-base,10.2,300,3e-05,0.4595212514365028,Conditions to Closing,56
+295,1.0,roberta-base,10.3,200,0.0001,0.39960187108080986,Conditions to Closing,60
+296,1.0,roberta-base,10.4,400,3e-05,0.284098723326412,Conditions to Closing,58
+297,1.0,roberta-base,10.5,400,3e-05,0.49423679984922425,Conditions to Closing,52
+298,1.0,roberta-base,10.6,300,1e-05,0.6535612535612536,Conditions to Closing,57
+299,1.0,roberta-base,10.7,400,1e-05,0.6677919265790594,Conditions to Closing,57
+300,1.0,roberta-base,10.8,300,1e-05,0.6507283748295273,Conditions to Closing,56
+301,1.0,roberta-base,10.9,200,1e-05,0.48551010188362786,Conditions to Closing,60
+302,1.0,roberta-base,101,400,3e-05,0.8535491233872357,Deal Protection and Related Provisions,61
+303,1.0,roberta-base,102,100,3e-05,0.289178094497965,Deal Protection and Related Provisions,29
+304,1.0,roberta-base,103,400,1e-05,0.45398126509456177,Deal Protection and Related Provisions,44
+305,1.0,roberta-base,105.0,400,3e-05,0.06825396825396825,Deal Protection and Related Provisions,62
+306,1.0,roberta-base,105.1,100,0.0001,0.9097222222222222,Deal Protection and Related Provisions,56
+307,1.0,roberta-base,105.2,400,1e-05,0.9757467870047701,Deal Protection and Related Provisions,55
+308,1.0,roberta-base,105.3,400,3e-05,0.9603174603174605,Deal Protection and Related Provisions,50
+309,1.0,roberta-base,105.4,300,1e-05,1.0,Deal Protection and Related Provisions,60
+310,1.0,roberta-base,105.5,200,1e-05,0.8333333333333334,Deal Protection and Related Provisions,54
+311,1.0,roberta-base,105.6,300,0.0001,0.07585888029251873,Deal Protection and Related Provisions,58
+312,1.0,roberta-base,105.7,100,0.0001,0.8333333333333334,Deal Protection and Related Provisions,60
+313,1.0,roberta-base,105.8,200,3e-05,0.9616384478813321,Deal Protection and Related Provisions,51
+314,1.0,roberta-base,105.9,100,1e-05,0.9345360951398103,Deal Protection and Related Provisions,52
+315,1.0,roberta-base,106,400,1e-05,0.6691886430276522,Deal Protection and Related Provisions,25
+316,1.0,roberta-base,107.0,300,1e-05,0.524628553707501,Deal Protection and Related Provisions,57
+317,1.0,roberta-base,107.1,100,1e-05,0.46472378704760803,Deal Protection and Related Provisions,47
+318,1.0,roberta-base,107.2,100,1e-05,0.7466109592883209,Deal Protection and Related Provisions,46
+319,1.0,roberta-base,107.3,100,3e-05,0.7603046393482148,Deal Protection and Related Provisions,42
+320,1.0,roberta-base,108,100,0.0001,0.36736292770219503,Deal Protection and Related Provisions,25
+321,1.0,roberta-base,109,300,3e-05,0.9962879082735873,Deal Protection and Related Provisions,162
+322,1.0,roberta-base,11.0,200,3e-05,0.20858595945324176,Conditions to Closing,64
+323,1.0,roberta-base,11.1,400,0.0001,0.16413354498843005,Conditions to Closing,50
+324,1.0,roberta-base,11.2,300,0.0001,0.19900286252914276,Conditions to Closing,62
+325,1.0,roberta-base,11.3,300,1e-05,0.5080422104701553,Conditions to Closing,56
+326,1.0,roberta-base,113,200,3e-05,0.672733494363929,Deal Protection and Related Provisions,23
+327,1.0,roberta-base,115,300,3e-05,0.8299603174603174,Deal Protection and Related Provisions,11
+328,1.0,roberta-base,117,100,1e-05,0.9999999999999997,Operating and Efforts Covenant,58
+329,1.0,roberta-base,118,200,1e-05,0.9397362185268218,Operating and Efforts Covenant,60
+330,1.0,roberta-base,119,200,3e-05,1.0,Operating and Efforts Covenant,64
+331,1.0,roberta-base,120,300,1e-05,0.9572940287226,Operating and Efforts Covenant,26
+332,1.0,roberta-base,122,100,1e-05,1.0,Operating and Efforts Covenant,68
+333,1.0,roberta-base,123,400,0.0001,0.9176656676656675,Operating and Efforts Covenant,58
+334,1.0,roberta-base,124,200,1e-05,0.8994463006424729,Operating and Efforts Covenant,25
+335,1.0,roberta-base,126,300,3e-05,0.9538174477812796,Operating and Efforts Covenant,79
+336,1.0,roberta-base,13,300,3e-05,0.6095202001677863,Conditions to Closing,58
+337,1.0,roberta-base,130,200,1e-05,1.0,Remedies,57
+338,1.0,roberta-base,15,100,0.0001,0.7915343915343915,Conditions to Closing,7
+339,1.0,roberta-base,16,100,3e-05,1.0,Conditions to Closing,10
+340,1.0,roberta-base,21,200,3e-05,0.9962962962962963,Material Adverse Effect,28
+341,1.0,roberta-base,22,100,1e-05,0.46104497354497354,Material Adverse Effect,33
+342,1.0,roberta-base,23,400,3e-05,0.7980899293942771,Material Adverse Effect,30
+343,1.0,roberta-base,24,300,3e-05,0.8434671125975474,Material Adverse Effect,25
+344,1.0,roberta-base,25.0,200,1e-05,0.8862037037037037,Material Adverse Effect,35
+345,1.0,roberta-base,25.1,100,1e-05,0.8634172722755741,Material Adverse Effect,38
+346,1.0,roberta-base,25.2,300,1e-05,0.9110886644219978,Material Adverse Effect,38
+347,1.0,roberta-base,26,300,1e-05,0.9189307516267482,Material Adverse Effect,76
+348,1.0,roberta-base,27,300,1e-05,0.7179329993123096,Material Adverse Effect,43
+349,1.0,roberta-base,28,300,1e-05,0.5823586744639376,Material Adverse Effect,25
+350,1.0,roberta-base,29,200,1e-05,0.3398807476206857,Material Adverse Effect,41
+351,1.0,roberta-base,3,400,1e-05,0.9833167989417989,General Information,55
+352,1.0,roberta-base,30,100,1e-05,0.9666666666666667,Material Adverse Effect,26
+353,1.0,roberta-base,31,100,1e-05,1.0,Material Adverse Effect,39
+354,1.0,roberta-base,32,400,0.0001,0.35676742977717496,Material Adverse Effect,31
+355,1.0,roberta-base,33,100,0.0001,0.2926191821004941,Material Adverse Effect,29
+356,1.0,roberta-base,34,200,1e-05,0.301969696969697,Material Adverse Effect,29
+357,1.0,roberta-base,35,300,0.0001,0.3191382265856319,Material Adverse Effect,39
+358,1.0,roberta-base,36,200,3e-05,0.4023586822596547,Material Adverse Effect,33
+359,1.0,roberta-base,37,100,1e-05,0.5525802486986697,Material Adverse Effect,41
+360,1.0,roberta-base,38,100,3e-05,0.6352982665482666,Material Adverse Effect,32
+361,1.0,roberta-base,39.0,400,1e-05,0.43495606642444323,Material Adverse Effect,50
+362,1.0,roberta-base,39.1,100,1e-05,0.3956027428963755,Material Adverse Effect,47
+363,1.0,roberta-base,39.2,400,3e-05,0.7395021890816117,Material Adverse Effect,48
+364,1.0,roberta-base,39.3,300,1e-05,0.8285359551962236,Material Adverse Effect,47
+365,1.0,roberta-base,42,100,1e-05,0.44493876166587354,Material Adverse Effect,32
+366,1.0,roberta-base,43,400,1e-05,0.31252669509021597,Material Adverse Effect,30
+367,1.0,roberta-base,44,100,0.0001,0.2501827485380117,Material Adverse Effect,25
+368,1.0,roberta-base,45,300,0.0001,0.45761125841356914,Material Adverse Effect,46
+369,1.0,roberta-base,46,400,3e-05,0.5263227513227513,Material Adverse Effect,28
+370,1.0,roberta-base,47.0,400,3e-05,0.776502385248658,Material Adverse Effect,45
+371,1.0,roberta-base,47.1,200,3e-05,0.6310525893859227,Material Adverse Effect,45
+372,1.0,roberta-base,47.2,400,3e-05,0.41077441077441074,Material Adverse Effect,44
+373,1.0,roberta-base,47.3,400,3e-05,0.3166582872465225,Material Adverse Effect,49
+374,1.0,roberta-base,47.4,400,3e-05,0.9194496752258313,Material Adverse Effect,50
+375,1.0,roberta-base,48.0,400,3e-05,0.5164069170516826,Material Adverse Effect,42
+376,1.0,roberta-base,48.1,100,1e-05,0.34095687753796344,Material Adverse Effect,46
+377,1.0,roberta-base,48.2,300,0.0001,0.14425642324578494,Material Adverse Effect,47
+378,1.0,roberta-base,48.3,100,3e-05,0.582392163358588,Material Adverse Effect,43
+379,1.0,roberta-base,48.4,300,3e-05,0.764208493432378,Material Adverse Effect,44
+380,1.0,roberta-base,49,400,1e-05,0.3863839863839864,Material Adverse Effect,30
+381,1.0,roberta-base,50,300,3e-05,0.855097920416548,Material Adverse Effect,36
+382,1.0,roberta-base,51,400,1e-05,0.7585632767585003,Material Adverse Effect,38
+383,1.0,roberta-base,52,200,0.0001,0.4506774453979423,Material Adverse Effect,42
+384,1.0,roberta-base,53,400,0.0001,0.13578710469695124,Material Adverse Effect,25
+385,1.0,roberta-base,54,400,0.0001,0.3924304677838128,Material Adverse Effect,25
+386,1.0,roberta-base,55,400,1e-05,0.7645107166829471,Material Adverse Effect,25
+387,1.0,roberta-base,57,200,1e-05,0.5776515151515151,Material Adverse Effect,26
+388,1.0,roberta-base,58,100,1e-05,0.6195767195767196,Material Adverse Effect,26
+389,1.0,roberta-base,59,200,0.0001,0.568904174749146,Material Adverse Effect,26
+390,1.0,roberta-base,6,400,1e-05,0.854235005345465,Conditions to Closing,55
+391,1.0,roberta-base,60,400,3e-05,0.7985008818342152,Material Adverse Effect,26
+392,1.0,roberta-base,61.0,300,3e-05,0.9149290524290524,Material Adverse Effect,44
+393,1.0,roberta-base,61.1,100,1e-05,0.7895943562610229,Material Adverse Effect,47
+394,1.0,roberta-base,61.2,400,1e-05,0.8047837472680764,Material Adverse Effect,45
+395,1.0,roberta-base,61.3,400,1e-05,0.5530940274191197,Material Adverse Effect,39
+396,1.0,roberta-base,61.4,400,1e-05,0.6280994152046784,Material Adverse Effect,45
+397,1.0,roberta-base,61.5,200,1e-05,0.611111111111111,Material Adverse Effect,38
+398,1.0,roberta-base,61.6,400,1e-05,0.30860784210102193,Material Adverse Effect,46
+399,1.0,roberta-base,62,200,1e-05,0.5383255508382295,Material Adverse Effect,41
+400,1.0,roberta-base,66,400,1e-05,0.9251866411898547,Knowledge,45
+401,1.0,roberta-base,67,200,3e-05,0.8888888888888887,Knowledge,35
+402,1.0,roberta-base,68,400,1e-05,0.9833333333333334,Knowledge,28
+403,1.0,roberta-base,7,400,1e-05,0.19396529558671555,Conditions to Closing,63
+404,1.0,roberta-base,70,300,0.0001,0.18757215007215008,Deal Protection and Related Provisions,25
+405,1.0,roberta-base,72,400,1e-05,0.7233239897752436,Deal Protection and Related Provisions,52
+406,1.0,roberta-base,74,400,1e-05,0.9269479168661293,Deal Protection and Related Provisions,101
+407,1.0,roberta-base,75,400,3e-05,0.9402664208219765,Deal Protection and Related Provisions,57
+408,1.0,roberta-base,77,300,3e-05,0.8741887398234147,Deal Protection and Related Provisions,45
+409,1.0,roberta-base,78,300,3e-05,0.8175371533924166,Deal Protection and Related Provisions,26
+410,1.0,roberta-base,8,400,1e-05,0.1498520469643184,Conditions to Closing,56
+411,1.0,roberta-base,80,400,3e-05,0.7771700111622672,Deal Protection and Related Provisions,102
+412,1.0,roberta-base,81,400,0.0001,0.21256046454256172,Deal Protection and Related Provisions,48
+413,1.0,roberta-base,82,400,1e-05,0.7926278416320681,Deal Protection and Related Provisions,95
+414,1.0,roberta-base,84,400,3e-05,0.7591322834962939,Deal Protection and Related Provisions,81
+415,1.0,roberta-base,85,200,3e-05,0.2780972375163745,Deal Protection and Related Provisions,89
+416,1.0,roberta-base,86,200,3e-05,0.41388993893308207,Deal Protection and Related Provisions,58
+417,1.0,roberta-base,88,200,3e-05,0.6112579393965363,Deal Protection and Related Provisions,59
+418,1.0,roberta-base,89,400,3e-05,0.6062461457465409,Deal Protection and Related Provisions,53
+419,1.0,roberta-base,9,400,1e-05,0.3562029712039197,Conditions to Closing,55
+420,1.0,roberta-base,90,300,1e-05,0.5200424413250155,Deal Protection and Related Provisions,39
+421,1.0,roberta-base,92,300,1e-05,0.4453097107093314,Deal Protection and Related Provisions,43
+422,1.0,roberta-base,93,100,1e-05,0.9999999999999997,Deal Protection and Related Provisions,67
+423,1.0,roberta-base,94,300,3e-05,0.779752130637745,Deal Protection and Related Provisions,42
+424,1.0,roberta-base,95,300,1e-05,0.5916793854293855,Deal Protection and Related Provisions,21
+425,1.0,roberta-base,97,100,3e-05,1.0,Deal Protection and Related Provisions,51
+426,1.0,roberta-base,99.0,400,1e-05,0.6141442368900069,Deal Protection and Related Provisions,40
+427,1.0,roberta-base,99.1,200,3e-05,0.3856323955156247,Deal Protection and Related Provisions,52
+428,1.0,roberta-base,99.2,400,1e-05,0.5358135294618549,Deal Protection and Related Provisions,48
+429,1.0,roberta-base,99.3,400,1e-05,0.49203971963923143,Deal Protection and Related Provisions,54
+430,1.0,roberta-base,99.4,400,3e-05,0.7727891631486404,Deal Protection and Related Provisions,40
+431,1.0,roberta-base,99.5,300,1e-05,0.15178571428571427,Deal Protection and Related Provisions,54
