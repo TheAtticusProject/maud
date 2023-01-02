@@ -1,3 +1,5 @@
+# Merger Agreement Understanding Dataset (MAUD)
+
 ## Installation
 First, install pytorch with GPU support for your distribution: https://pytorch.org/get-started/locally/
 Then, run `pip install -e .`
