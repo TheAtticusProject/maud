@@ -3,7 +3,7 @@
 This repository contains code for the [Merger Agreement Understanding Dataset (MAUD)](https://www.atticusprojectai.org/maud), a dataset for merger agreement review curated by the Atticus Project, and used im the 2021 American Bar Association Public Target Deal Points Study. It is part of the associated paper [MAUD: An Expert-Annotated Legal NLP Dataset for Merger Agreement Understanding](https://arxiv.org/abs/TBD).
 
 
-<img align="center" src="main_figure_60.png" width="1000">
+<img align="center" src="main_figure.png" width="1000">
 
 ## Installation
 First, install pytorch with GPU support for your distribution: https://pytorch.org/get-started/locally/
