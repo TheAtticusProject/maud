@@ -10,6 +10,8 @@ First, install pytorch with GPU support for your distribution: https://pytorch.o
 
 Then, run `pip install -e .`
 
+Unzip the data files with `unzip data.zip`.
+
 ## Best Found Hyperparameters
 Best found hyperparameters and corresponding validation scores, are available in the CSVs `best_found_hps/*.csv`.
 
