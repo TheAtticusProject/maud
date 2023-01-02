@@ -1,0 +1,13 @@
+__pycache__
+*.csv
+*.egg-info
+.idea
+.DS_STORE
+/runs
+/runs.txt
+/analysis.txt
+/plots/
+env
+/data/contracts
+runs.txt
+/.old
