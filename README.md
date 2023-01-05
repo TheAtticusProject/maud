@@ -17,3 +17,17 @@ Best found hyperparameters and corresponding validation scores, are available in
 
 ## Training and Evaluation
 Run `train.sh`, `train_multi.sh`, and `evaluate.sh` to train and evaluate models on best found hyperparameters.
+
+
+## Citation
+If you find MAUD useful in your research, please consider citing:
+```
+@misc{wang2023maud,
+      title={MAUD: An Expert-Annotated Legal NLP Dataset for Merger Agreement Understanding}, 
+      author={Steven H. Wang and Antoine Scardigli and Leonard Tang and Wei Chen and Dimitry Levkin and Anya Chen and Spencer Ball and Thomas Woodside and Oliver Zhang and Dan Hendrycks},
+      year={2023},
+      eprint={2301.00876},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
