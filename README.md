@@ -5,7 +5,7 @@
 [[Paper]](https://arxiv.org/abs/2301.00876)
 [[Dataset]](https://drive.google.com/drive/folders/1RujOK2FZKdFSCJ15tqdyd42g8WLsYagj)
 
-This repository contains code for the [Merger Agreement Understanding Dataset (MAUD)](https://www.atticusprojectai.org/maud), a dataset for merger agreement review curated by the Atticus Project, and used in the 2021 American Bar Association Public Target Deal Points Study.
+This repository contains code for the [Merger Agreement Understanding Dataset (MAUD)](https://www.atticusprojectai.org/maud), a dataset for merger agreement review curated by the Atticus Project and used in the 2021 American Bar Association Public Target Deal Points Study.
 
 
 ## Installation
