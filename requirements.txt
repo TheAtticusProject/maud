@@ -1,11 +1,10 @@
 pandas
 randomname
 scikit-learn==1.0.2
-datasets==2.0.0
+datasets~=2.0
 kornia
 matplotlib
 munch
-numpy
 protobuf
 pytest
 scipy
