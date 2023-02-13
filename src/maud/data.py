@@ -334,16 +334,20 @@ def build_balanced_split_and_tokenize(
     return train_ds, test_ds
 
 
-with open('old_data/additional_old_style.csv') as f:
-    reader = csv.reader(f)
-    rows = list(reader)
-
-
-bonus_preamble_rows, bonus_content_rows = rows[0:3], rows[3:]
+_add_rows = None
+def _load_add_rows():
+    global _add_rows
+    if _add_rows is None:
+        with open('old_data/additional_old_style.csv') as f:
+            reader = csv.reader(f)
+            _add_rows = list(reader)
+    return _add_rows
 
 
 def load_bonus_context(answer_key, *, verbose=False):
     from maud import category_utils
+    rows = _load_add_rows()
+    bonus_preamble_rows, bonus_content_rows = rows[0:3], rows[3:]
 
     answer_column = -1
     for e, a in enumerate(bonus_preamble_rows[2]):
