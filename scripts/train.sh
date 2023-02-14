@@ -6,7 +6,7 @@ log_base="runs/train_best_hps"
 n_runs=3
 echo "Logging in log_base=$log_base"
 
-script_base="python -m pdb src/maud/new_tune.py -A -r $n_runs -oas"
+script_base="python src/maud/tune.py -A -r $n_runs -oas"
 script="$script_base --load_test_best_hps_path best_found_hps/basic_post_contract_v1/df_best_hps_spec_id.csv"
 script_legal="$script_base --load_test_best_hps_path best_found_hps/basic_legal_berts_v1/df_best_hps_spec_id.csv"
 script_bb="$script_base --load_test_best_hps_path best_found_hps/basic_bb_post_contract_800_v0/df_best_hps_spec_id.csv"

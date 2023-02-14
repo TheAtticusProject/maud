@@ -3,20 +3,21 @@ import contextlib
 import math
 import pathlib
 import pickle
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 from kornia.losses import focal
+import pandas as pd
+import numpy as np
 import sklearn.metrics
 import torch
 from torch.cuda import amp
 from torch.utils.data import DataLoader
 from torch.nn import functional as F
 import tqdm
-import numpy as np
 import transformers
 
 import maud.specs
-from maud import auto_load_data, category_utils, data, specs, utils
+from maud import auto_load_data, category_utils, data, data_utils, specs, utils
 
 
 def R(unrounded_list, digits=3) -> list:
@@ -72,7 +73,7 @@ def main(
 
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.model)
     if 'deberta-v3' in tokenizer.name_or_path:
-        # This wasn't configured by the maintainers. Adding in our best guess.
+        # This wasn't configured by the maintainers.
         tokenizer.max_length = 512
         tokenizer.model_max_length = 512
     if args.auto_max_seq_len:
@@ -80,45 +81,51 @@ def main(
             spec.id, tokenizer) + 1
         print(f"Automatically setting the max sequence len to {auto_len}")
         assert tokenizer.model_max_length >= auto_len
-        # if 'deberta-v3' in tokenizer.name_or_path:
-        #     # Does DeBERTa work differently? Need to set max_length as well?
-        #     tokenizer.max_length = auto_len
+        auto_len = category_utils.get_spec_id_to_max_tokens(spec.id, tokenizer) + 1
         tokenizer.model_max_length = auto_len
-        print(tokenizer.model_max_length)
+    elif args.max_seq_len is not None:
+        assert args.max_seq_len >= 2
+        tokenizer.model_max_length = args.max_seq_len
+    print(f"Max sequence length: {tokenizer.model_max_length}")
 
     for run in range(1, n_runs + 1):
         run_dir = args.log_root / f"q{spec.id}_{args.model}"
         run_dir.mkdir(exist_ok=True, parents=True)
 
-        # data for normal training + evaluation
-        # Using this utility function for analysis reasons..
-        ds, add_ds, synth_ds = spec.to_dataset_args(args)
+        if args.eval_split == "valid":
+            train_df = data_utils.load_df("train")
+            test_df = data_utils.load_df("dev")
+        elif args.eval_split == "test":
+            train_df = data_utils.load_df("train")
+            test_df = data_utils.load_df("test")
+        else:
+            raise ValueError(args.eval_split)
 
-        if args.skip_degenerate_jobs:
-            if args.use_opt_augm:
-                raise NotImplementedError
-            use_synth = args.use_synth
-            use_add = args.use_add
-            if use_synth and not synth_ds:
-                log("SKIP JOB: Synthetic dataset requested but not available.")
-                return
-            if use_add and not add_ds:
-                log("SKIP JOB: Additional dataset requested but not available.")
-                return
-            if args.synth_capped and not use_synth:
-                log("SKIP JOB: Synth capped is set but not using synth data.")
-                return
+        if args.drop_additional:
+            print("[SPECIAL] Drop additional.")
+            mask = train_df["data_type"] != "abridged"
+            assert np.sum(mask) > 0
+            train_df = train_df[mask]
+            if args.eval_split != "test":
+                mask = test_df["data_type"] != "abridged"
+                assert np.sum(mask) > 0
+                test_df = test_df[mask]
 
-        print(f"{len(ds)} records loaded from main dataset ({spec.n_classes} classes)")
-        # Split main dataset and augment with supplementary data.
-        train_ds, test_ds = data.build_balanced_split_only(
-            ds,
-            args.valid_prop,
-            verbose=False,
-            add_ds=add_ds,
-            synth_ds=synth_ds,
-            synth_capped=args.synth_capped,
+        train_ds = data_utils.df_to_records(
+            train_df,
+            question=spec.answer_key,
+            subquestion=spec.sub_question_key,
         )
+        test_ds = data_utils.df_to_records(
+            test_df,
+            question=spec.answer_key,
+            subquestion=spec.sub_question_key,
+        )
+        print(f"{len(train_ds)} train records loaded from disk ({spec.n_classes} classes)")
+        print(f"{len(test_ds)} test records loaded from disk ({spec.n_classes} classes)")
+
+        print(f"{len(train_ds)} records will be used for the training set")
+        print(f"{len(test_ds)} records will be used for the eval set")
 
         # Used for saved pickle later. Make sure that we don't shuffle test_ds, otherwise the order here
         #   will be wrong.
@@ -127,8 +134,8 @@ def main(
         # Drop data for "function as dataset" experiments.
         if args.partial_data is not None:
             new_train_ds = data.keep_data_part(train_ds, keep_prop=args.partial_data)
-            print(f"Keeping only {args.partial_data*100:.2f}% of the dataset.")
-            print("Dropped {} samples from training, now have {} samples remaining.".format(
+            print(f"[ABLATION] Keeping only {args.partial_data*100:.2f}% of the dataset.")
+            print("[ABLATION] Dropped {} samples from training, now have {} samples remaining.".format(
                 len(train_ds) - len(new_train_ds), len(new_train_ds)))
             train_ds = new_train_ds
 
@@ -175,7 +182,8 @@ def main(
             )
             assert len(train_dataloader) == batches_per_iter
 
-        model, optimizer = utils.load_model(args, num_labels=spec.n_classes)
+        model = utils.load_model(args, num_labels=spec.n_classes)
+        optimizer = utils.make_optimizer(model, args=args)
 
         best_test_accuracy = -1
 
@@ -347,6 +355,7 @@ def evaluate(model, test_hard_dataloader, name=None):
     # f1_all = sklearn.metrics.f1_score(all_labels, all_predictions, labels=f1_labels, average=None)
     # precision = sklearn.metrics.precision_score(all_labels, all_predictions, labels=f1_labels, average=None)
     # recall = sklearn.metrics.recall_score(all_labels, all_predictions, labels=f1_labels, average=None)
+    # Calculating AUPR here? Nah.
     f1_micro = sklearn.metrics.f1_score(all_labels, all_predictions, average='micro')
     f1_macro = sklearn.metrics.f1_score(all_labels, all_predictions, average='macro')
     f1_all = sklearn.metrics.f1_score(all_labels, all_predictions, average=None)
@@ -359,13 +368,13 @@ def evaluate(model, test_hard_dataloader, name=None):
     return acc, f1_micro, f1_macro, f1_all, precision, recall, all_logits, all_labels
 
 
-def console_main() -> None:
+def get_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser()
-    # parser.add_argument("--model", "-m", type=str, default="bert-base-uncased")
     parser.add_argument("--model", "-m", type=str, default="roberta-base")
     parser.add_argument("--log_root", type=pathlib.Path, default="runs/default")
     parser.add_argument("--valid_prop", "-p", type=float, default=0.2)
     parser.add_argument("--nruns", "-r", type=int, default=1)
+    parser.add_argument("--eval_split", default="valid", choices=["valid", "test"])
 
     parser.add_argument("--ngpus", "-n", type=int, default=1)
     parser.add_argument("--dry_run", "-d", action="store_true")
@@ -374,7 +383,6 @@ def console_main() -> None:
     parser.add_argument("--amp", action="store_true", help="Use torch.cuda.amp autocasting to reduce compute/memory.")
 
     parser.add_argument("--batch_size", "-b", type=int, default=16)
-    # parser.add_argument("--max_length", "-t", type=int, default=64)
     parser.add_argument("--weight_decay", "-w", type=float, default=0.01)
     parser.add_argument("--learning_rate", "-l", type=float, default=2e-5)
     parser.add_argument("--verbose", "-v", action="store_true")
@@ -382,19 +390,9 @@ def console_main() -> None:
     parser.add_argument("--save", "-S", action="store_true", help="Save checkpoints. (warning: usually large!)")
     parser.add_argument("--oversample", "-o", action="store_true")
     parser.add_argument("--focal_gamma", "-f", type=float, default=None)
-    parser.add_argument("--skip_degenerate_jobs", action="store_true",
-                        help="Skip any job where synth or additional data is requested and the data is not available.")
 
-    parser.add_argument("--use_add", "-a", action="store_true")
-    parser.add_argument("--use_opt_augm", "-u", action="store_true")
-    parser.add_argument("--use_synth", "-s", action="store_true")
-    parser.add_argument("--synth_capped", "-c", action="store_true",
-                        help=("If adding synthetic examples of a particular label "
-                              "exceed the max answer count, then randomly drop examples until at max answer count. "
-                              "Has no effect if --use_synth is false, unless --skip_degenerate_jobs "
-                              "flag is set, in which case, the job is considered degenerate and will "
-                              "be skipped."
-                              ))
+    parser.add_argument("--use_add", "-a", action="store_true", help="Add abridged data augmentation")
+    parser.add_argument("--use_synth", "-s", action="store_true", help="Add rare answers augmentation.")
     # Num updates flag.
     # But what about evaluation period?
     # Then we need to set another flag. What about we do colon notation.
@@ -404,7 +402,10 @@ def console_main() -> None:
                                         help="A string of the form NUM_UPDATES/UPDATES_PER_EVAL. e.g. 1000:200"
                                         )
     parser.add_argument("--eval_interval", "-i", type=int, default=1)
-    parser.add_argument("--auto_max_seq_len", action="store_true")
+
+    seq_group = parser.add_mutually_exclusive_group()
+    seq_group.add_argument("--auto_max_seq_len", action="store_true")
+    seq_group.add_argument("--max_seq_len", type=int, default=None)
 
     parser.add_argument("--shard", type=str, help="String of the form SHARD_IDX/NUM_SHARDS e.g. 0/10 or 9/10")
 
@@ -413,24 +414,83 @@ def console_main() -> None:
                                  help="Add a question num to train on")
     selection_group.add_argument("--spec_id", action="append", type=str, help="Select question/spec by ID")
     selection_group.add_argument("--all_questions", "-A", action="store_true")
-    selection_group.add_argument("--exemplar", action="store_true", help="A diverse selection of easy and hard specs")
+    selection_group.add_argument("-B", "--bigbird_by_group", type=str,
+                                 choices=["small", "mid", "balrog", "saruman"])
 
+    parser.add_argument("-T", "--load_test_best_hps_path", type=pathlib.Path, default=None)
+    parser.add_argument("--drop_additional", action="store_true")
+    return parser
+
+
+def build_spec_id_to_best_tune_kwargs(
+        df_best_hps,
+        model_name: str,
+        partial: Optional[float],
+        kept_kwargs: Optional[dict] = None,
+) -> Dict[str, dict]:
+
+    # Use output to filter by requested spec_id.
+    mask = df_best_hps["model_name"] == model_name
+    if partial is not None:
+        assert "partial" in df_best_hps.columns
+        partial_mask = df_best_hps["partial"] == partial
+        mask = mask & partial_mask
+
+    our_df_best = df_best_hps[mask]
+    assert len(our_df_best) > 0
+    available_spec_ids = set(our_df_best['spec_id'])
+    # Check that each row has a unique spec_id.
+    assert len(available_spec_ids) == len(our_df_best)
+
+    n_rows = len(our_df_best)
+    spec_id_to_kwargs = {}
+    for i in tqdm.tqdm(range(n_rows)):
+        row = our_df_best.iloc[i]
+        model_name = row["model_name"]
+        spec_id = row["spec_id"]
+        spec_id = spec_id.replace(".", "-")  # For compatibility
+        num_updates = row["update_num"]
+        learning_rate = row["lr"]
+        args_text = (f"-m {model_name} --spec_id {spec_id} "
+                     f"-l {learning_rate} --num_updates {num_updates}:{num_updates} "
+                     f"--eval_split test "
+                     f"-oas "
+                     )
+        parser = get_parser()
+        args = parser.parse_args(args_text.split())
+        for k, v in kept_kwargs.items():
+            setattr(args, k, v)
+        spec = category_utils.get_valid_spec_with_id(spec_id)
+        kwargs = dict(args=args, spec=spec)
+        spec_id_to_kwargs[spec.id] = kwargs
+    return spec_id_to_kwargs
+
+
+def console_main() -> None:
+    parser = get_parser()
     args = parser.parse_args()
+
     our_specs: List[maud.specs.BaseDatasetSpec] = []
     if args.all_questions:
         our_specs = auto_load_data.get_all_valid_specs(verbosity=1)
-    elif args.spec_id or args.exemplar:
-        if args.spec_id:
-            spec_ids = set()
-            for s in args.spec_id:
-                for _spec_id in s.split(","):
-                    spec_ids.add(_spec_id)
-        else:
-            assert args.exemplar
-            spec_ids = set("99 84.5 70.2 84.7 131.3 131.7 148.5 102 162 18".split())
+    elif args.bigbird_by_group:
+        assert "google/bigbird-roberta-base" == args.model, args.model
+        spec_ids_by_gpu_name = category_utils.get_bigbird_spec_ids_by_gpu_name()
+        our_spec_ids = spec_ids_by_gpu_name[args.bigbird_by_group]
+        assert len(set(our_spec_ids)) == len(our_spec_ids)
         all_specs = auto_load_data.generate_specs(verbosity=1)
         for spec in all_specs:
-            if spec.id in spec_ids:
+            if spec.id in our_spec_ids:
+                our_specs.append(spec)
+        assert len(our_spec_ids) == len(our_specs)
+    elif args.spec_id:
+        our_spec_ids = set()
+        for s in args.spec_id:
+            for _spec_id in s.split(","):
+                our_spec_ids.add(_spec_id)
+        all_specs = auto_load_data.generate_specs(verbosity=1)
+        for spec in all_specs:
+            if spec.id in our_spec_ids:
                 our_specs.append(spec)
     else:
         all_specs = auto_load_data.generate_specs(verbosity=1)
@@ -440,10 +500,6 @@ def console_main() -> None:
 
     print(f"Selected {len(our_specs)} question dataset(s) to train on.")
 
-    if args.synth_capped and not args.use_synth:
-        log("SKIP JOB: Synth capped is set but not using synth data.")
-        return
-
     if args.shard:
         shard_idx, n_shards = [int(x) for x in args.shard.split("/")]
         assert n_shards >= 1
@@ -452,19 +508,46 @@ def console_main() -> None:
         our_specs = our_specs[shard_idx::n_shards]
         print(f"Kept {len(our_specs)} question dataset(s) for this shard..")
 
-    REPORT_ERRORS = True
+    REPORT_ERRORS = False
 
-    for spec in tqdm.tqdm(our_specs, desc="multiple question specs"):
-        try:
-            # raise ValueError("test")
-            main(spec, args)
-        except ValueError as e:
-            if REPORT_ERRORS:
-                log(f"FAIL: (ValueError {e}) \n\t{spec} \n\t{spec.answer_counter_all()}", file_write=True,
-                    # path="errors_lenient.txt")
-                    path="errors.txt")
-            else:
-                raise
+    if args.load_test_best_hps_path is not None:
+        print("[SPECIAL] Test mode. Overwriting all hyperparams with best hyperparam settings.")
+        print(f"[SPECIAL] model_name={args.model}")
+        print(f"[SPECIAL] Attempting to load spec_ids={[spec.id for spec in our_specs]}")
+        df_best_hps_path: pathlib.Path = args.load_test_best_hps_path
+        assert df_best_hps_path.is_file()
+        df_best_hps = pd.read_csv(df_best_hps_path, dtype={"spec_id": str})
+
+        # Keep: auto_max_seq_len, batch_size, n_runs, o, a, s
+        kept_keys = ["auto_max_seq_len", "batch_size", "nruns",
+                     "oversample", "use_add", "use_synth", "log_root",
+                     "partial_data", "model",
+                     ]
+        kept_kwargs = {k: getattr(args, k) for k in kept_keys}
+
+        spec_id_to_best_kwargs = build_spec_id_to_best_tune_kwargs(
+            df_best_hps,
+            model_name=args.model,
+            partial=args.partial_data,
+            kept_kwargs=kept_kwargs,
+        )
+        best_kwargs: List[dict] = []
+        for spec in our_specs:
+            best_kwargs.append(spec_id_to_best_kwargs[spec.id])
+
+        for kwargs in tqdm.tqdm(best_kwargs, desc="multiple question specs (best kwargs))"):
+            main(**kwargs)
+    else:
+        for spec in tqdm.tqdm(our_specs, desc="multiple question specs"):
+            try:
+                main(spec, args)
+            except ValueError as e:
+                if REPORT_ERRORS:
+                    log(f"FAIL: (ValueError {e}) \n\t{spec} \n\t{spec.answer_counter_all()}", file_write=True,
+                        # path="errors_lenient.txt")
+                        path="errors.txt")
+                else:
+                    raise
 
 
 if __name__ == "__main__":

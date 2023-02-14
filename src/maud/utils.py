@@ -30,22 +30,6 @@ def make_unique_filename() -> str:
     return f"{timestamp}_{rand_name}"
 
 
-def load_csv_as_2d_array(path: pathlib.Path) -> List[List[str]]:
-    """Convert a CSV into a list of list of strings, in row-major order."""
-    result = []
-    with open(path) as f:
-        for i, row_dict in enumerate(csv.DictReader(f)):
-            # NOTE: row_dict.values() will be in CSV order
-            # (either because row_dict is OrderedDict in <=Py3.6 or because since Python 3.7+ dict preserves order.)
-            row = list(row_dict.values())
-            if all(len(x) == 0 for x in row):
-                warnings.warn(f"{path} has empty row at row index {i}. Skipping.")
-                continue
-            result.append(row)
-    assert len(set(len(row) for row in result)) == 1
-    return result
-
-
 def load_model(args, num_labels: int, load_path=None, cache_dir=None):
     if cache_dir is not None:
         config = AutoConfig.from_pretrained(args.model, num_labels=num_labels, cache_dir=cache_dir)

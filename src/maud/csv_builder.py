@@ -3,7 +3,6 @@ import pathlib
 from typing import Dict, List, Set
 
 import numpy as np
-import pandas
 import pandas as pd
 
 from maud import auto_load_data, category_utils, data, data_utils
@@ -122,9 +121,6 @@ def splitting_hares(valid_prop=0.18):
     for rec in [*train_records, *dev_records, *test_records]:
         rec["category"] = category_utils.question_to_category[rec["question"]]
 
-    # Lucky: Although contract_names set is bonkers, I didn't create data leakage
-    #   from this mistake. I need to have a contract_names set to pass into
-    #   post_process.
     rec_splits = dict(train=train_records, dev=dev_records, test=test_records)
     df_splits_pre = {k: pd.DataFrame.from_records(recs) for k, recs in rec_splits.items()}
     full_df_pre = pd.concat(list(df_splits_pre.values()))

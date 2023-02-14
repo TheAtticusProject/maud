@@ -22,29 +22,10 @@ MODEL_INPUT_KEYS = ['input_ids', 'attention_mask']  # Use these keys for model i
 _contracts_cached: Optional[Tuple[Dict[str, str]]] = None
 
 
-def opt_augm(spec):
-    # Returns use_synth, use_additional
-    import pandas as pd
-    df = pd.read_csv("data/preferred_augmentation.csv")
-    try:
-        a = np.array(df[df[df.columns[0]]==(spec.answer_key+" "+spec.id)])[0][1:]
-    except IndexError:
-        return False, True  # If error, then additional data only.
-    best = np.argmax(a)
-    if best ==0:
-        return False,False
-    if best ==1:
-        return False,True
-    if best ==2:
-        return True,False
-    if best ==3:
-        return True,True
-
-
 def _load_contracts() -> Tuple[Dict[str, str], ...]:
     global _contracts_cached
     if _contracts_cached is None:
-        with open('old_data/main_data.csv') as f:
+        with open('data/raw/main.csv') as f:
             reader = csv.DictReader(f)
             rows = list(reader)
         _contracts_cached = tuple(rows)
@@ -338,14 +319,13 @@ _add_rows = None
 def _load_add_rows():
     global _add_rows
     if _add_rows is None:
-        with open('old_data/additional_old_style.csv') as f:
+        with open('data/raw/abridged.csv') as f:
             reader = csv.reader(f)
             _add_rows = list(reader)
     return _add_rows
 
 
 def load_bonus_context(answer_key, *, verbose=False):
-    from maud import category_utils
     rows = _load_add_rows()
     bonus_preamble_rows, bonus_content_rows = rows[0:3], rows[3:]
 
@@ -422,12 +402,12 @@ def load_bonus_context(answer_key, *, verbose=False):
 
 
 _synth_data_rows_cached: Optional[List[List[str]]] = None
-def load_synthetic_data() -> List[List[str]]:
+def _load_synthetic_data() -> List[List[str]]:
     """Load (huge) CSV from synthetic_data.csv."""
     global _synth_data_rows_cached
     if _synth_data_rows_cached is not None:
         return _synth_data_rows_cached
-    with open('old_data/counterfactualv3.csv') as f:
+    with open('data/raw/counterfactual.csv') as f:
         reader = csv.reader(f)
         rows = list(reader)
     _synth_data_rows_cached = rows
@@ -438,14 +418,6 @@ def _ignore_synth_context(context: str) -> bool:
     if context.lower().strip() in ["", "(none entered)"]:
         return True
     return False
-
-
-def count_synth_data():
-    synth_rows = load_synthetic_data()
-    synth_answer_keys = synth_rows[2]
-    for answer_key in synth_answer_keys:
-        contexts, answers = load_synth_data(answer_key)
-        print(len(contexts), answers)
 
 
 def load_synth_data(answer_key: str) -> Optional[Tuple[List[str], List[str]]]:
@@ -467,7 +439,7 @@ def load_synth_data(answer_key: str) -> Optional[Tuple[List[str], List[str]]]:
     # Row 0: Answer key   (deal point question)
     # Row 1: Answer value   (deal point answer)
     # Row 2+: Counterfactual context (deal point text)
-    synth_rows = load_synthetic_data()
+    synth_rows = _load_synthetic_data()
     synth_answer_keys = synth_rows[0]
     synth_answer_values = synth_rows[1]
     synth_contexts = synth_rows[2:]
@@ -498,7 +470,3 @@ def load_synth_data(answer_key: str) -> Optional[Tuple[List[str], List[str]]]:
     assert len(contexts) > 0
     assert len(contexts) == len(answers)
     return contexts, answers
-
-
-if __name__ == "__main__":
-    count_synth_data()

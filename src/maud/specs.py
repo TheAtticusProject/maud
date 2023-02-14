@@ -9,18 +9,6 @@ import datasets
 from maud import data, utils
 
 
-def _drop_low_count_answers(data_records: List[dict], key="label") -> List[dict]:
-    """Drop labels that only have one count"""
-    label_counter = collections.Counter([rec[key] for rec in data_records])
-    bad_values = []
-    for val, count in label_counter.items():
-        if count == 1:
-            bad_values.append(val)
-    result = [rec for rec in data_records if rec[key] not in bad_values]
-    assert len(result) > 0
-    return result
-
-
 def _convert_records_to_single_dict(records: List[dict]) -> Dict[str, List]:
     """Convert List[dict] (records) to Dict[str, list]
 
@@ -91,8 +79,6 @@ class BaseDatasetSpec(abc.ABC):
             result.add(d[self.answer_key])
         for bad_answer in self.IGNORED_ANSWER_SET:
             result.discard(bad_answer)
-        if 'No limitation + reasonable best efforts standard' in result:
-            breakpoint()
         if len(result) <= 1:
             self.id = "SKIPME: one or zero types of test label"
             return result
@@ -105,9 +91,6 @@ class BaseDatasetSpec(abc.ABC):
                 if answer in self.IGNORED_ANSWER_SET:
                     continue
                 if not answer in result:
-                    breakpoint()
-                    print(self.context_key, self.answer_key)
-                    print(f"{answer} not in {result}")
                     # Should match main data labels
                     raise RuntimeError(f"{answer} not in {result}")
 
@@ -119,9 +102,6 @@ class BaseDatasetSpec(abc.ABC):
                 if answer in self.IGNORED_ANSWER_SET:
                     continue
                 if not answer in result:
-                    breakpoint()
-                    print(self.context_key, self.answer_key)
-                    print(f"{answer} not in {result}")
                     # Should match main data labels
                     raise RuntimeError(f"{answer} not in {result}")
 
@@ -292,10 +272,6 @@ class BaseDatasetSpec(abc.ABC):
     def to_dataset_args(self, args):
         use_synth = args.use_synth
         use_add = args.use_add
-        if args.use_opt_augm:
-            assert not args.use_synth, "Errorring to avoid overwriting --use_synth flag"
-            assert not args.use_add, "Errorring to avoid overwriting --use_add flag"
-            use_synth, use_add = data.opt_augm(self)
         return self.to_dataset(
             add_synth=use_synth, verbose=True, add_add=use_add,
         )
@@ -319,13 +295,6 @@ class BaseDatasetSpec(abc.ABC):
 
         # Cool trick: slicing with max_len=None is a no-op.
         records = records[:max_len]
-        # def count_it(recs):
-        #     counter = collections.Counter()
-        #     for rec in recs:
-        #         counter[] = ...
-        #     return counter
-
-        # records = _drop_low_count_answers(records)
         return records, add, synth
 
     def to_train_test_split(  # Currently superceded by args version, for analysis reasons, but should still work.
@@ -359,7 +328,6 @@ class BaseDatasetSpec(abc.ABC):
         if records is None:
             return None
         records = records[:max_len]
-        # records = _drop_low_count_answers(records)
         if tokenizer is not None:
             return _encode_records_as_dataset(records, tokenizer)
         else:
@@ -370,7 +338,6 @@ class BaseDatasetSpec(abc.ABC):
         if records is None:
             return None
         records = records[:max_len]
-        # records = _drop_low_count_answers(records)
         if tokenizer is not None:
             return _encode_records_as_dataset(records, tokenizer)
         else:
@@ -495,7 +462,6 @@ class MultiBinaryDatasetSpec(BaseDatasetSpec):
                 raise KeyError(f"Missing answer key '{answer}' in {contract_name}.")
             self._raw_answer_set.add(answer)
 
-        # XXX: Maybe do a sanity check comparison against hierarchy.json?
         _binary_answers_set = set()
 
         # Go through all of the answer values in the answer column and split each by ", "
