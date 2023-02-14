@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+
+# Train multi-task models using the best validation hyperparameters.
 set -e
 
 log_base2="runs/train_best_hps_multi/"
