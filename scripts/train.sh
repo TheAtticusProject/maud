@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script for replicating test results for MAUD.
+# Script for training single-task models given the best validation hyperparameters.
 
 set -e
 log_base="runs/train_best_hps"

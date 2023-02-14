@@ -19,7 +19,8 @@ Unzip the data files with `unzip data.zip`.
 Best found hyperparameters and corresponding validation scores, are available in the CSVs `best_found_hps/*.csv`.
 
 ## Training and Evaluation
-Run `train.sh`, `train_multi.sh`, and `evaluate.sh` to train and evaluate models on best found hyperparameters.
+Run `scripts/train.sh` and `scripts/train_multi.sh` to train models on best hyperparameters.
+Run `scripts/evaluate.sh` to evaluate models afterwards.
 
 
 ## Citation
