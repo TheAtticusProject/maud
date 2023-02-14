@@ -1,145 +1,145 @@
-,partial,model_name,spec_id,update_num,lr,aupr,n_classes,category
-0,1.0,nlpaueb/legal-bert-base-uncased,10.0,100,1e-05,0.3410113796878502,2,Conditions to Closing
-1,1.0,nlpaueb/legal-bert-base-uncased,10.1,400,3e-05,0.3884720615484976,2,Conditions to Closing
-2,1.0,nlpaueb/legal-bert-base-uncased,10.10,400,3e-05,0.6554275157151834,2,Conditions to Closing
-3,1.0,nlpaueb/legal-bert-base-uncased,10.11,400,1e-05,0.6269335810072304,2,Conditions to Closing
-4,1.0,nlpaueb/legal-bert-base-uncased,10.12,400,3e-05,0.7403845629870096,2,Conditions to Closing
-5,1.0,nlpaueb/legal-bert-base-uncased,10.13,200,0.0001,0.7818646232439335,2,Conditions to Closing
-6,1.0,nlpaueb/legal-bert-base-uncased,10.2,200,1e-05,0.5208962101640754,2,Conditions to Closing
-7,1.0,nlpaueb/legal-bert-base-uncased,10.3,400,1e-05,0.32970978546309654,2,Conditions to Closing
-8,1.0,nlpaueb/legal-bert-base-uncased,10.4,100,0.0001,0.2873122454997507,2,Conditions to Closing
-9,1.0,nlpaueb/legal-bert-base-uncased,10.5,200,1e-05,0.5029585355459534,2,Conditions to Closing
-10,1.0,nlpaueb/legal-bert-base-uncased,10.6,300,3e-05,0.6777777777777777,2,Conditions to Closing
-11,1.0,nlpaueb/legal-bert-base-uncased,10.7,400,3e-05,0.6814189957524919,2,Conditions to Closing
-12,1.0,nlpaueb/legal-bert-base-uncased,10.8,300,3e-05,0.36663418707109785,2,Conditions to Closing
-13,1.0,nlpaueb/legal-bert-base-uncased,10.9,400,1e-05,0.5479135978675468,2,Conditions to Closing
-14,1.0,nlpaueb/legal-bert-base-uncased,101,400,3e-05,0.7351863801485403,8,Deal Protection and Related Provisions
-15,1.0,nlpaueb/legal-bert-base-uncased,102,400,0.0001,0.26126651037136367,6,Deal Protection and Related Provisions
-16,1.0,nlpaueb/legal-bert-base-uncased,103,200,3e-05,0.5237473637473637,2,Deal Protection and Related Provisions
-17,1.0,nlpaueb/legal-bert-base-uncased,105.0,100,3e-05,0.11528685548293392,2,Deal Protection and Related Provisions
-18,1.0,nlpaueb/legal-bert-base-uncased,105.1,200,0.0001,0.5167484367484367,2,Deal Protection and Related Provisions
-19,1.0,nlpaueb/legal-bert-base-uncased,105.2,300,1e-05,0.9269451343177444,2,Deal Protection and Related Provisions
-20,1.0,nlpaueb/legal-bert-base-uncased,105.3,200,3e-05,0.8666575889615104,2,Deal Protection and Related Provisions
-21,1.0,nlpaueb/legal-bert-base-uncased,105.4,100,1e-05,1.0,2,Deal Protection and Related Provisions
-22,1.0,nlpaueb/legal-bert-base-uncased,105.5,100,3e-05,0.425925925925926,2,Deal Protection and Related Provisions
-23,1.0,nlpaueb/legal-bert-base-uncased,105.6,300,3e-05,0.15788563288563293,2,Deal Protection and Related Provisions
-24,1.0,nlpaueb/legal-bert-base-uncased,105.7,100,1e-05,0.22474747474747472,2,Deal Protection and Related Provisions
-25,1.0,nlpaueb/legal-bert-base-uncased,105.8,200,3e-05,0.8467250473986869,2,Deal Protection and Related Provisions
-26,1.0,nlpaueb/legal-bert-base-uncased,105.9,400,1e-05,0.9021601991696079,2,Deal Protection and Related Provisions
-27,1.0,nlpaueb/legal-bert-base-uncased,106,300,1e-05,0.7058428754481385,2,Deal Protection and Related Provisions
-28,1.0,nlpaueb/legal-bert-base-uncased,107.0,300,1e-05,0.4746236758449313,2,Deal Protection and Related Provisions
-29,1.0,nlpaueb/legal-bert-base-uncased,107.1,200,1e-05,0.8089907866415551,2,Deal Protection and Related Provisions
-30,1.0,nlpaueb/legal-bert-base-uncased,107.2,200,1e-05,0.6619483542493272,2,Deal Protection and Related Provisions
-31,1.0,nlpaueb/legal-bert-base-uncased,107.3,300,3e-05,0.8688912231559289,2,Deal Protection and Related Provisions
-32,1.0,nlpaueb/legal-bert-base-uncased,108,200,0.0001,0.3191114763289686,2,Deal Protection and Related Provisions
-33,1.0,nlpaueb/legal-bert-base-uncased,109,400,3e-05,0.997282397512185,5,Deal Protection and Related Provisions
-34,1.0,nlpaueb/legal-bert-base-uncased,11.0,100,3e-05,0.29327345912401825,2,Conditions to Closing
-35,1.0,nlpaueb/legal-bert-base-uncased,11.1,100,0.0001,0.15268998145195137,2,Conditions to Closing
-36,1.0,nlpaueb/legal-bert-base-uncased,11.2,300,0.0001,0.18759521875869914,2,Conditions to Closing
-37,1.0,nlpaueb/legal-bert-base-uncased,11.3,400,3e-05,0.4497324924530807,2,Conditions to Closing
-38,1.0,nlpaueb/legal-bert-base-uncased,113,400,0.0001,0.9666666666666665,2,Deal Protection and Related Provisions
-39,1.0,nlpaueb/legal-bert-base-uncased,115,400,3e-05,0.8392857142857143,2,Deal Protection and Related Provisions
-40,1.0,nlpaueb/legal-bert-base-uncased,117,400,1e-05,1.0,2,Operating and Efforts Covenant
-41,1.0,nlpaueb/legal-bert-base-uncased,118,300,1e-05,0.945295077757073,2,Operating and Efforts Covenant
-42,1.0,nlpaueb/legal-bert-base-uncased,119,100,3e-05,1.0,3,Operating and Efforts Covenant
-43,1.0,nlpaueb/legal-bert-base-uncased,120,300,3e-05,0.9812925170068026,2,Operating and Efforts Covenant
-44,1.0,nlpaueb/legal-bert-base-uncased,122,200,1e-05,1.0,2,Operating and Efforts Covenant
-45,1.0,nlpaueb/legal-bert-base-uncased,123,100,3e-05,0.916137566137566,2,Operating and Efforts Covenant
-46,1.0,nlpaueb/legal-bert-base-uncased,124,100,1e-05,0.8448908686876603,2,Operating and Efforts Covenant
-47,1.0,nlpaueb/legal-bert-base-uncased,126,200,3e-05,0.806987228622701,3,Operating and Efforts Covenant
-48,1.0,nlpaueb/legal-bert-base-uncased,13,400,3e-05,0.8588055806368131,3,Conditions to Closing
-49,1.0,nlpaueb/legal-bert-base-uncased,130,200,1e-05,1.0,2,Remedies
-50,1.0,nlpaueb/legal-bert-base-uncased,15,100,0.0001,0.8365079365079365,2,Conditions to Closing
-51,1.0,nlpaueb/legal-bert-base-uncased,16,400,3e-05,0.9249779541446208,3,Conditions to Closing
-52,1.0,nlpaueb/legal-bert-base-uncased,21,200,3e-05,1.0,2,Material Adverse Effect
-53,1.0,nlpaueb/legal-bert-base-uncased,22,200,3e-05,0.5388626480731744,2,Material Adverse Effect
-54,1.0,nlpaueb/legal-bert-base-uncased,23,400,1e-05,1.0,2,Material Adverse Effect
-55,1.0,nlpaueb/legal-bert-base-uncased,24,400,1e-05,0.862037037037037,2,Material Adverse Effect
-56,1.0,nlpaueb/legal-bert-base-uncased,25.0,300,3e-05,0.8888888888888888,2,Material Adverse Effect
-57,1.0,nlpaueb/legal-bert-base-uncased,25.1,400,3e-05,0.9023094396912005,2,Material Adverse Effect
-58,1.0,nlpaueb/legal-bert-base-uncased,25.2,100,1e-05,0.9445544243338362,2,Material Adverse Effect
-59,1.0,nlpaueb/legal-bert-base-uncased,26,300,1e-05,0.9120799204532337,5,Material Adverse Effect
-60,1.0,nlpaueb/legal-bert-base-uncased,27,400,3e-05,0.7089031889031888,2,Material Adverse Effect
-61,1.0,nlpaueb/legal-bert-base-uncased,28,100,3e-05,0.49645969498910675,2,Material Adverse Effect
-62,1.0,nlpaueb/legal-bert-base-uncased,29,300,1e-05,0.19852163087457206,2,Material Adverse Effect
-63,1.0,nlpaueb/legal-bert-base-uncased,3,300,3e-05,0.9623773971600058,4,General Information
-64,1.0,nlpaueb/legal-bert-base-uncased,30,400,3e-05,0.9555555555555556,2,Material Adverse Effect
-65,1.0,nlpaueb/legal-bert-base-uncased,31,100,1e-05,1.0,2,Material Adverse Effect
-66,1.0,nlpaueb/legal-bert-base-uncased,32,300,0.0001,0.31188362539497727,2,Material Adverse Effect
-67,1.0,nlpaueb/legal-bert-base-uncased,33,300,0.0001,0.27958224566376755,2,Material Adverse Effect
-68,1.0,nlpaueb/legal-bert-base-uncased,34,400,3e-05,0.2813174851967955,2,Material Adverse Effect
-69,1.0,nlpaueb/legal-bert-base-uncased,35,100,3e-05,0.5091111686220383,2,Material Adverse Effect
-70,1.0,nlpaueb/legal-bert-base-uncased,36,200,0.0001,0.35896264196927435,2,Material Adverse Effect
-71,1.0,nlpaueb/legal-bert-base-uncased,37,100,0.0001,0.6262362637362637,2,Material Adverse Effect
-72,1.0,nlpaueb/legal-bert-base-uncased,38,300,1e-05,0.5808972485991118,2,Material Adverse Effect
-73,1.0,nlpaueb/legal-bert-base-uncased,39.0,300,3e-05,0.4754953562704322,2,Material Adverse Effect
-74,1.0,nlpaueb/legal-bert-base-uncased,39.1,200,0.0001,0.4232893793966224,2,Material Adverse Effect
-75,1.0,nlpaueb/legal-bert-base-uncased,39.2,400,1e-05,0.7524259157353628,2,Material Adverse Effect
-76,1.0,nlpaueb/legal-bert-base-uncased,39.3,400,0.0001,0.8444069464773399,2,Material Adverse Effect
-77,1.0,nlpaueb/legal-bert-base-uncased,42,100,0.0001,0.4423410296857502,2,Material Adverse Effect
-78,1.0,nlpaueb/legal-bert-base-uncased,43,200,0.0001,0.38143032864395093,2,Material Adverse Effect
-79,1.0,nlpaueb/legal-bert-base-uncased,44,100,0.0001,0.0892526455026455,2,Material Adverse Effect
-80,1.0,nlpaueb/legal-bert-base-uncased,45,200,1e-05,0.49210201354445854,2,Material Adverse Effect
-81,1.0,nlpaueb/legal-bert-base-uncased,46,400,0.0001,0.6282865282865283,2,Material Adverse Effect
-82,1.0,nlpaueb/legal-bert-base-uncased,47.0,400,3e-05,0.664891631916241,2,Material Adverse Effect
-83,1.0,nlpaueb/legal-bert-base-uncased,47.1,100,0.0001,0.6343775052108386,2,Material Adverse Effect
-84,1.0,nlpaueb/legal-bert-base-uncased,47.2,300,0.0001,0.41983961121892155,2,Material Adverse Effect
-85,1.0,nlpaueb/legal-bert-base-uncased,47.3,200,3e-05,0.3599244334538452,2,Material Adverse Effect
-86,1.0,nlpaueb/legal-bert-base-uncased,47.4,400,3e-05,0.9003219342258731,2,Material Adverse Effect
-87,1.0,nlpaueb/legal-bert-base-uncased,48.0,400,1e-05,0.684580360595807,2,Material Adverse Effect
-88,1.0,nlpaueb/legal-bert-base-uncased,48.1,100,0.0001,0.3722911980164836,2,Material Adverse Effect
-89,1.0,nlpaueb/legal-bert-base-uncased,48.2,200,0.0001,0.13737068001773886,2,Material Adverse Effect
-90,1.0,nlpaueb/legal-bert-base-uncased,48.3,400,3e-05,0.6831479741019214,2,Material Adverse Effect
-91,1.0,nlpaueb/legal-bert-base-uncased,48.4,200,1e-05,0.7968763246138811,2,Material Adverse Effect
-92,1.0,nlpaueb/legal-bert-base-uncased,49,400,1e-05,0.40416828269769445,2,Material Adverse Effect
-93,1.0,nlpaueb/legal-bert-base-uncased,50,100,0.0001,0.8976457854199084,2,Material Adverse Effect
-94,1.0,nlpaueb/legal-bert-base-uncased,51,400,3e-05,0.7515534202293095,2,Material Adverse Effect
-95,1.0,nlpaueb/legal-bert-base-uncased,52,100,0.0001,0.3497279807838814,2,Material Adverse Effect
-96,1.0,nlpaueb/legal-bert-base-uncased,53,300,1e-05,0.2488095238095238,2,Material Adverse Effect
-97,1.0,nlpaueb/legal-bert-base-uncased,54,100,1e-05,0.5869158403254513,2,Material Adverse Effect
-98,1.0,nlpaueb/legal-bert-base-uncased,55,400,3e-05,0.8519195455960161,2,Material Adverse Effect
-99,1.0,nlpaueb/legal-bert-base-uncased,57,100,0.0001,0.4353021978021978,2,Material Adverse Effect
-100,1.0,nlpaueb/legal-bert-base-uncased,58,200,1e-05,0.6838624338624338,2,Material Adverse Effect
-101,1.0,nlpaueb/legal-bert-base-uncased,59,400,0.0001,0.627424355230195,2,Material Adverse Effect
-102,1.0,nlpaueb/legal-bert-base-uncased,6,200,0.0001,0.9855840822741205,2,Conditions to Closing
-103,1.0,nlpaueb/legal-bert-base-uncased,60,300,3e-05,0.9722222222222222,2,Material Adverse Effect
-104,1.0,nlpaueb/legal-bert-base-uncased,61.0,400,3e-05,0.9242341673920621,2,Material Adverse Effect
-105,1.0,nlpaueb/legal-bert-base-uncased,61.1,300,3e-05,0.842418889477713,2,Material Adverse Effect
-106,1.0,nlpaueb/legal-bert-base-uncased,61.2,300,3e-05,0.9354455829688028,2,Material Adverse Effect
-107,1.0,nlpaueb/legal-bert-base-uncased,61.3,400,3e-05,0.45605402397530836,2,Material Adverse Effect
-108,1.0,nlpaueb/legal-bert-base-uncased,61.4,100,3e-05,0.8657407407407408,2,Material Adverse Effect
-109,1.0,nlpaueb/legal-bert-base-uncased,61.5,100,0.0001,0.27985347985347986,2,Material Adverse Effect
-110,1.0,nlpaueb/legal-bert-base-uncased,61.6,400,1e-05,0.4325460505382641,2,Material Adverse Effect
-111,1.0,nlpaueb/legal-bert-base-uncased,62,400,1e-05,0.7177019345437397,3,Material Adverse Effect
-112,1.0,nlpaueb/legal-bert-base-uncased,66,200,3e-05,0.9271430584232064,2,Knowledge
-113,1.0,nlpaueb/legal-bert-base-uncased,67,100,1e-05,0.8861111111111111,2,Knowledge
-114,1.0,nlpaueb/legal-bert-base-uncased,68,300,1e-05,1.0,2,Knowledge
-115,1.0,nlpaueb/legal-bert-base-uncased,7,300,0.0001,0.16455988630348403,4,Conditions to Closing
-116,1.0,nlpaueb/legal-bert-base-uncased,70,200,1e-05,0.22236652236652235,2,Deal Protection and Related Provisions
-117,1.0,nlpaueb/legal-bert-base-uncased,72,200,3e-05,0.6684552289038432,2,Deal Protection and Related Provisions
-118,1.0,nlpaueb/legal-bert-base-uncased,74,300,3e-05,0.9074095213134363,9,Deal Protection and Related Provisions
-119,1.0,nlpaueb/legal-bert-base-uncased,75,100,3e-05,0.9467813051146385,2,Deal Protection and Related Provisions
-120,1.0,nlpaueb/legal-bert-base-uncased,77,400,3e-05,0.908974358974359,2,Deal Protection and Related Provisions
-121,1.0,nlpaueb/legal-bert-base-uncased,78,200,3e-05,0.8996080308580309,4,Deal Protection and Related Provisions
-122,1.0,nlpaueb/legal-bert-base-uncased,8,400,0.0001,0.2553503276831153,4,Conditions to Closing
-123,1.0,nlpaueb/legal-bert-base-uncased,80,400,3e-05,0.7429238882113308,10,Deal Protection and Related Provisions
-124,1.0,nlpaueb/legal-bert-base-uncased,81,100,0.0001,0.23269922706197213,2,Deal Protection and Related Provisions
-125,1.0,nlpaueb/legal-bert-base-uncased,82,400,3e-05,0.8320328019113552,9,Deal Protection and Related Provisions
-126,1.0,nlpaueb/legal-bert-base-uncased,84,400,3e-05,0.9256471893764611,7,Deal Protection and Related Provisions
-127,1.0,nlpaueb/legal-bert-base-uncased,85,200,0.0001,0.27261339946995566,7,Deal Protection and Related Provisions
-128,1.0,nlpaueb/legal-bert-base-uncased,86,400,1e-05,0.4978955453149001,2,Deal Protection and Related Provisions
-129,1.0,nlpaueb/legal-bert-base-uncased,88,300,3e-05,0.7819772493975565,4,Deal Protection and Related Provisions
-130,1.0,nlpaueb/legal-bert-base-uncased,89,400,1e-05,0.6478378539431953,4,Deal Protection and Related Provisions
-131,1.0,nlpaueb/legal-bert-base-uncased,9,400,1e-05,0.5450393795814609,3,Conditions to Closing
-132,1.0,nlpaueb/legal-bert-base-uncased,90,300,0.0001,0.4951183091102446,2,Deal Protection and Related Provisions
-133,1.0,nlpaueb/legal-bert-base-uncased,92,300,0.0001,0.4110758014719506,4,Deal Protection and Related Provisions
-134,1.0,nlpaueb/legal-bert-base-uncased,93,200,1e-05,0.9999999999999997,2,Deal Protection and Related Provisions
-135,1.0,nlpaueb/legal-bert-base-uncased,94,400,3e-05,0.7295486266995939,2,Deal Protection and Related Provisions
-136,1.0,nlpaueb/legal-bert-base-uncased,95,400,3e-05,0.6601190476190476,2,Deal Protection and Related Provisions
-137,1.0,nlpaueb/legal-bert-base-uncased,97,200,1e-05,1.0,2,Deal Protection and Related Provisions
-138,1.0,nlpaueb/legal-bert-base-uncased,99.0,400,3e-05,0.6524107131249989,2,Deal Protection and Related Provisions
-139,1.0,nlpaueb/legal-bert-base-uncased,99.1,300,0.0001,0.5236782175097116,2,Deal Protection and Related Provisions
-140,1.0,nlpaueb/legal-bert-base-uncased,99.2,400,1e-05,0.7248491584239626,2,Deal Protection and Related Provisions
-141,1.0,nlpaueb/legal-bert-base-uncased,99.3,200,0.0001,0.5318729820007734,2,Deal Protection and Related Provisions
-142,1.0,nlpaueb/legal-bert-base-uncased,99.4,400,3e-05,0.7296337044703058,2,Deal Protection and Related Provisions
-143,1.0,nlpaueb/legal-bert-base-uncased,99.5,200,0.0001,0.31666666666666665,2,Deal Protection and Related Provisions
+,partial,model_name,spec_id,update_num,lr,aupr,category
+0,1.0,nlpaueb/legal-bert-base-uncased,10.0,100,1e-05,0.3410113796878502,Conditions to Closing
+1,1.0,nlpaueb/legal-bert-base-uncased,10.1,400,3e-05,0.3884720615484976,Conditions to Closing
+2,1.0,nlpaueb/legal-bert-base-uncased,10.10,400,3e-05,0.6554275157151834,Conditions to Closing
+3,1.0,nlpaueb/legal-bert-base-uncased,10.11,400,1e-05,0.6269335810072304,Conditions to Closing
+4,1.0,nlpaueb/legal-bert-base-uncased,10.12,400,3e-05,0.7403845629870096,Conditions to Closing
+5,1.0,nlpaueb/legal-bert-base-uncased,10.13,200,0.0001,0.7818646232439335,Conditions to Closing
+6,1.0,nlpaueb/legal-bert-base-uncased,10.2,200,1e-05,0.5208962101640754,Conditions to Closing
+7,1.0,nlpaueb/legal-bert-base-uncased,10.3,400,1e-05,0.32970978546309654,Conditions to Closing
+8,1.0,nlpaueb/legal-bert-base-uncased,10.4,100,0.0001,0.2873122454997507,Conditions to Closing
+9,1.0,nlpaueb/legal-bert-base-uncased,10.5,200,1e-05,0.5029585355459534,Conditions to Closing
+10,1.0,nlpaueb/legal-bert-base-uncased,10.6,300,3e-05,0.6777777777777777,Conditions to Closing
+11,1.0,nlpaueb/legal-bert-base-uncased,10.7,400,3e-05,0.6814189957524919,Conditions to Closing
+12,1.0,nlpaueb/legal-bert-base-uncased,10.8,300,3e-05,0.36663418707109785,Conditions to Closing
+13,1.0,nlpaueb/legal-bert-base-uncased,10.9,400,1e-05,0.5479135978675468,Conditions to Closing
+14,1.0,nlpaueb/legal-bert-base-uncased,101,400,3e-05,0.7351863801485403,Deal Protection and Related Provisions
+15,1.0,nlpaueb/legal-bert-base-uncased,102,400,0.0001,0.26126651037136367,Deal Protection and Related Provisions
+16,1.0,nlpaueb/legal-bert-base-uncased,103,200,3e-05,0.5237473637473637,Deal Protection and Related Provisions
+17,1.0,nlpaueb/legal-bert-base-uncased,105.0,100,3e-05,0.11528685548293392,Deal Protection and Related Provisions
+18,1.0,nlpaueb/legal-bert-base-uncased,105.1,200,0.0001,0.5167484367484367,Deal Protection and Related Provisions
+19,1.0,nlpaueb/legal-bert-base-uncased,105.2,300,1e-05,0.9269451343177444,Deal Protection and Related Provisions
+20,1.0,nlpaueb/legal-bert-base-uncased,105.3,200,3e-05,0.8666575889615104,Deal Protection and Related Provisions
+21,1.0,nlpaueb/legal-bert-base-uncased,105.4,100,1e-05,1.0,Deal Protection and Related Provisions
+22,1.0,nlpaueb/legal-bert-base-uncased,105.5,100,3e-05,0.425925925925926,Deal Protection and Related Provisions
+23,1.0,nlpaueb/legal-bert-base-uncased,105.6,300,3e-05,0.15788563288563293,Deal Protection and Related Provisions
+24,1.0,nlpaueb/legal-bert-base-uncased,105.7,100,1e-05,0.22474747474747472,Deal Protection and Related Provisions
+25,1.0,nlpaueb/legal-bert-base-uncased,105.8,200,3e-05,0.8467250473986869,Deal Protection and Related Provisions
+26,1.0,nlpaueb/legal-bert-base-uncased,105.9,400,1e-05,0.9021601991696079,Deal Protection and Related Provisions
+27,1.0,nlpaueb/legal-bert-base-uncased,106,300,1e-05,0.7058428754481385,Deal Protection and Related Provisions
+28,1.0,nlpaueb/legal-bert-base-uncased,107.0,300,1e-05,0.4746236758449313,Deal Protection and Related Provisions
+29,1.0,nlpaueb/legal-bert-base-uncased,107.1,200,1e-05,0.8089907866415551,Deal Protection and Related Provisions
+30,1.0,nlpaueb/legal-bert-base-uncased,107.2,200,1e-05,0.6619483542493272,Deal Protection and Related Provisions
+31,1.0,nlpaueb/legal-bert-base-uncased,107.3,300,3e-05,0.8688912231559289,Deal Protection and Related Provisions
+32,1.0,nlpaueb/legal-bert-base-uncased,108,200,0.0001,0.3191114763289686,Deal Protection and Related Provisions
+33,1.0,nlpaueb/legal-bert-base-uncased,109,400,3e-05,0.997282397512185,Deal Protection and Related Provisions
+34,1.0,nlpaueb/legal-bert-base-uncased,11.0,100,3e-05,0.29327345912401825,Conditions to Closing
+35,1.0,nlpaueb/legal-bert-base-uncased,11.1,100,0.0001,0.15268998145195137,Conditions to Closing
+36,1.0,nlpaueb/legal-bert-base-uncased,11.2,300,0.0001,0.18759521875869914,Conditions to Closing
+37,1.0,nlpaueb/legal-bert-base-uncased,11.3,400,3e-05,0.4497324924530807,Conditions to Closing
+38,1.0,nlpaueb/legal-bert-base-uncased,113,400,0.0001,0.9666666666666665,Deal Protection and Related Provisions
+39,1.0,nlpaueb/legal-bert-base-uncased,115,400,3e-05,0.8392857142857143,Deal Protection and Related Provisions
+40,1.0,nlpaueb/legal-bert-base-uncased,117,400,1e-05,1.0,Operating and Efforts Covenant
+41,1.0,nlpaueb/legal-bert-base-uncased,118,300,1e-05,0.945295077757073,Operating and Efforts Covenant
+42,1.0,nlpaueb/legal-bert-base-uncased,119,100,3e-05,1.0,Operating and Efforts Covenant
+43,1.0,nlpaueb/legal-bert-base-uncased,120,300,3e-05,0.9812925170068026,Operating and Efforts Covenant
+44,1.0,nlpaueb/legal-bert-base-uncased,122,200,1e-05,1.0,Operating and Efforts Covenant
+45,1.0,nlpaueb/legal-bert-base-uncased,123,100,3e-05,0.916137566137566,Operating and Efforts Covenant
+46,1.0,nlpaueb/legal-bert-base-uncased,124,100,1e-05,0.8448908686876603,Operating and Efforts Covenant
+47,1.0,nlpaueb/legal-bert-base-uncased,126,200,3e-05,0.806987228622701,Operating and Efforts Covenant
+48,1.0,nlpaueb/legal-bert-base-uncased,13,400,3e-05,0.8588055806368131,Conditions to Closing
+49,1.0,nlpaueb/legal-bert-base-uncased,130,200,1e-05,1.0,Remedies
+50,1.0,nlpaueb/legal-bert-base-uncased,15,100,0.0001,0.8365079365079365,Conditions to Closing
+51,1.0,nlpaueb/legal-bert-base-uncased,16,400,3e-05,0.9249779541446208,Conditions to Closing
+52,1.0,nlpaueb/legal-bert-base-uncased,21,200,3e-05,1.0,Material Adverse Effect
+53,1.0,nlpaueb/legal-bert-base-uncased,22,200,3e-05,0.5388626480731744,Material Adverse Effect
+54,1.0,nlpaueb/legal-bert-base-uncased,23,400,1e-05,1.0,Material Adverse Effect
+55,1.0,nlpaueb/legal-bert-base-uncased,24,400,1e-05,0.862037037037037,Material Adverse Effect
+56,1.0,nlpaueb/legal-bert-base-uncased,25.0,300,3e-05,0.8888888888888888,Material Adverse Effect
+57,1.0,nlpaueb/legal-bert-base-uncased,25.1,400,3e-05,0.9023094396912005,Material Adverse Effect
+58,1.0,nlpaueb/legal-bert-base-uncased,25.2,100,1e-05,0.9445544243338362,Material Adverse Effect
+59,1.0,nlpaueb/legal-bert-base-uncased,26,300,1e-05,0.9120799204532337,Material Adverse Effect
+60,1.0,nlpaueb/legal-bert-base-uncased,27,400,3e-05,0.7089031889031888,Material Adverse Effect
+61,1.0,nlpaueb/legal-bert-base-uncased,28,100,3e-05,0.49645969498910675,Material Adverse Effect
+62,1.0,nlpaueb/legal-bert-base-uncased,29,300,1e-05,0.19852163087457206,Material Adverse Effect
+63,1.0,nlpaueb/legal-bert-base-uncased,3,300,3e-05,0.9623773971600058,General Information
+64,1.0,nlpaueb/legal-bert-base-uncased,30,400,3e-05,0.9555555555555556,Material Adverse Effect
+65,1.0,nlpaueb/legal-bert-base-uncased,31,100,1e-05,1.0,Material Adverse Effect
+66,1.0,nlpaueb/legal-bert-base-uncased,32,300,0.0001,0.31188362539497727,Material Adverse Effect
+67,1.0,nlpaueb/legal-bert-base-uncased,33,300,0.0001,0.27958224566376755,Material Adverse Effect
+68,1.0,nlpaueb/legal-bert-base-uncased,34,400,3e-05,0.2813174851967955,Material Adverse Effect
+69,1.0,nlpaueb/legal-bert-base-uncased,35,100,3e-05,0.5091111686220383,Material Adverse Effect
+70,1.0,nlpaueb/legal-bert-base-uncased,36,200,0.0001,0.35896264196927435,Material Adverse Effect
+71,1.0,nlpaueb/legal-bert-base-uncased,37,100,0.0001,0.6262362637362637,Material Adverse Effect
+72,1.0,nlpaueb/legal-bert-base-uncased,38,300,1e-05,0.5808972485991118,Material Adverse Effect
+73,1.0,nlpaueb/legal-bert-base-uncased,39.0,300,3e-05,0.4754953562704322,Material Adverse Effect
+74,1.0,nlpaueb/legal-bert-base-uncased,39.1,200,0.0001,0.4232893793966224,Material Adverse Effect
+75,1.0,nlpaueb/legal-bert-base-uncased,39.2,400,1e-05,0.7524259157353628,Material Adverse Effect
+76,1.0,nlpaueb/legal-bert-base-uncased,39.3,400,0.0001,0.8444069464773399,Material Adverse Effect
+77,1.0,nlpaueb/legal-bert-base-uncased,42,100,0.0001,0.4423410296857502,Material Adverse Effect
+78,1.0,nlpaueb/legal-bert-base-uncased,43,200,0.0001,0.38143032864395093,Material Adverse Effect
+79,1.0,nlpaueb/legal-bert-base-uncased,44,100,0.0001,0.0892526455026455,Material Adverse Effect
+80,1.0,nlpaueb/legal-bert-base-uncased,45,200,1e-05,0.49210201354445854,Material Adverse Effect
+81,1.0,nlpaueb/legal-bert-base-uncased,46,400,0.0001,0.6282865282865283,Material Adverse Effect
+82,1.0,nlpaueb/legal-bert-base-uncased,47.0,400,3e-05,0.664891631916241,Material Adverse Effect
+83,1.0,nlpaueb/legal-bert-base-uncased,47.1,100,0.0001,0.6343775052108386,Material Adverse Effect
+84,1.0,nlpaueb/legal-bert-base-uncased,47.2,300,0.0001,0.41983961121892155,Material Adverse Effect
+85,1.0,nlpaueb/legal-bert-base-uncased,47.3,200,3e-05,0.3599244334538452,Material Adverse Effect
+86,1.0,nlpaueb/legal-bert-base-uncased,47.4,400,3e-05,0.9003219342258731,Material Adverse Effect
+87,1.0,nlpaueb/legal-bert-base-uncased,48.0,400,1e-05,0.684580360595807,Material Adverse Effect
+88,1.0,nlpaueb/legal-bert-base-uncased,48.1,100,0.0001,0.3722911980164836,Material Adverse Effect
+89,1.0,nlpaueb/legal-bert-base-uncased,48.2,200,0.0001,0.13737068001773886,Material Adverse Effect
+90,1.0,nlpaueb/legal-bert-base-uncased,48.3,400,3e-05,0.6831479741019214,Material Adverse Effect
+91,1.0,nlpaueb/legal-bert-base-uncased,48.4,200,1e-05,0.7968763246138811,Material Adverse Effect
+92,1.0,nlpaueb/legal-bert-base-uncased,49,400,1e-05,0.40416828269769445,Material Adverse Effect
+93,1.0,nlpaueb/legal-bert-base-uncased,50,100,0.0001,0.8976457854199084,Material Adverse Effect
+94,1.0,nlpaueb/legal-bert-base-uncased,51,400,3e-05,0.7515534202293095,Material Adverse Effect
+95,1.0,nlpaueb/legal-bert-base-uncased,52,100,0.0001,0.3497279807838814,Material Adverse Effect
+96,1.0,nlpaueb/legal-bert-base-uncased,53,300,1e-05,0.2488095238095238,Material Adverse Effect
+97,1.0,nlpaueb/legal-bert-base-uncased,54,100,1e-05,0.5869158403254513,Material Adverse Effect
+98,1.0,nlpaueb/legal-bert-base-uncased,55,400,3e-05,0.8519195455960161,Material Adverse Effect
+99,1.0,nlpaueb/legal-bert-base-uncased,57,100,0.0001,0.4353021978021978,Material Adverse Effect
+100,1.0,nlpaueb/legal-bert-base-uncased,58,200,1e-05,0.6838624338624338,Material Adverse Effect
+101,1.0,nlpaueb/legal-bert-base-uncased,59,400,0.0001,0.627424355230195,Material Adverse Effect
+102,1.0,nlpaueb/legal-bert-base-uncased,6,200,0.0001,0.9855840822741205,Conditions to Closing
+103,1.0,nlpaueb/legal-bert-base-uncased,60,300,3e-05,0.9722222222222222,Material Adverse Effect
+104,1.0,nlpaueb/legal-bert-base-uncased,61.0,400,3e-05,0.9242341673920621,Material Adverse Effect
+105,1.0,nlpaueb/legal-bert-base-uncased,61.1,300,3e-05,0.842418889477713,Material Adverse Effect
+106,1.0,nlpaueb/legal-bert-base-uncased,61.2,300,3e-05,0.9354455829688028,Material Adverse Effect
+107,1.0,nlpaueb/legal-bert-base-uncased,61.3,400,3e-05,0.45605402397530836,Material Adverse Effect
+108,1.0,nlpaueb/legal-bert-base-uncased,61.4,100,3e-05,0.8657407407407408,Material Adverse Effect
+109,1.0,nlpaueb/legal-bert-base-uncased,61.5,100,0.0001,0.27985347985347986,Material Adverse Effect
+110,1.0,nlpaueb/legal-bert-base-uncased,61.6,400,1e-05,0.4325460505382641,Material Adverse Effect
+111,1.0,nlpaueb/legal-bert-base-uncased,62,400,1e-05,0.7177019345437397,Material Adverse Effect
+112,1.0,nlpaueb/legal-bert-base-uncased,66,200,3e-05,0.9271430584232064,Knowledge
+113,1.0,nlpaueb/legal-bert-base-uncased,67,100,1e-05,0.8861111111111111,Knowledge
+114,1.0,nlpaueb/legal-bert-base-uncased,68,300,1e-05,1.0,Knowledge
+115,1.0,nlpaueb/legal-bert-base-uncased,7,300,0.0001,0.16455988630348403,Conditions to Closing
+116,1.0,nlpaueb/legal-bert-base-uncased,70,200,1e-05,0.22236652236652235,Deal Protection and Related Provisions
+117,1.0,nlpaueb/legal-bert-base-uncased,72,200,3e-05,0.6684552289038432,Deal Protection and Related Provisions
+118,1.0,nlpaueb/legal-bert-base-uncased,74,300,3e-05,0.9074095213134363,Deal Protection and Related Provisions
+119,1.0,nlpaueb/legal-bert-base-uncased,75,100,3e-05,0.9467813051146385,Deal Protection and Related Provisions
+120,1.0,nlpaueb/legal-bert-base-uncased,77,400,3e-05,0.908974358974359,Deal Protection and Related Provisions
+121,1.0,nlpaueb/legal-bert-base-uncased,78,200,3e-05,0.8996080308580309,Deal Protection and Related Provisions
+122,1.0,nlpaueb/legal-bert-base-uncased,8,400,0.0001,0.2553503276831153,Conditions to Closing
+123,1.0,nlpaueb/legal-bert-base-uncased,80,400,3e-05,0.7429238882113308,Deal Protection and Related Provisions
+124,1.0,nlpaueb/legal-bert-base-uncased,81,100,0.0001,0.23269922706197213,Deal Protection and Related Provisions
+125,1.0,nlpaueb/legal-bert-base-uncased,82,400,3e-05,0.8320328019113552,Deal Protection and Related Provisions
+126,1.0,nlpaueb/legal-bert-base-uncased,84,400,3e-05,0.9256471893764611,Deal Protection and Related Provisions
+127,1.0,nlpaueb/legal-bert-base-uncased,85,200,0.0001,0.27261339946995566,Deal Protection and Related Provisions
+128,1.0,nlpaueb/legal-bert-base-uncased,86,400,1e-05,0.4978955453149001,Deal Protection and Related Provisions
+129,1.0,nlpaueb/legal-bert-base-uncased,88,300,3e-05,0.7819772493975565,Deal Protection and Related Provisions
+130,1.0,nlpaueb/legal-bert-base-uncased,89,400,1e-05,0.6478378539431953,Deal Protection and Related Provisions
+131,1.0,nlpaueb/legal-bert-base-uncased,9,400,1e-05,0.5450393795814609,Conditions to Closing
+132,1.0,nlpaueb/legal-bert-base-uncased,90,300,0.0001,0.4951183091102446,Deal Protection and Related Provisions
+133,1.0,nlpaueb/legal-bert-base-uncased,92,300,0.0001,0.4110758014719506,Deal Protection and Related Provisions
+134,1.0,nlpaueb/legal-bert-base-uncased,93,200,1e-05,0.9999999999999997,Deal Protection and Related Provisions
+135,1.0,nlpaueb/legal-bert-base-uncased,94,400,3e-05,0.7295486266995939,Deal Protection and Related Provisions
+136,1.0,nlpaueb/legal-bert-base-uncased,95,400,3e-05,0.6601190476190476,Deal Protection and Related Provisions
+137,1.0,nlpaueb/legal-bert-base-uncased,97,200,1e-05,1.0,Deal Protection and Related Provisions
+138,1.0,nlpaueb/legal-bert-base-uncased,99.0,400,3e-05,0.6524107131249989,Deal Protection and Related Provisions
+139,1.0,nlpaueb/legal-bert-base-uncased,99.1,300,0.0001,0.5236782175097116,Deal Protection and Related Provisions
+140,1.0,nlpaueb/legal-bert-base-uncased,99.2,400,1e-05,0.7248491584239626,Deal Protection and Related Provisions
+141,1.0,nlpaueb/legal-bert-base-uncased,99.3,200,0.0001,0.5318729820007734,Deal Protection and Related Provisions
+142,1.0,nlpaueb/legal-bert-base-uncased,99.4,400,3e-05,0.7296337044703058,Deal Protection and Related Provisions
+143,1.0,nlpaueb/legal-bert-base-uncased,99.5,200,0.0001,0.31666666666666665,Deal Protection and Related Provisions

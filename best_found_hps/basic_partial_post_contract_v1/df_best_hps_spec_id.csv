@@ -1,577 +1,577 @@
-,model_name,partial,spec_id,lr,update_num,aupr,n_classes,category
-0,roberta-base,0.05,10.0,0.0001,100,0.20025080664385045,2,Conditions to Closing
-1,roberta-base,0.05,10.1,1e-05,200,0.29645291647400795,2,Conditions to Closing
-2,roberta-base,0.05,10.10,3e-05,100,0.34275797191890023,2,Conditions to Closing
-3,roberta-base,0.05,10.11,1e-05,100,0.448566046295735,2,Conditions to Closing
-4,roberta-base,0.05,10.12,3e-05,200,0.5668965533054838,2,Conditions to Closing
-5,roberta-base,0.05,10.13,1e-05,200,0.3975162374249595,2,Conditions to Closing
-6,roberta-base,0.05,10.2,0.0001,400,0.4138250036145541,2,Conditions to Closing
-7,roberta-base,0.05,10.3,1e-05,200,0.2808417735571192,2,Conditions to Closing
-8,roberta-base,0.05,10.4,3e-05,300,0.2891716788463132,2,Conditions to Closing
-9,roberta-base,0.05,10.5,0.0001,400,0.31846051619358656,2,Conditions to Closing
-10,roberta-base,0.05,10.6,3e-05,300,0.15753618518670898,2,Conditions to Closing
-11,roberta-base,0.05,10.7,1e-05,400,0.5783240299897973,2,Conditions to Closing
-12,roberta-base,0.05,10.8,0.0001,400,0.3717645165191514,2,Conditions to Closing
-13,roberta-base,0.05,10.9,1e-05,100,0.26393637765383976,2,Conditions to Closing
-14,roberta-base,0.05,101,1e-05,300,0.22215762406529188,8,Deal Protection and Related Provisions
-15,roberta-base,0.05,102,0.0001,100,0.24784751191007237,6,Deal Protection and Related Provisions
-16,roberta-base,0.05,103,1e-05,200,0.45849295183660504,2,Deal Protection and Related Provisions
-17,roberta-base,0.05,105.0,0.0001,100,0.18000000000000002,2,Deal Protection and Related Provisions
-18,roberta-base,0.05,105.1,0.0001,300,0.19130824372759858,2,Deal Protection and Related Provisions
-19,roberta-base,0.05,105.2,0.0001,200,0.5488305913098716,2,Deal Protection and Related Provisions
-20,roberta-base,0.05,105.3,0.0001,200,0.3992258517958251,2,Deal Protection and Related Provisions
-21,roberta-base,0.05,105.4,1e-05,100,0.5416666666666666,2,Deal Protection and Related Provisions
-22,roberta-base,0.05,105.5,1e-05,100,0.4365079365079365,2,Deal Protection and Related Provisions
-23,roberta-base,0.05,105.6,1e-05,400,0.0992063492063492,2,Deal Protection and Related Provisions
-24,roberta-base,0.05,105.7,0.0001,400,0.16008183979198473,2,Deal Protection and Related Provisions
-25,roberta-base,0.05,105.8,0.0001,200,0.4482996996472884,2,Deal Protection and Related Provisions
-26,roberta-base,0.05,105.9,3e-05,300,0.4144227823017072,2,Deal Protection and Related Provisions
-27,roberta-base,0.05,106,1e-05,400,0.6773402523402523,2,Deal Protection and Related Provisions
-28,roberta-base,0.05,107.0,1e-05,100,0.32892992933290527,2,Deal Protection and Related Provisions
-29,roberta-base,0.05,107.1,1e-05,400,0.5710043385825413,2,Deal Protection and Related Provisions
-30,roberta-base,0.05,107.2,3e-05,100,0.506735518420076,2,Deal Protection and Related Provisions
-31,roberta-base,0.05,107.3,1e-05,300,0.5667995266028624,2,Deal Protection and Related Provisions
-32,roberta-base,0.05,108,0.0001,100,0.3251555700522587,2,Deal Protection and Related Provisions
-33,roberta-base,0.05,109,1e-05,200,0.595239073704826,5,Deal Protection and Related Provisions
-34,roberta-base,0.05,11.0,1e-05,300,0.17387099782933113,2,Conditions to Closing
-35,roberta-base,0.05,11.1,0.0001,300,0.13540601572418073,2,Conditions to Closing
-36,roberta-base,0.05,11.2,0.0001,200,0.1841992567723655,2,Conditions to Closing
-37,roberta-base,0.05,11.3,0.0001,300,0.29127647267324647,2,Conditions to Closing
-38,roberta-base,0.05,113,0.0001,100,0.305541058512073,2,Deal Protection and Related Provisions
-39,roberta-base,0.05,115,0.0001,200,0.7338203463203463,2,Deal Protection and Related Provisions
-40,roberta-base,0.05,117,3e-05,100,0.7242797118847539,2,Operating and Efforts Covenant
-41,roberta-base,0.05,118,0.0001,100,0.6056364903563992,2,Operating and Efforts Covenant
-42,roberta-base,0.05,119,1e-05,100,0.5661169758937279,3,Operating and Efforts Covenant
-43,roberta-base,0.05,120,1e-05,200,0.4603492633097896,2,Operating and Efforts Covenant
-44,roberta-base,0.05,122,0.0001,300,0.8906698801506007,2,Operating and Efforts Covenant
-45,roberta-base,0.05,123,1e-05,400,0.809347515229868,2,Operating and Efforts Covenant
-46,roberta-base,0.05,124,3e-05,400,0.6740618080879832,2,Operating and Efforts Covenant
-47,roberta-base,0.05,126,1e-05,300,0.7376278146904238,3,Operating and Efforts Covenant
-48,roberta-base,0.05,13,0.0001,100,0.2760471781843284,3,Conditions to Closing
-49,roberta-base,0.05,130,3e-05,400,0.28970593290453106,2,Remedies
-50,roberta-base,0.05,15,1e-05,200,0.7685185185185185,2,Conditions to Closing
-51,roberta-base,0.05,16,3e-05,100,0.5624338624338624,3,Conditions to Closing
-52,roberta-base,0.05,21,1e-05,400,0.4381331050938894,2,Material Adverse Effect
-53,roberta-base,0.05,22,1e-05,200,0.4614403453689168,2,Material Adverse Effect
-54,roberta-base,0.05,23,1e-05,200,0.41013807282173104,2,Material Adverse Effect
-55,roberta-base,0.05,24,0.0001,100,0.30837095030324263,2,Material Adverse Effect
-56,roberta-base,0.05,25.0,1e-05,300,0.4538873327108621,2,Material Adverse Effect
-57,roberta-base,0.05,25.1,1e-05,300,0.6435194399530401,2,Material Adverse Effect
-58,roberta-base,0.05,25.2,0.0001,400,0.4314457727412293,2,Material Adverse Effect
-59,roberta-base,0.05,26,3e-05,100,0.2756490697583826,5,Material Adverse Effect
-60,roberta-base,0.05,27,0.0001,100,0.25807176042873986,2,Material Adverse Effect
-61,roberta-base,0.05,28,3e-05,200,0.32335257335257334,2,Material Adverse Effect
-62,roberta-base,0.05,29,1e-05,200,0.2585502217081164,2,Material Adverse Effect
-63,roberta-base,0.05,3,3e-05,100,0.5834736234925977,4,General Information
-64,roberta-base,0.05,30,0.0001,100,0.8240079365079365,2,Material Adverse Effect
-65,roberta-base,0.05,31,1e-05,400,0.3218972047213953,2,Material Adverse Effect
-66,roberta-base,0.05,32,0.0001,400,0.3195091682414197,2,Material Adverse Effect
-67,roberta-base,0.05,33,0.0001,400,0.2859125268722792,2,Material Adverse Effect
-68,roberta-base,0.05,34,1e-05,200,0.2999255374255374,2,Material Adverse Effect
-69,roberta-base,0.05,35,0.0001,400,0.2917063492063492,2,Material Adverse Effect
-70,roberta-base,0.05,36,0.0001,200,0.37379093082889736,2,Material Adverse Effect
-71,roberta-base,0.05,37,1e-05,400,0.4646163799968148,2,Material Adverse Effect
-72,roberta-base,0.05,38,0.0001,200,0.2917610837839868,2,Material Adverse Effect
-73,roberta-base,0.05,39.0,0.0001,400,0.3096890241815855,2,Material Adverse Effect
-74,roberta-base,0.05,39.1,3e-05,100,0.32452099528601275,2,Material Adverse Effect
-75,roberta-base,0.05,39.2,1e-05,400,0.5158580861432017,2,Material Adverse Effect
-76,roberta-base,0.05,39.3,3e-05,100,0.6955301648416091,2,Material Adverse Effect
-77,roberta-base,0.05,42,0.0001,400,0.4194718040708016,2,Material Adverse Effect
-78,roberta-base,0.05,43,3e-05,200,0.23257635037820798,2,Material Adverse Effect
-79,roberta-base,0.05,44,1e-05,200,0.18346560846560844,2,Material Adverse Effect
-80,roberta-base,0.05,45,3e-05,200,0.2670363168173332,2,Material Adverse Effect
-81,roberta-base,0.05,46,1e-05,400,0.3354315275367907,2,Material Adverse Effect
-82,roberta-base,0.05,47.0,3e-05,100,0.7069505923806823,2,Material Adverse Effect
-83,roberta-base,0.05,47.1,0.0001,100,0.3297647791911077,2,Material Adverse Effect
-84,roberta-base,0.05,47.2,3e-05,400,0.2449843185137303,2,Material Adverse Effect
-85,roberta-base,0.05,47.3,1e-05,100,0.2200671545940088,2,Material Adverse Effect
-86,roberta-base,0.05,47.4,3e-05,400,0.5431504370843636,2,Material Adverse Effect
-87,roberta-base,0.05,48.0,0.0001,400,0.41285135006189483,2,Material Adverse Effect
-88,roberta-base,0.05,48.1,0.0001,300,0.2934467332141036,2,Material Adverse Effect
-89,roberta-base,0.05,48.2,1e-05,100,0.19766552913977095,2,Material Adverse Effect
-90,roberta-base,0.05,48.3,1e-05,400,0.39266781922753813,2,Material Adverse Effect
-91,roberta-base,0.05,48.4,0.0001,100,0.40968316303434227,2,Material Adverse Effect
-92,roberta-base,0.05,49,0.0001,100,0.36724407637451123,2,Material Adverse Effect
-93,roberta-base,0.05,50,0.0001,400,0.485095280792184,2,Material Adverse Effect
-94,roberta-base,0.05,51,3e-05,400,0.5443416503754253,2,Material Adverse Effect
-95,roberta-base,0.05,52,0.0001,400,0.34215236249336844,2,Material Adverse Effect
-96,roberta-base,0.05,53,1e-05,100,0.1667038027332145,2,Material Adverse Effect
-97,roberta-base,0.05,54,0.0001,100,0.40114039927507417,2,Material Adverse Effect
-98,roberta-base,0.05,55,0.0001,200,0.5334439294396893,2,Material Adverse Effect
-99,roberta-base,0.05,57,1e-05,100,0.2753201438255786,2,Material Adverse Effect
-100,roberta-base,0.05,58,3e-05,400,0.29069905685155045,2,Material Adverse Effect
-101,roberta-base,0.05,59,0.0001,100,0.541166276712391,2,Material Adverse Effect
-102,roberta-base,0.05,6,1e-05,100,0.6976167872177251,2,Conditions to Closing
-103,roberta-base,0.05,60,1e-05,400,0.28658008658008655,2,Material Adverse Effect
-104,roberta-base,0.05,61.0,0.0001,100,0.6115258746917952,2,Material Adverse Effect
-105,roberta-base,0.05,61.1,1e-05,400,0.4475180875025595,2,Material Adverse Effect
-106,roberta-base,0.05,61.2,0.0001,400,0.45409835619236666,2,Material Adverse Effect
-107,roberta-base,0.05,61.3,3e-05,400,0.4315193545300904,2,Material Adverse Effect
-108,roberta-base,0.05,61.4,0.0001,400,0.5473230247423796,2,Material Adverse Effect
-109,roberta-base,0.05,61.5,0.0001,100,0.37865497076023386,2,Material Adverse Effect
-110,roberta-base,0.05,61.6,1e-05,200,0.4091148330921827,2,Material Adverse Effect
-111,roberta-base,0.05,62,3e-05,100,0.3909982085462251,3,Material Adverse Effect
-112,roberta-base,0.05,66,1e-05,400,0.811718985231451,2,Knowledge
-113,roberta-base,0.05,67,3e-05,200,0.7611832611832612,2,Knowledge
-114,roberta-base,0.05,68,0.0001,200,0.7043109668109668,2,Knowledge
-115,roberta-base,0.05,7,1e-05,200,0.13860365530572677,4,Conditions to Closing
-116,roberta-base,0.05,70,0.0001,100,0.12736312399355879,2,Deal Protection and Related Provisions
-117,roberta-base,0.05,72,1e-05,400,0.611541237725327,2,Deal Protection and Related Provisions
-118,roberta-base,0.05,74,3e-05,300,0.25946371244356414,9,Deal Protection and Related Provisions
-119,roberta-base,0.05,75,1e-05,400,0.6211894396489227,2,Deal Protection and Related Provisions
-120,roberta-base,0.05,77,0.0001,100,0.5109913543246877,2,Deal Protection and Related Provisions
-121,roberta-base,0.05,78,0.0001,400,0.48759520277964324,4,Deal Protection and Related Provisions
-122,roberta-base,0.05,8,1e-05,300,0.19457963197863148,4,Conditions to Closing
-123,roberta-base,0.05,80,1e-05,400,0.2089707063102188,10,Deal Protection and Related Provisions
-124,roberta-base,0.05,81,1e-05,400,0.6199211282544616,2,Deal Protection and Related Provisions
-125,roberta-base,0.05,82,1e-05,300,0.2757375096762028,9,Deal Protection and Related Provisions
-126,roberta-base,0.05,84,1e-05,400,0.2607194267940833,7,Deal Protection and Related Provisions
-127,roberta-base,0.05,85,0.0001,400,0.20276635349967953,7,Deal Protection and Related Provisions
-128,roberta-base,0.05,86,0.0001,100,0.2133299334226444,2,Deal Protection and Related Provisions
-129,roberta-base,0.05,88,3e-05,300,0.520838874199543,4,Deal Protection and Related Provisions
-130,roberta-base,0.05,89,0.0001,200,0.3726248261661056,4,Deal Protection and Related Provisions
-131,roberta-base,0.05,9,1e-05,200,0.33588682028392053,3,Conditions to Closing
-132,roberta-base,0.05,90,3e-05,200,0.3426855357834133,2,Deal Protection and Related Provisions
-133,roberta-base,0.05,92,0.0001,100,0.32140299935612837,4,Deal Protection and Related Provisions
-134,roberta-base,0.05,93,0.0001,400,0.8591977563467407,2,Deal Protection and Related Provisions
-135,roberta-base,0.05,94,0.0001,100,0.3899755106353378,2,Deal Protection and Related Provisions
-136,roberta-base,0.05,95,1e-05,400,0.33970630368656685,2,Deal Protection and Related Provisions
-137,roberta-base,0.05,97,1e-05,400,0.3785530746057062,2,Deal Protection and Related Provisions
-138,roberta-base,0.05,99.0,1e-05,200,0.38366080809037006,2,Deal Protection and Related Provisions
-139,roberta-base,0.05,99.1,1e-05,400,0.43602203439776915,2,Deal Protection and Related Provisions
-140,roberta-base,0.05,99.2,1e-05,300,0.3550709997171104,2,Deal Protection and Related Provisions
-141,roberta-base,0.05,99.3,0.0001,100,0.3129013887188323,2,Deal Protection and Related Provisions
-142,roberta-base,0.05,99.4,0.0001,100,0.40282525307733713,2,Deal Protection and Related Provisions
-143,roberta-base,0.05,99.5,0.0001,200,0.26669526669526666,2,Deal Protection and Related Provisions
-144,roberta-base,0.1,10.0,1e-05,200,0.22246200302199878,2,Conditions to Closing
-145,roberta-base,0.1,10.1,1e-05,100,0.3221844275993098,2,Conditions to Closing
-146,roberta-base,0.1,10.10,3e-05,400,0.35464637931887716,2,Conditions to Closing
-147,roberta-base,0.1,10.11,1e-05,300,0.6691331588765884,2,Conditions to Closing
-148,roberta-base,0.1,10.12,1e-05,100,0.6755356515412557,2,Conditions to Closing
-149,roberta-base,0.1,10.13,3e-05,100,0.42191142191142195,2,Conditions to Closing
-150,roberta-base,0.1,10.2,3e-05,200,0.3411238596895643,2,Conditions to Closing
-151,roberta-base,0.1,10.3,3e-05,400,0.2388567178570257,2,Conditions to Closing
-152,roberta-base,0.1,10.4,3e-05,400,0.28639138348224075,2,Conditions to Closing
-153,roberta-base,0.1,10.5,3e-05,300,0.3368694930974092,2,Conditions to Closing
-154,roberta-base,0.1,10.6,3e-05,400,0.1301211134544468,2,Conditions to Closing
-155,roberta-base,0.1,10.7,3e-05,100,0.584452578282677,2,Conditions to Closing
-156,roberta-base,0.1,10.8,1e-05,400,0.3596102375941057,2,Conditions to Closing
-157,roberta-base,0.1,10.9,3e-05,400,0.3168397025054375,2,Conditions to Closing
-158,roberta-base,0.1,101,1e-05,100,0.24470285029811872,8,Deal Protection and Related Provisions
-159,roberta-base,0.1,102,1e-05,400,0.21564022339347685,6,Deal Protection and Related Provisions
-160,roberta-base,0.1,103,1e-05,200,0.30812147162690645,2,Deal Protection and Related Provisions
-161,roberta-base,0.1,105.0,1e-05,300,0.11996336996336994,2,Deal Protection and Related Provisions
-162,roberta-base,0.1,105.1,3e-05,200,0.21527777777777776,2,Deal Protection and Related Provisions
-163,roberta-base,0.1,105.2,3e-05,400,0.6625898678121934,2,Deal Protection and Related Provisions
-164,roberta-base,0.1,105.3,0.0001,100,0.5388992838097014,2,Deal Protection and Related Provisions
-165,roberta-base,0.1,105.4,1e-05,200,0.7222222222222222,2,Deal Protection and Related Provisions
-166,roberta-base,0.1,105.5,3e-05,200,0.4175438596491228,2,Deal Protection and Related Provisions
-167,roberta-base,0.1,105.6,1e-05,100,0.20277777777777775,2,Deal Protection and Related Provisions
-168,roberta-base,0.1,105.7,3e-05,100,0.17319834303053216,2,Deal Protection and Related Provisions
-169,roberta-base,0.1,105.8,1e-05,400,0.5774620197153134,2,Deal Protection and Related Provisions
-170,roberta-base,0.1,105.9,0.0001,400,0.6134434464216681,2,Deal Protection and Related Provisions
-171,roberta-base,0.1,106,1e-05,300,0.5067556245497422,2,Deal Protection and Related Provisions
-172,roberta-base,0.1,107.0,3e-05,100,0.3850575731102311,2,Deal Protection and Related Provisions
-173,roberta-base,0.1,107.1,1e-05,200,0.5312419900067581,2,Deal Protection and Related Provisions
-174,roberta-base,0.1,107.2,3e-05,400,0.5562472774040542,2,Deal Protection and Related Provisions
-175,roberta-base,0.1,107.3,3e-05,200,0.5668517146556308,2,Deal Protection and Related Provisions
-176,roberta-base,0.1,108,1e-05,100,0.3027728970376029,2,Deal Protection and Related Provisions
-177,roberta-base,0.1,109,3e-05,200,0.9877547459260763,5,Deal Protection and Related Provisions
-178,roberta-base,0.1,11.0,1e-05,200,0.12373649054829593,2,Conditions to Closing
-179,roberta-base,0.1,11.1,3e-05,200,0.0826818327831499,2,Conditions to Closing
-180,roberta-base,0.1,11.2,0.0001,100,0.20071863668658455,2,Conditions to Closing
-181,roberta-base,0.1,11.3,1e-05,300,0.31142957846472874,2,Conditions to Closing
-182,roberta-base,0.1,113,3e-05,200,0.3328991328970689,2,Deal Protection and Related Provisions
-183,roberta-base,0.1,115,3e-05,100,0.6505291005291005,2,Deal Protection and Related Provisions
-184,roberta-base,0.1,117,0.0001,200,0.7033517368299976,2,Operating and Efforts Covenant
-185,roberta-base,0.1,118,1e-05,100,0.7970791448731328,2,Operating and Efforts Covenant
-186,roberta-base,0.1,119,3e-05,400,0.7950082312081896,3,Operating and Efforts Covenant
-187,roberta-base,0.1,120,1e-05,100,0.5287457912457912,2,Operating and Efforts Covenant
-188,roberta-base,0.1,122,3e-05,400,0.9408351188654219,2,Operating and Efforts Covenant
-189,roberta-base,0.1,123,3e-05,400,0.7775940261161937,2,Operating and Efforts Covenant
-190,roberta-base,0.1,124,3e-05,100,0.7277567465909529,2,Operating and Efforts Covenant
-191,roberta-base,0.1,126,3e-05,300,0.6901711635538228,3,Operating and Efforts Covenant
-192,roberta-base,0.1,13,0.0001,400,0.3309976216499397,3,Conditions to Closing
-193,roberta-base,0.1,130,3e-05,200,0.2736610450445169,2,Remedies
-194,roberta-base,0.1,15,1e-05,300,0.5026455026455027,2,Conditions to Closing
-195,roberta-base,0.1,16,0.0001,400,0.5484347442680776,3,Conditions to Closing
-196,roberta-base,0.1,21,1e-05,400,0.6707088572673751,2,Material Adverse Effect
-197,roberta-base,0.1,22,1e-05,300,0.4590039893816577,2,Material Adverse Effect
-198,roberta-base,0.1,23,3e-05,100,0.2865417021563066,2,Material Adverse Effect
-199,roberta-base,0.1,24,1e-05,200,0.4128770790612896,2,Material Adverse Effect
-200,roberta-base,0.1,25.0,1e-05,100,0.412764818027976,2,Material Adverse Effect
-201,roberta-base,0.1,25.1,3e-05,300,0.7444713433802127,2,Material Adverse Effect
-202,roberta-base,0.1,25.2,1e-05,200,0.39970886589703597,2,Material Adverse Effect
-203,roberta-base,0.1,26,3e-05,400,0.5165113583502128,5,Material Adverse Effect
-204,roberta-base,0.1,27,3e-05,100,0.21470524673562755,2,Material Adverse Effect
-205,roberta-base,0.1,28,1e-05,200,0.33089225589225585,2,Material Adverse Effect
-206,roberta-base,0.1,29,3e-05,200,0.23443038443038441,2,Material Adverse Effect
-207,roberta-base,0.1,3,3e-05,400,0.7134752030158152,4,General Information
-208,roberta-base,0.1,30,3e-05,300,0.6724867724867725,2,Material Adverse Effect
-209,roberta-base,0.1,31,1e-05,100,0.4723108219254264,2,Material Adverse Effect
-210,roberta-base,0.1,32,0.0001,100,0.3277878575672693,2,Material Adverse Effect
-211,roberta-base,0.1,33,1e-05,100,0.2255629755928136,2,Material Adverse Effect
-212,roberta-base,0.1,34,3e-05,100,0.24143808533514413,2,Material Adverse Effect
-213,roberta-base,0.1,35,3e-05,400,0.30912698412698414,2,Material Adverse Effect
-214,roberta-base,0.1,36,0.0001,100,0.3449614269641152,2,Material Adverse Effect
-215,roberta-base,0.1,37,1e-05,100,0.6143405205905206,2,Material Adverse Effect
-216,roberta-base,0.1,38,1e-05,200,0.3975008784793134,2,Material Adverse Effect
-217,roberta-base,0.1,39.0,3e-05,400,0.27756805756070413,2,Material Adverse Effect
-218,roberta-base,0.1,39.1,0.0001,300,0.2485766720371765,2,Material Adverse Effect
-219,roberta-base,0.1,39.2,3e-05,100,0.5771022646420207,2,Material Adverse Effect
-220,roberta-base,0.1,39.3,0.0001,300,0.7430247783383912,2,Material Adverse Effect
-221,roberta-base,0.1,42,3e-05,400,0.4006809409081775,2,Material Adverse Effect
-222,roberta-base,0.1,43,1e-05,400,0.2925132175374554,2,Material Adverse Effect
-223,roberta-base,0.1,44,3e-05,400,0.14262371615312794,2,Material Adverse Effect
-224,roberta-base,0.1,45,0.0001,100,0.2620735271268113,2,Material Adverse Effect
-225,roberta-base,0.1,46,3e-05,200,0.29799382716049383,2,Material Adverse Effect
-226,roberta-base,0.1,47.0,0.0001,100,0.4406034983914426,2,Material Adverse Effect
-227,roberta-base,0.1,47.1,3e-05,400,0.3794568510094938,2,Material Adverse Effect
-228,roberta-base,0.1,47.2,3e-05,100,0.2667989417989418,2,Material Adverse Effect
-229,roberta-base,0.1,47.3,3e-05,100,0.3382226738934056,2,Material Adverse Effect
-230,roberta-base,0.1,47.4,0.0001,100,0.5884310049033608,2,Material Adverse Effect
-231,roberta-base,0.1,48.0,1e-05,400,0.49348537785515695,2,Material Adverse Effect
-232,roberta-base,0.1,48.1,1e-05,100,0.3469168933480054,2,Material Adverse Effect
-233,roberta-base,0.1,48.2,3e-05,200,0.21530901347974518,2,Material Adverse Effect
-234,roberta-base,0.1,48.3,0.0001,400,0.3235256823951719,2,Material Adverse Effect
-235,roberta-base,0.1,48.4,3e-05,400,0.5698882728889131,2,Material Adverse Effect
-236,roberta-base,0.1,49,0.0001,300,0.4553586696919442,2,Material Adverse Effect
-237,roberta-base,0.1,50,3e-05,100,0.6525825433428687,2,Material Adverse Effect
-238,roberta-base,0.1,51,0.0001,200,0.7099763929561282,2,Material Adverse Effect
-239,roberta-base,0.1,52,3e-05,400,0.2717250257990999,2,Material Adverse Effect
-240,roberta-base,0.1,53,3e-05,100,0.3214285714285714,2,Material Adverse Effect
-241,roberta-base,0.1,54,1e-05,200,0.3182939232138317,2,Material Adverse Effect
-242,roberta-base,0.1,55,3e-05,100,0.508680330353503,2,Material Adverse Effect
-243,roberta-base,0.1,57,3e-05,400,0.296902142268275,2,Material Adverse Effect
-244,roberta-base,0.1,58,1e-05,100,0.26142909578979373,2,Material Adverse Effect
-245,roberta-base,0.1,59,1e-05,100,0.6710971866015725,2,Material Adverse Effect
-246,roberta-base,0.1,6,1e-05,400,0.5883658422929064,2,Conditions to Closing
-247,roberta-base,0.1,60,0.0001,400,0.5569400141768562,2,Material Adverse Effect
-248,roberta-base,0.1,61.0,1e-05,200,0.5230663635022117,2,Material Adverse Effect
-249,roberta-base,0.1,61.1,1e-05,100,0.5151820259023752,2,Material Adverse Effect
-250,roberta-base,0.1,61.2,3e-05,400,0.5000813713457367,2,Material Adverse Effect
-251,roberta-base,0.1,61.3,3e-05,400,0.4094624012930815,2,Material Adverse Effect
-252,roberta-base,0.1,61.4,3e-05,100,0.2148775776316427,2,Material Adverse Effect
-253,roberta-base,0.1,61.5,3e-05,100,0.5770609318996416,2,Material Adverse Effect
-254,roberta-base,0.1,61.6,1e-05,100,0.3369751631332181,2,Material Adverse Effect
-255,roberta-base,0.1,62,1e-05,200,0.35349459418466833,3,Material Adverse Effect
-256,roberta-base,0.1,66,1e-05,300,0.7280146582889094,2,Knowledge
-257,roberta-base,0.1,67,3e-05,100,0.7777777777777777,2,Knowledge
-258,roberta-base,0.1,68,3e-05,300,0.7023148148148147,2,Knowledge
-259,roberta-base,0.1,7,1e-05,400,0.17540392540602226,4,Conditions to Closing
-260,roberta-base,0.1,70,0.0001,100,0.27987303374300276,2,Deal Protection and Related Provisions
-261,roberta-base,0.1,72,1e-05,300,0.6575585508192692,2,Deal Protection and Related Provisions
-262,roberta-base,0.1,74,1e-05,400,0.4666402205658245,9,Deal Protection and Related Provisions
-263,roberta-base,0.1,75,3e-05,100,0.7667247038003034,2,Deal Protection and Related Provisions
-264,roberta-base,0.1,77,1e-05,400,0.6184289784289785,2,Deal Protection and Related Provisions
-265,roberta-base,0.1,78,1e-05,300,0.44023458701893714,4,Deal Protection and Related Provisions
-266,roberta-base,0.1,8,1e-05,200,0.26671186939398367,4,Conditions to Closing
-267,roberta-base,0.1,80,1e-05,400,0.3530041466971244,10,Deal Protection and Related Provisions
-268,roberta-base,0.1,81,1e-05,400,0.6319816879027406,2,Deal Protection and Related Provisions
-269,roberta-base,0.1,82,1e-05,400,0.4426948695510251,9,Deal Protection and Related Provisions
-270,roberta-base,0.1,84,1e-05,400,0.2667223190471933,7,Deal Protection and Related Provisions
-271,roberta-base,0.1,85,0.0001,400,0.20278298349339538,7,Deal Protection and Related Provisions
-272,roberta-base,0.1,86,3e-05,100,0.21214753822676022,2,Deal Protection and Related Provisions
-273,roberta-base,0.1,88,1e-05,400,0.7054185436811662,4,Deal Protection and Related Provisions
-274,roberta-base,0.1,89,3e-05,100,0.4358139766639366,4,Deal Protection and Related Provisions
-275,roberta-base,0.1,9,1e-05,300,0.2776513051674298,3,Conditions to Closing
-276,roberta-base,0.1,90,3e-05,200,0.3338069845916832,2,Deal Protection and Related Provisions
-277,roberta-base,0.1,92,3e-05,400,0.35961430429042973,4,Deal Protection and Related Provisions
-278,roberta-base,0.1,93,3e-05,200,0.8385795477314391,2,Deal Protection and Related Provisions
-279,roberta-base,0.1,94,1e-05,100,0.41116024531090334,2,Deal Protection and Related Provisions
-280,roberta-base,0.1,95,3e-05,100,0.4788690476190476,2,Deal Protection and Related Provisions
-281,roberta-base,0.1,97,3e-05,100,0.37124349080870817,2,Deal Protection and Related Provisions
-282,roberta-base,0.1,99.0,0.0001,400,0.3933677882000282,2,Deal Protection and Related Provisions
-283,roberta-base,0.1,99.1,1e-05,100,0.499765966195777,2,Deal Protection and Related Provisions
-284,roberta-base,0.1,99.2,1e-05,200,0.3616485834643233,2,Deal Protection and Related Provisions
-285,roberta-base,0.1,99.3,1e-05,100,0.41943653489809,2,Deal Protection and Related Provisions
-286,roberta-base,0.1,99.4,0.0001,200,0.5593546755144044,2,Deal Protection and Related Provisions
-287,roberta-base,0.1,99.5,1e-05,300,0.2708538375205042,2,Deal Protection and Related Provisions
-288,roberta-base,0.25,10.0,0.0001,200,0.16571428013601977,2,Conditions to Closing
-289,roberta-base,0.25,10.1,1e-05,400,0.19945962944044784,2,Conditions to Closing
-290,roberta-base,0.25,10.10,0.0001,100,0.401271173372983,2,Conditions to Closing
-291,roberta-base,0.25,10.11,1e-05,100,0.6044542976347781,2,Conditions to Closing
-292,roberta-base,0.25,10.12,1e-05,200,0.6651449348106225,2,Conditions to Closing
-293,roberta-base,0.25,10.13,0.0001,300,0.5142212725546059,2,Conditions to Closing
-294,roberta-base,0.25,10.2,1e-05,400,0.448342820562083,2,Conditions to Closing
-295,roberta-base,0.25,10.3,3e-05,100,0.2782258372189181,2,Conditions to Closing
-296,roberta-base,0.25,10.4,1e-05,100,0.319573687127771,2,Conditions to Closing
-297,roberta-base,0.25,10.5,1e-05,300,0.3853183223609808,2,Conditions to Closing
-298,roberta-base,0.25,10.6,0.0001,400,0.223162177328844,2,Conditions to Closing
-299,roberta-base,0.25,10.7,3e-05,200,0.6708256202987347,2,Conditions to Closing
-300,roberta-base,0.25,10.8,1e-05,100,0.42233108076544573,2,Conditions to Closing
-301,roberta-base,0.25,10.9,0.0001,400,0.3772583554108306,2,Conditions to Closing
-302,roberta-base,0.25,101,1e-05,400,0.2592917975018486,8,Deal Protection and Related Provisions
-303,roberta-base,0.25,102,0.0001,300,0.2771401938529931,6,Deal Protection and Related Provisions
-304,roberta-base,0.25,103,3e-05,100,0.269342031106737,2,Deal Protection and Related Provisions
-305,roberta-base,0.25,105.0,3e-05,300,0.09431153641679957,2,Deal Protection and Related Provisions
-306,roberta-base,0.25,105.1,3e-05,100,0.16960784313725488,2,Deal Protection and Related Provisions
-307,roberta-base,0.25,105.2,1e-05,100,0.6720327368766726,2,Deal Protection and Related Provisions
-308,roberta-base,0.25,105.3,0.0001,100,0.5997707816506376,2,Deal Protection and Related Provisions
-309,roberta-base,0.25,105.4,1e-05,100,0.6923076923076924,2,Deal Protection and Related Provisions
-310,roberta-base,0.25,105.5,1e-05,400,0.6770833333333334,2,Deal Protection and Related Provisions
-311,roberta-base,0.25,105.6,0.0001,400,0.3955555555555556,2,Deal Protection and Related Provisions
-312,roberta-base,0.25,105.7,0.0001,200,0.1425979888994136,2,Deal Protection and Related Provisions
-313,roberta-base,0.25,105.8,3e-05,200,0.8298035212904806,2,Deal Protection and Related Provisions
-314,roberta-base,0.25,105.9,3e-05,100,0.8220041615840893,2,Deal Protection and Related Provisions
-315,roberta-base,0.25,106,0.0001,300,0.6933908683908684,2,Deal Protection and Related Provisions
-316,roberta-base,0.25,107.0,3e-05,100,0.3744495446570324,2,Deal Protection and Related Provisions
-317,roberta-base,0.25,107.1,3e-05,400,0.6217201825625615,2,Deal Protection and Related Provisions
-318,roberta-base,0.25,107.2,3e-05,100,0.5945907054561091,2,Deal Protection and Related Provisions
-319,roberta-base,0.25,107.3,1e-05,400,0.5617089257992293,2,Deal Protection and Related Provisions
-320,roberta-base,0.25,108,0.0001,300,0.36484381903499546,2,Deal Protection and Related Provisions
-321,roberta-base,0.25,109,1e-05,200,0.9962328508237043,5,Deal Protection and Related Provisions
-322,roberta-base,0.25,11.0,0.0001,200,0.19875087548686868,2,Conditions to Closing
-323,roberta-base,0.25,11.1,3e-05,300,0.22665464940314548,2,Conditions to Closing
-324,roberta-base,0.25,11.2,0.0001,100,0.226521780549221,2,Conditions to Closing
-325,roberta-base,0.25,11.3,1e-05,100,0.33411650370678,2,Conditions to Closing
-326,roberta-base,0.25,113,0.0001,100,0.34984288587229767,2,Deal Protection and Related Provisions
-327,roberta-base,0.25,115,0.0001,100,0.6550505050505051,2,Deal Protection and Related Provisions
-328,roberta-base,0.25,117,3e-05,300,0.9052777777777777,2,Operating and Efforts Covenant
-329,roberta-base,0.25,118,3e-05,400,0.9112338273943044,2,Operating and Efforts Covenant
-330,roberta-base,0.25,119,1e-05,400,0.8761465424896601,3,Operating and Efforts Covenant
-331,roberta-base,0.25,120,0.0001,100,0.8606481481481482,2,Operating and Efforts Covenant
-332,roberta-base,0.25,122,3e-05,100,0.9974747474747474,2,Operating and Efforts Covenant
-333,roberta-base,0.25,123,1e-05,300,0.9179733846400512,2,Operating and Efforts Covenant
-334,roberta-base,0.25,124,0.0001,200,0.8107291955092037,2,Operating and Efforts Covenant
-335,roberta-base,0.25,126,1e-05,100,0.7254515779930603,3,Operating and Efforts Covenant
-336,roberta-base,0.25,13,3e-05,400,0.4424749246154474,3,Conditions to Closing
-337,roberta-base,0.25,130,0.0001,200,0.4296772726460227,2,Remedies
-338,roberta-base,0.25,15,3e-05,100,0.8365079365079365,2,Conditions to Closing
-339,roberta-base,0.25,16,3e-05,300,0.5558201058201058,3,Conditions to Closing
-340,roberta-base,0.25,21,3e-05,300,0.6662525360442026,2,Material Adverse Effect
-341,roberta-base,0.25,22,3e-05,100,0.5524911816578483,2,Material Adverse Effect
-342,roberta-base,0.25,23,0.0001,400,0.42149668668808477,2,Material Adverse Effect
-343,roberta-base,0.25,24,1e-05,300,0.6715842636895268,2,Material Adverse Effect
-344,roberta-base,0.25,25.0,3e-05,200,0.5994366635543106,2,Material Adverse Effect
-345,roberta-base,0.25,25.1,3e-05,100,0.7850748586767343,2,Material Adverse Effect
-346,roberta-base,0.25,25.2,0.0001,400,0.5409887716809846,2,Material Adverse Effect
-347,roberta-base,0.25,26,1e-05,400,0.6015018895634439,5,Material Adverse Effect
-348,roberta-base,0.25,27,1e-05,300,0.9056277056277056,2,Material Adverse Effect
-349,roberta-base,0.25,28,1e-05,400,0.27011784511784515,2,Material Adverse Effect
-350,roberta-base,0.25,29,0.0001,300,0.4384697884697884,2,Material Adverse Effect
-351,roberta-base,0.25,3,3e-05,300,0.7847589280263246,4,General Information
-352,roberta-base,0.25,30,1e-05,200,0.8126780626780626,2,Material Adverse Effect
-353,roberta-base,0.25,31,3e-05,200,0.6088552188552189,2,Material Adverse Effect
-354,roberta-base,0.25,32,0.0001,400,0.4376535702000098,2,Material Adverse Effect
-355,roberta-base,0.25,33,0.0001,400,0.2600432138667433,2,Material Adverse Effect
-356,roberta-base,0.25,34,3e-05,100,0.36890983245149905,2,Material Adverse Effect
-357,roberta-base,0.25,35,1e-05,200,0.28550682261208576,2,Material Adverse Effect
-358,roberta-base,0.25,36,0.0001,100,0.3660019139022444,2,Material Adverse Effect
-359,roberta-base,0.25,37,1e-05,400,0.43273399675823465,2,Material Adverse Effect
-360,roberta-base,0.25,38,0.0001,100,0.37736411906918815,2,Material Adverse Effect
-361,roberta-base,0.25,39.0,3e-05,200,0.3051897328822109,2,Material Adverse Effect
-362,roberta-base,0.25,39.1,0.0001,300,0.3540383113062933,2,Material Adverse Effect
-363,roberta-base,0.25,39.2,1e-05,400,0.7526179094311004,2,Material Adverse Effect
-364,roberta-base,0.25,39.3,1e-05,200,0.8518335712292098,2,Material Adverse Effect
-365,roberta-base,0.25,42,1e-05,400,0.3310458223924755,2,Material Adverse Effect
-366,roberta-base,0.25,43,3e-05,200,0.3697193610986715,2,Material Adverse Effect
-367,roberta-base,0.25,44,0.0001,400,0.25436507936507935,2,Material Adverse Effect
-368,roberta-base,0.25,45,3e-05,100,0.3962741956115107,2,Material Adverse Effect
-369,roberta-base,0.25,46,3e-05,300,0.43464775964775965,2,Material Adverse Effect
-370,roberta-base,0.25,47.0,1e-05,200,0.5452328414035511,2,Material Adverse Effect
-371,roberta-base,0.25,47.1,1e-05,100,0.5546143475219213,2,Material Adverse Effect
-372,roberta-base,0.25,47.2,0.0001,400,0.26113471355406837,2,Material Adverse Effect
-373,roberta-base,0.25,47.3,1e-05,200,0.36719154789330233,2,Material Adverse Effect
-374,roberta-base,0.25,47.4,3e-05,100,0.6505940991861751,2,Material Adverse Effect
-375,roberta-base,0.25,48.0,0.0001,100,0.3763779626141537,2,Material Adverse Effect
-376,roberta-base,0.25,48.1,3e-05,300,0.3553085577411097,2,Material Adverse Effect
-377,roberta-base,0.25,48.2,3e-05,400,0.21615992232319706,2,Material Adverse Effect
-378,roberta-base,0.25,48.3,3e-05,400,0.536063306694536,2,Material Adverse Effect
-379,roberta-base,0.25,48.4,3e-05,200,0.623930883121593,2,Material Adverse Effect
-380,roberta-base,0.25,49,0.0001,100,0.41133507930609375,2,Material Adverse Effect
-381,roberta-base,0.25,50,3e-05,300,0.8226462784673569,2,Material Adverse Effect
-382,roberta-base,0.25,51,0.0001,300,0.5445773631697011,2,Material Adverse Effect
-383,roberta-base,0.25,52,1e-05,100,0.36896154559553257,2,Material Adverse Effect
-384,roberta-base,0.25,53,1e-05,100,0.3521911663216011,2,Material Adverse Effect
-385,roberta-base,0.25,54,0.0001,100,0.4212137487729761,2,Material Adverse Effect
-386,roberta-base,0.25,55,3e-05,300,0.7109652947696427,2,Material Adverse Effect
-387,roberta-base,0.25,57,0.0001,100,0.4148481134878194,2,Material Adverse Effect
-388,roberta-base,0.25,58,3e-05,300,0.3640038066508655,2,Material Adverse Effect
-389,roberta-base,0.25,59,0.0001,200,0.6793297510502888,2,Material Adverse Effect
-390,roberta-base,0.25,6,1e-05,400,0.6746648511093826,2,Conditions to Closing
-391,roberta-base,0.25,60,0.0001,400,0.5950854700854701,2,Material Adverse Effect
-392,roberta-base,0.25,61.0,1e-05,100,0.5395675265980384,2,Material Adverse Effect
-393,roberta-base,0.25,61.1,3e-05,400,0.6074042401293954,2,Material Adverse Effect
-394,roberta-base,0.25,61.2,1e-05,400,0.4861680548119707,2,Material Adverse Effect
-395,roberta-base,0.25,61.3,3e-05,300,0.4135521678644567,2,Material Adverse Effect
-396,roberta-base,0.25,61.4,3e-05,100,0.4216310541310541,2,Material Adverse Effect
-397,roberta-base,0.25,61.5,0.0001,100,0.8333333333333334,2,Material Adverse Effect
-398,roberta-base,0.25,61.6,3e-05,300,0.3713197445754413,2,Material Adverse Effect
-399,roberta-base,0.25,62,3e-05,100,0.4636063550067177,3,Material Adverse Effect
-400,roberta-base,0.25,66,3e-05,200,0.9428708440094878,2,Knowledge
-401,roberta-base,0.25,67,0.0001,400,0.9111111111111111,2,Knowledge
-402,roberta-base,0.25,68,1e-05,100,0.9226190476190476,2,Knowledge
-403,roberta-base,0.25,7,0.0001,200,0.21460040544344833,4,Conditions to Closing
-404,roberta-base,0.25,70,0.0001,100,0.1630465051517683,2,Deal Protection and Related Provisions
-405,roberta-base,0.25,72,1e-05,300,0.7014090164098886,2,Deal Protection and Related Provisions
-406,roberta-base,0.25,74,3e-05,400,0.6939317911071154,9,Deal Protection and Related Provisions
-407,roberta-base,0.25,75,1e-05,200,0.8632270014409826,2,Deal Protection and Related Provisions
-408,roberta-base,0.25,77,1e-05,400,0.36152664575000903,2,Deal Protection and Related Provisions
-409,roberta-base,0.25,78,3e-05,200,0.5582483647927489,4,Deal Protection and Related Provisions
-410,roberta-base,0.25,8,3e-05,300,0.17921046062756296,4,Conditions to Closing
-411,roberta-base,0.25,80,3e-05,400,0.583767985331294,10,Deal Protection and Related Provisions
-412,roberta-base,0.25,81,1e-05,400,0.7238997113997113,2,Deal Protection and Related Provisions
-413,roberta-base,0.25,82,1e-05,400,0.7140716058045995,9,Deal Protection and Related Provisions
-414,roberta-base,0.25,84,3e-05,400,0.5576948974308822,7,Deal Protection and Related Provisions
-415,roberta-base,0.25,85,0.0001,300,0.21506344853916617,7,Deal Protection and Related Provisions
-416,roberta-base,0.25,86,3e-05,200,0.19588136445786142,2,Deal Protection and Related Provisions
-417,roberta-base,0.25,88,1e-05,200,0.6814526912572534,4,Deal Protection and Related Provisions
-418,roberta-base,0.25,89,3e-05,100,0.45399531685523997,4,Deal Protection and Related Provisions
-419,roberta-base,0.25,9,0.0001,300,0.2758743987090429,3,Conditions to Closing
-420,roberta-base,0.25,90,3e-05,400,0.45842406313866224,2,Deal Protection and Related Provisions
-421,roberta-base,0.25,92,0.0001,400,0.39621562886924583,4,Deal Protection and Related Provisions
-422,roberta-base,0.25,93,3e-05,200,0.994098973093466,2,Deal Protection and Related Provisions
-423,roberta-base,0.25,94,1e-05,200,0.49943177295500024,2,Deal Protection and Related Provisions
-424,roberta-base,0.25,95,1e-05,300,0.6018939393939394,2,Deal Protection and Related Provisions
-425,roberta-base,0.25,97,3e-05,300,0.7222222222222222,2,Deal Protection and Related Provisions
-426,roberta-base,0.25,99.0,0.0001,300,0.5779857927559083,2,Deal Protection and Related Provisions
-427,roberta-base,0.25,99.1,1e-05,100,0.5380888360890671,2,Deal Protection and Related Provisions
-428,roberta-base,0.25,99.2,0.0001,200,0.3204515357355666,2,Deal Protection and Related Provisions
-429,roberta-base,0.25,99.3,3e-05,300,0.34658122004928,2,Deal Protection and Related Provisions
-430,roberta-base,0.25,99.4,1e-05,200,0.4938741506354439,2,Deal Protection and Related Provisions
-431,roberta-base,0.25,99.5,0.0001,100,0.1701387037333286,2,Deal Protection and Related Provisions
-432,roberta-base,0.5,10.0,3e-05,400,0.23688691231294542,2,Conditions to Closing
-433,roberta-base,0.5,10.1,1e-05,200,0.3073754275732977,2,Conditions to Closing
-434,roberta-base,0.5,10.10,3e-05,100,0.3181680510623455,2,Conditions to Closing
-435,roberta-base,0.5,10.11,3e-05,100,0.6317406828928526,2,Conditions to Closing
-436,roberta-base,0.5,10.12,1e-05,100,0.7156019228267877,2,Conditions to Closing
-437,roberta-base,0.5,10.13,0.0001,400,0.5119658119658119,2,Conditions to Closing
-438,roberta-base,0.5,10.2,3e-05,100,0.39982632065962226,2,Conditions to Closing
-439,roberta-base,0.5,10.3,0.0001,100,0.2628146573979218,2,Conditions to Closing
-440,roberta-base,0.5,10.4,3e-05,200,0.34183375751226447,2,Conditions to Closing
-441,roberta-base,0.5,10.5,3e-05,200,0.5212979003436193,2,Conditions to Closing
-442,roberta-base,0.5,10.6,0.0001,200,0.08941670111255985,2,Conditions to Closing
-443,roberta-base,0.5,10.7,3e-05,300,0.6907132664047126,2,Conditions to Closing
-444,roberta-base,0.5,10.8,3e-05,300,0.4193353803115074,2,Conditions to Closing
-445,roberta-base,0.5,10.9,3e-05,400,0.2799461461003545,2,Conditions to Closing
-446,roberta-base,0.5,101,3e-05,400,0.48289025951887526,8,Deal Protection and Related Provisions
-447,roberta-base,0.5,102,0.0001,300,0.2696734372829259,6,Deal Protection and Related Provisions
-448,roberta-base,0.5,103,3e-05,200,0.388052466921728,2,Deal Protection and Related Provisions
-449,roberta-base,0.5,105.0,0.0001,100,0.08521303258145363,2,Deal Protection and Related Provisions
-450,roberta-base,0.5,105.1,1e-05,400,0.12698412698412698,2,Deal Protection and Related Provisions
-451,roberta-base,0.5,105.2,3e-05,300,0.7839548427080755,2,Deal Protection and Related Provisions
-452,roberta-base,0.5,105.3,3e-05,300,0.6953829548766541,2,Deal Protection and Related Provisions
-453,roberta-base,0.5,105.4,1e-05,400,0.6862745098039215,2,Deal Protection and Related Provisions
-454,roberta-base,0.5,105.5,1e-05,100,1.0,2,Deal Protection and Related Provisions
-455,roberta-base,0.5,105.6,3e-05,200,0.12083333333333333,2,Deal Protection and Related Provisions
-456,roberta-base,0.5,105.7,1e-05,100,0.18363285288572642,2,Deal Protection and Related Provisions
-457,roberta-base,0.5,105.8,1e-05,200,0.7514475904617482,2,Deal Protection and Related Provisions
-458,roberta-base,0.5,105.9,3e-05,400,0.9162648189973325,2,Deal Protection and Related Provisions
-459,roberta-base,0.5,106,3e-05,100,0.6691269805285822,2,Deal Protection and Related Provisions
-460,roberta-base,0.5,107.0,3e-05,200,0.45899420860328566,2,Deal Protection and Related Provisions
-461,roberta-base,0.5,107.1,1e-05,200,0.7245684702243462,2,Deal Protection and Related Provisions
-462,roberta-base,0.5,107.2,3e-05,300,0.650097096601428,2,Deal Protection and Related Provisions
-463,roberta-base,0.5,107.3,1e-05,300,0.6701279653265543,2,Deal Protection and Related Provisions
-464,roberta-base,0.5,108,1e-05,300,0.2880383284187632,2,Deal Protection and Related Provisions
-465,roberta-base,0.5,109,1e-05,400,0.9933590504179168,5,Deal Protection and Related Provisions
-466,roberta-base,0.5,11.0,0.0001,200,0.1150305947651233,2,Conditions to Closing
-467,roberta-base,0.5,11.1,0.0001,300,0.20474810869841029,2,Conditions to Closing
-468,roberta-base,0.5,11.2,3e-05,100,0.22504144222662867,2,Conditions to Closing
-469,roberta-base,0.5,11.3,3e-05,400,0.42831951328328133,2,Conditions to Closing
-470,roberta-base,0.5,113,3e-05,300,0.5743114909781576,2,Deal Protection and Related Provisions
-471,roberta-base,0.5,115,3e-05,200,0.8691919191919192,2,Deal Protection and Related Provisions
-472,roberta-base,0.5,117,1e-05,100,1.0,2,Operating and Efforts Covenant
-473,roberta-base,0.5,118,1e-05,300,0.9254512745132679,2,Operating and Efforts Covenant
-474,roberta-base,0.5,119,1e-05,400,0.9977949891451035,3,Operating and Efforts Covenant
-475,roberta-base,0.5,120,1e-05,300,0.733060458060458,2,Operating and Efforts Covenant
-476,roberta-base,0.5,122,1e-05,100,0.9974747474747474,2,Operating and Efforts Covenant
-477,roberta-base,0.5,123,1e-05,100,0.9282804909403373,2,Operating and Efforts Covenant
-478,roberta-base,0.5,124,3e-05,400,0.8688483001450916,2,Operating and Efforts Covenant
-479,roberta-base,0.5,126,1e-05,100,0.8547118914916072,3,Operating and Efforts Covenant
-480,roberta-base,0.5,13,0.0001,200,0.5782871262903743,3,Conditions to Closing
-481,roberta-base,0.5,130,1e-05,400,0.5425998958813197,2,Remedies
-482,roberta-base,0.5,15,3e-05,100,0.697089947089947,2,Conditions to Closing
-483,roberta-base,0.5,16,1e-05,300,0.6200433568489124,3,Conditions to Closing
-484,roberta-base,0.5,21,3e-05,300,0.8627736779457794,2,Material Adverse Effect
-485,roberta-base,0.5,22,3e-05,200,0.43234224724372505,2,Material Adverse Effect
-486,roberta-base,0.5,23,3e-05,200,0.5570323958043256,2,Material Adverse Effect
-487,roberta-base,0.5,24,3e-05,100,0.687765246449457,2,Material Adverse Effect
-488,roberta-base,0.5,25.0,3e-05,300,0.8878632478632479,2,Material Adverse Effect
-489,roberta-base,0.5,25.1,1e-05,400,0.8766570358411608,2,Material Adverse Effect
-490,roberta-base,0.5,25.2,3e-05,400,0.7722508394383394,2,Material Adverse Effect
-491,roberta-base,0.5,26,3e-05,400,0.8357779258431239,5,Material Adverse Effect
-492,roberta-base,0.5,27,3e-05,100,1.0,2,Material Adverse Effect
-493,roberta-base,0.5,28,1e-05,300,0.3372510115157174,2,Material Adverse Effect
-494,roberta-base,0.5,29,0.0001,100,0.277116143513993,2,Material Adverse Effect
-495,roberta-base,0.5,3,3e-05,200,0.9496832642665977,4,General Information
-496,roberta-base,0.5,30,3e-05,100,0.9351851851851851,2,Material Adverse Effect
-497,roberta-base,0.5,31,1e-05,300,0.586694702221018,2,Material Adverse Effect
-498,roberta-base,0.5,32,0.0001,300,0.42644417780287336,2,Material Adverse Effect
-499,roberta-base,0.5,33,0.0001,200,0.22870321587360123,2,Material Adverse Effect
-500,roberta-base,0.5,34,3e-05,400,0.20481754321268386,2,Material Adverse Effect
-501,roberta-base,0.5,35,3e-05,100,0.30266280016280017,2,Material Adverse Effect
-502,roberta-base,0.5,36,3e-05,400,0.37902716800743114,2,Material Adverse Effect
-503,roberta-base,0.5,37,1e-05,100,0.5826885990894858,2,Material Adverse Effect
-504,roberta-base,0.5,38,1e-05,100,0.48432057221248764,2,Material Adverse Effect
-505,roberta-base,0.5,39.0,3e-05,300,0.34077945880691124,2,Material Adverse Effect
-506,roberta-base,0.5,39.1,3e-05,400,0.3578670294289425,2,Material Adverse Effect
-507,roberta-base,0.5,39.2,3e-05,400,0.7449667270041722,2,Material Adverse Effect
-508,roberta-base,0.5,39.3,1e-05,400,0.8339479134366327,2,Material Adverse Effect
-509,roberta-base,0.5,42,0.0001,200,0.4227698027205416,2,Material Adverse Effect
-510,roberta-base,0.5,43,3e-05,200,0.3399214236056341,2,Material Adverse Effect
-511,roberta-base,0.5,44,0.0001,100,0.2836700336700337,2,Material Adverse Effect
-512,roberta-base,0.5,45,1e-05,100,0.24964680943163012,2,Material Adverse Effect
-513,roberta-base,0.5,46,0.0001,100,0.2898602337008134,2,Material Adverse Effect
-514,roberta-base,0.5,47.0,3e-05,100,0.5655500369192856,2,Material Adverse Effect
-515,roberta-base,0.5,47.1,1e-05,200,0.44329068382704634,2,Material Adverse Effect
-516,roberta-base,0.5,47.2,3e-05,100,0.3785954785954786,2,Material Adverse Effect
-517,roberta-base,0.5,47.3,0.0001,400,0.349400871459695,2,Material Adverse Effect
-518,roberta-base,0.5,47.4,1e-05,400,0.8476099945779773,2,Material Adverse Effect
-519,roberta-base,0.5,48.0,0.0001,100,0.4107091398230909,2,Material Adverse Effect
-520,roberta-base,0.5,48.1,3e-05,300,0.2588016895273559,2,Material Adverse Effect
-521,roberta-base,0.5,48.2,0.0001,300,0.28504334923975433,2,Material Adverse Effect
-522,roberta-base,0.5,48.3,3e-05,400,0.6833295723189341,2,Material Adverse Effect
-523,roberta-base,0.5,48.4,1e-05,200,0.6762986422187635,2,Material Adverse Effect
-524,roberta-base,0.5,49,3e-05,200,0.5836760461760462,2,Material Adverse Effect
-525,roberta-base,0.5,50,1e-05,100,0.7276067153488549,2,Material Adverse Effect
-526,roberta-base,0.5,51,1e-05,200,0.7363989787237659,2,Material Adverse Effect
-527,roberta-base,0.5,52,1e-05,400,0.2736061632937358,2,Material Adverse Effect
-528,roberta-base,0.5,53,1e-05,100,0.21080932955932954,2,Material Adverse Effect
-529,roberta-base,0.5,54,1e-05,200,0.3581881081881082,2,Material Adverse Effect
-530,roberta-base,0.5,55,1e-05,100,0.6039746055831666,2,Material Adverse Effect
-531,roberta-base,0.5,57,3e-05,200,0.42509296259296253,2,Material Adverse Effect
-532,roberta-base,0.5,58,3e-05,400,0.3821623002601264,2,Material Adverse Effect
-533,roberta-base,0.5,59,1e-05,300,0.5995309670868153,2,Material Adverse Effect
-534,roberta-base,0.5,6,3e-05,400,0.9186498339671253,2,Conditions to Closing
-535,roberta-base,0.5,60,3e-05,100,0.6384356384356384,2,Material Adverse Effect
-536,roberta-base,0.5,61.0,1e-05,200,0.7369773063174577,2,Material Adverse Effect
-537,roberta-base,0.5,61.1,3e-05,300,0.6465981608403211,2,Material Adverse Effect
-538,roberta-base,0.5,61.2,1e-05,200,0.5223989061144944,2,Material Adverse Effect
-539,roberta-base,0.5,61.3,0.0001,400,0.41432488267890505,2,Material Adverse Effect
-540,roberta-base,0.5,61.4,3e-05,400,0.4774126330534034,2,Material Adverse Effect
-541,roberta-base,0.5,61.5,1e-05,300,0.49722222222222223,2,Material Adverse Effect
-542,roberta-base,0.5,61.6,1e-05,400,0.5248593708005703,2,Material Adverse Effect
-543,roberta-base,0.5,62,3e-05,400,0.38872493768554434,3,Material Adverse Effect
-544,roberta-base,0.5,66,1e-05,100,0.9195335796848073,2,Knowledge
-545,roberta-base,0.5,67,1e-05,100,0.8108465608465608,2,Knowledge
-546,roberta-base,0.5,68,0.0001,100,0.9642857142857143,2,Knowledge
-547,roberta-base,0.5,7,1e-05,400,0.24870950436402134,4,Conditions to Closing
-548,roberta-base,0.5,70,0.0001,400,0.3676984126984127,2,Deal Protection and Related Provisions
-549,roberta-base,0.5,72,3e-05,100,0.6668951482322045,2,Deal Protection and Related Provisions
-550,roberta-base,0.5,74,1e-05,400,0.8375091748475599,9,Deal Protection and Related Provisions
-551,roberta-base,0.5,75,3e-05,200,1.0,2,Deal Protection and Related Provisions
-552,roberta-base,0.5,77,1e-05,100,0.4755449907133344,2,Deal Protection and Related Provisions
-553,roberta-base,0.5,78,3e-05,300,0.8393390945474279,4,Deal Protection and Related Provisions
-554,roberta-base,0.5,8,3e-05,400,0.18157498541220007,4,Conditions to Closing
-555,roberta-base,0.5,80,1e-05,400,0.6356275289858032,10,Deal Protection and Related Provisions
-556,roberta-base,0.5,81,1e-05,400,0.8114197530864197,2,Deal Protection and Related Provisions
-557,roberta-base,0.5,82,1e-05,400,0.8209121535743029,9,Deal Protection and Related Provisions
-558,roberta-base,0.5,84,3e-05,400,0.7064996342093719,7,Deal Protection and Related Provisions
-559,roberta-base,0.5,85,3e-05,100,0.1937351768461602,7,Deal Protection and Related Provisions
-560,roberta-base,0.5,86,0.0001,100,0.2917936851440688,2,Deal Protection and Related Provisions
-561,roberta-base,0.5,88,1e-05,400,0.7057664285259542,4,Deal Protection and Related Provisions
-562,roberta-base,0.5,89,3e-05,200,0.4964305537672423,4,Deal Protection and Related Provisions
-563,roberta-base,0.5,9,3e-05,200,0.3290809856482479,3,Conditions to Closing
-564,roberta-base,0.5,90,3e-05,200,0.555018011946869,2,Deal Protection and Related Provisions
-565,roberta-base,0.5,92,3e-05,400,0.43642582026958626,4,Deal Protection and Related Provisions
-566,roberta-base,0.5,93,1e-05,100,0.9999999999999997,2,Deal Protection and Related Provisions
-567,roberta-base,0.5,94,3e-05,400,0.6997314201416426,2,Deal Protection and Related Provisions
-568,roberta-base,0.5,95,1e-05,400,0.4688492063492064,2,Deal Protection and Related Provisions
-569,roberta-base,0.5,97,0.0001,100,1.0,2,Deal Protection and Related Provisions
-570,roberta-base,0.5,99.0,1e-05,400,0.5283829201929421,2,Deal Protection and Related Provisions
-571,roberta-base,0.5,99.1,1e-05,100,0.6348256475825925,2,Deal Protection and Related Provisions
-572,roberta-base,0.5,99.2,3e-05,400,0.4220084235018488,2,Deal Protection and Related Provisions
-573,roberta-base,0.5,99.3,1e-05,100,0.3514137219460949,2,Deal Protection and Related Provisions
-574,roberta-base,0.5,99.4,3e-05,300,0.5028599694912534,2,Deal Protection and Related Provisions
-575,roberta-base,0.5,99.5,0.0001,400,0.23348440545808966,2,Deal Protection and Related Provisions
+,model_name,partial,spec_id,lr,update_num,aupr,category
+0,roberta-base,0.05,10.0,0.0001,100,0.20025080664385045,Conditions to Closing
+1,roberta-base,0.05,10.1,1e-05,200,0.29645291647400795,Conditions to Closing
+2,roberta-base,0.05,10.10,3e-05,100,0.34275797191890023,Conditions to Closing
+3,roberta-base,0.05,10.11,1e-05,100,0.448566046295735,Conditions to Closing
+4,roberta-base,0.05,10.12,3e-05,200,0.5668965533054838,Conditions to Closing
+5,roberta-base,0.05,10.13,1e-05,200,0.3975162374249595,Conditions to Closing
+6,roberta-base,0.05,10.2,0.0001,400,0.4138250036145541,Conditions to Closing
+7,roberta-base,0.05,10.3,1e-05,200,0.2808417735571192,Conditions to Closing
+8,roberta-base,0.05,10.4,3e-05,300,0.2891716788463132,Conditions to Closing
+9,roberta-base,0.05,10.5,0.0001,400,0.31846051619358656,Conditions to Closing
+10,roberta-base,0.05,10.6,3e-05,300,0.15753618518670898,Conditions to Closing
+11,roberta-base,0.05,10.7,1e-05,400,0.5783240299897973,Conditions to Closing
+12,roberta-base,0.05,10.8,0.0001,400,0.3717645165191514,Conditions to Closing
+13,roberta-base,0.05,10.9,1e-05,100,0.26393637765383976,Conditions to Closing
+14,roberta-base,0.05,101,1e-05,300,0.22215762406529188,Deal Protection and Related Provisions
+15,roberta-base,0.05,102,0.0001,100,0.24784751191007237,Deal Protection and Related Provisions
+16,roberta-base,0.05,103,1e-05,200,0.45849295183660504,Deal Protection and Related Provisions
+17,roberta-base,0.05,105.0,0.0001,100,0.18000000000000002,Deal Protection and Related Provisions
+18,roberta-base,0.05,105.1,0.0001,300,0.19130824372759858,Deal Protection and Related Provisions
+19,roberta-base,0.05,105.2,0.0001,200,0.5488305913098716,Deal Protection and Related Provisions
+20,roberta-base,0.05,105.3,0.0001,200,0.3992258517958251,Deal Protection and Related Provisions
+21,roberta-base,0.05,105.4,1e-05,100,0.5416666666666666,Deal Protection and Related Provisions
+22,roberta-base,0.05,105.5,1e-05,100,0.4365079365079365,Deal Protection and Related Provisions
+23,roberta-base,0.05,105.6,1e-05,400,0.0992063492063492,Deal Protection and Related Provisions
+24,roberta-base,0.05,105.7,0.0001,400,0.16008183979198473,Deal Protection and Related Provisions
+25,roberta-base,0.05,105.8,0.0001,200,0.4482996996472884,Deal Protection and Related Provisions
+26,roberta-base,0.05,105.9,3e-05,300,0.4144227823017072,Deal Protection and Related Provisions
+27,roberta-base,0.05,106,1e-05,400,0.6773402523402523,Deal Protection and Related Provisions
+28,roberta-base,0.05,107.0,1e-05,100,0.32892992933290527,Deal Protection and Related Provisions
+29,roberta-base,0.05,107.1,1e-05,400,0.5710043385825413,Deal Protection and Related Provisions
+30,roberta-base,0.05,107.2,3e-05,100,0.506735518420076,Deal Protection and Related Provisions
+31,roberta-base,0.05,107.3,1e-05,300,0.5667995266028624,Deal Protection and Related Provisions
+32,roberta-base,0.05,108,0.0001,100,0.3251555700522587,Deal Protection and Related Provisions
+33,roberta-base,0.05,109,1e-05,200,0.595239073704826,Deal Protection and Related Provisions
+34,roberta-base,0.05,11.0,1e-05,300,0.17387099782933113,Conditions to Closing
+35,roberta-base,0.05,11.1,0.0001,300,0.13540601572418073,Conditions to Closing
+36,roberta-base,0.05,11.2,0.0001,200,0.1841992567723655,Conditions to Closing
+37,roberta-base,0.05,11.3,0.0001,300,0.29127647267324647,Conditions to Closing
+38,roberta-base,0.05,113,0.0001,100,0.305541058512073,Deal Protection and Related Provisions
+39,roberta-base,0.05,115,0.0001,200,0.7338203463203463,Deal Protection and Related Provisions
+40,roberta-base,0.05,117,3e-05,100,0.7242797118847539,Operating and Efforts Covenant
+41,roberta-base,0.05,118,0.0001,100,0.6056364903563992,Operating and Efforts Covenant
+42,roberta-base,0.05,119,1e-05,100,0.5661169758937279,Operating and Efforts Covenant
+43,roberta-base,0.05,120,1e-05,200,0.4603492633097896,Operating and Efforts Covenant
+44,roberta-base,0.05,122,0.0001,300,0.8906698801506007,Operating and Efforts Covenant
+45,roberta-base,0.05,123,1e-05,400,0.809347515229868,Operating and Efforts Covenant
+46,roberta-base,0.05,124,3e-05,400,0.6740618080879832,Operating and Efforts Covenant
+47,roberta-base,0.05,126,1e-05,300,0.7376278146904238,Operating and Efforts Covenant
+48,roberta-base,0.05,13,0.0001,100,0.2760471781843284,Conditions to Closing
+49,roberta-base,0.05,130,3e-05,400,0.28970593290453106,Remedies
+50,roberta-base,0.05,15,1e-05,200,0.7685185185185185,Conditions to Closing
+51,roberta-base,0.05,16,3e-05,100,0.5624338624338624,Conditions to Closing
+52,roberta-base,0.05,21,1e-05,400,0.4381331050938894,Material Adverse Effect
+53,roberta-base,0.05,22,1e-05,200,0.4614403453689168,Material Adverse Effect
+54,roberta-base,0.05,23,1e-05,200,0.41013807282173104,Material Adverse Effect
+55,roberta-base,0.05,24,0.0001,100,0.30837095030324263,Material Adverse Effect
+56,roberta-base,0.05,25.0,1e-05,300,0.4538873327108621,Material Adverse Effect
+57,roberta-base,0.05,25.1,1e-05,300,0.6435194399530401,Material Adverse Effect
+58,roberta-base,0.05,25.2,0.0001,400,0.4314457727412293,Material Adverse Effect
+59,roberta-base,0.05,26,3e-05,100,0.2756490697583826,Material Adverse Effect
+60,roberta-base,0.05,27,0.0001,100,0.25807176042873986,Material Adverse Effect
+61,roberta-base,0.05,28,3e-05,200,0.32335257335257334,Material Adverse Effect
+62,roberta-base,0.05,29,1e-05,200,0.2585502217081164,Material Adverse Effect
+63,roberta-base,0.05,3,3e-05,100,0.5834736234925977,General Information
+64,roberta-base,0.05,30,0.0001,100,0.8240079365079365,Material Adverse Effect
+65,roberta-base,0.05,31,1e-05,400,0.3218972047213953,Material Adverse Effect
+66,roberta-base,0.05,32,0.0001,400,0.3195091682414197,Material Adverse Effect
+67,roberta-base,0.05,33,0.0001,400,0.2859125268722792,Material Adverse Effect
+68,roberta-base,0.05,34,1e-05,200,0.2999255374255374,Material Adverse Effect
+69,roberta-base,0.05,35,0.0001,400,0.2917063492063492,Material Adverse Effect
+70,roberta-base,0.05,36,0.0001,200,0.37379093082889736,Material Adverse Effect
+71,roberta-base,0.05,37,1e-05,400,0.4646163799968148,Material Adverse Effect
+72,roberta-base,0.05,38,0.0001,200,0.2917610837839868,Material Adverse Effect
+73,roberta-base,0.05,39.0,0.0001,400,0.3096890241815855,Material Adverse Effect
+74,roberta-base,0.05,39.1,3e-05,100,0.32452099528601275,Material Adverse Effect
+75,roberta-base,0.05,39.2,1e-05,400,0.5158580861432017,Material Adverse Effect
+76,roberta-base,0.05,39.3,3e-05,100,0.6955301648416091,Material Adverse Effect
+77,roberta-base,0.05,42,0.0001,400,0.4194718040708016,Material Adverse Effect
+78,roberta-base,0.05,43,3e-05,200,0.23257635037820798,Material Adverse Effect
+79,roberta-base,0.05,44,1e-05,200,0.18346560846560844,Material Adverse Effect
+80,roberta-base,0.05,45,3e-05,200,0.2670363168173332,Material Adverse Effect
+81,roberta-base,0.05,46,1e-05,400,0.3354315275367907,Material Adverse Effect
+82,roberta-base,0.05,47.0,3e-05,100,0.7069505923806823,Material Adverse Effect
+83,roberta-base,0.05,47.1,0.0001,100,0.3297647791911077,Material Adverse Effect
+84,roberta-base,0.05,47.2,3e-05,400,0.2449843185137303,Material Adverse Effect
+85,roberta-base,0.05,47.3,1e-05,100,0.2200671545940088,Material Adverse Effect
+86,roberta-base,0.05,47.4,3e-05,400,0.5431504370843636,Material Adverse Effect
+87,roberta-base,0.05,48.0,0.0001,400,0.41285135006189483,Material Adverse Effect
+88,roberta-base,0.05,48.1,0.0001,300,0.2934467332141036,Material Adverse Effect
+89,roberta-base,0.05,48.2,1e-05,100,0.19766552913977095,Material Adverse Effect
+90,roberta-base,0.05,48.3,1e-05,400,0.39266781922753813,Material Adverse Effect
+91,roberta-base,0.05,48.4,0.0001,100,0.40968316303434227,Material Adverse Effect
+92,roberta-base,0.05,49,0.0001,100,0.36724407637451123,Material Adverse Effect
+93,roberta-base,0.05,50,0.0001,400,0.485095280792184,Material Adverse Effect
+94,roberta-base,0.05,51,3e-05,400,0.5443416503754253,Material Adverse Effect
+95,roberta-base,0.05,52,0.0001,400,0.34215236249336844,Material Adverse Effect
+96,roberta-base,0.05,53,1e-05,100,0.1667038027332145,Material Adverse Effect
+97,roberta-base,0.05,54,0.0001,100,0.40114039927507417,Material Adverse Effect
+98,roberta-base,0.05,55,0.0001,200,0.5334439294396893,Material Adverse Effect
+99,roberta-base,0.05,57,1e-05,100,0.2753201438255786,Material Adverse Effect
+100,roberta-base,0.05,58,3e-05,400,0.29069905685155045,Material Adverse Effect
+101,roberta-base,0.05,59,0.0001,100,0.541166276712391,Material Adverse Effect
+102,roberta-base,0.05,6,1e-05,100,0.6976167872177251,Conditions to Closing
+103,roberta-base,0.05,60,1e-05,400,0.28658008658008655,Material Adverse Effect
+104,roberta-base,0.05,61.0,0.0001,100,0.6115258746917952,Material Adverse Effect
+105,roberta-base,0.05,61.1,1e-05,400,0.4475180875025595,Material Adverse Effect
+106,roberta-base,0.05,61.2,0.0001,400,0.45409835619236666,Material Adverse Effect
+107,roberta-base,0.05,61.3,3e-05,400,0.4315193545300904,Material Adverse Effect
+108,roberta-base,0.05,61.4,0.0001,400,0.5473230247423796,Material Adverse Effect
+109,roberta-base,0.05,61.5,0.0001,100,0.37865497076023386,Material Adverse Effect
+110,roberta-base,0.05,61.6,1e-05,200,0.4091148330921827,Material Adverse Effect
+111,roberta-base,0.05,62,3e-05,100,0.3909982085462251,Material Adverse Effect
+112,roberta-base,0.05,66,1e-05,400,0.811718985231451,Knowledge
+113,roberta-base,0.05,67,3e-05,200,0.7611832611832612,Knowledge
+114,roberta-base,0.05,68,0.0001,200,0.7043109668109668,Knowledge
+115,roberta-base,0.05,7,1e-05,200,0.13860365530572677,Conditions to Closing
+116,roberta-base,0.05,70,0.0001,100,0.12736312399355879,Deal Protection and Related Provisions
+117,roberta-base,0.05,72,1e-05,400,0.611541237725327,Deal Protection and Related Provisions
+118,roberta-base,0.05,74,3e-05,300,0.25946371244356414,Deal Protection and Related Provisions
+119,roberta-base,0.05,75,1e-05,400,0.6211894396489227,Deal Protection and Related Provisions
+120,roberta-base,0.05,77,0.0001,100,0.5109913543246877,Deal Protection and Related Provisions
+121,roberta-base,0.05,78,0.0001,400,0.48759520277964324,Deal Protection and Related Provisions
+122,roberta-base,0.05,8,1e-05,300,0.19457963197863148,Conditions to Closing
+123,roberta-base,0.05,80,1e-05,400,0.2089707063102188,Deal Protection and Related Provisions
+124,roberta-base,0.05,81,1e-05,400,0.6199211282544616,Deal Protection and Related Provisions
+125,roberta-base,0.05,82,1e-05,300,0.2757375096762028,Deal Protection and Related Provisions
+126,roberta-base,0.05,84,1e-05,400,0.2607194267940833,Deal Protection and Related Provisions
+127,roberta-base,0.05,85,0.0001,400,0.20276635349967953,Deal Protection and Related Provisions
+128,roberta-base,0.05,86,0.0001,100,0.2133299334226444,Deal Protection and Related Provisions
+129,roberta-base,0.05,88,3e-05,300,0.520838874199543,Deal Protection and Related Provisions
+130,roberta-base,0.05,89,0.0001,200,0.3726248261661056,Deal Protection and Related Provisions
+131,roberta-base,0.05,9,1e-05,200,0.33588682028392053,Conditions to Closing
+132,roberta-base,0.05,90,3e-05,200,0.3426855357834133,Deal Protection and Related Provisions
+133,roberta-base,0.05,92,0.0001,100,0.32140299935612837,Deal Protection and Related Provisions
+134,roberta-base,0.05,93,0.0001,400,0.8591977563467407,Deal Protection and Related Provisions
+135,roberta-base,0.05,94,0.0001,100,0.3899755106353378,Deal Protection and Related Provisions
+136,roberta-base,0.05,95,1e-05,400,0.33970630368656685,Deal Protection and Related Provisions
+137,roberta-base,0.05,97,1e-05,400,0.3785530746057062,Deal Protection and Related Provisions
+138,roberta-base,0.05,99.0,1e-05,200,0.38366080809037006,Deal Protection and Related Provisions
+139,roberta-base,0.05,99.1,1e-05,400,0.43602203439776915,Deal Protection and Related Provisions
+140,roberta-base,0.05,99.2,1e-05,300,0.3550709997171104,Deal Protection and Related Provisions
+141,roberta-base,0.05,99.3,0.0001,100,0.3129013887188323,Deal Protection and Related Provisions
+142,roberta-base,0.05,99.4,0.0001,100,0.40282525307733713,Deal Protection and Related Provisions
+143,roberta-base,0.05,99.5,0.0001,200,0.26669526669526666,Deal Protection and Related Provisions
+144,roberta-base,0.1,10.0,1e-05,200,0.22246200302199878,Conditions to Closing
+145,roberta-base,0.1,10.1,1e-05,100,0.3221844275993098,Conditions to Closing
+146,roberta-base,0.1,10.10,3e-05,400,0.35464637931887716,Conditions to Closing
+147,roberta-base,0.1,10.11,1e-05,300,0.6691331588765884,Conditions to Closing
+148,roberta-base,0.1,10.12,1e-05,100,0.6755356515412557,Conditions to Closing
+149,roberta-base,0.1,10.13,3e-05,100,0.42191142191142195,Conditions to Closing
+150,roberta-base,0.1,10.2,3e-05,200,0.3411238596895643,Conditions to Closing
+151,roberta-base,0.1,10.3,3e-05,400,0.2388567178570257,Conditions to Closing
+152,roberta-base,0.1,10.4,3e-05,400,0.28639138348224075,Conditions to Closing
+153,roberta-base,0.1,10.5,3e-05,300,0.3368694930974092,Conditions to Closing
+154,roberta-base,0.1,10.6,3e-05,400,0.1301211134544468,Conditions to Closing
+155,roberta-base,0.1,10.7,3e-05,100,0.584452578282677,Conditions to Closing
+156,roberta-base,0.1,10.8,1e-05,400,0.3596102375941057,Conditions to Closing
+157,roberta-base,0.1,10.9,3e-05,400,0.3168397025054375,Conditions to Closing
+158,roberta-base,0.1,101,1e-05,100,0.24470285029811872,Deal Protection and Related Provisions
+159,roberta-base,0.1,102,1e-05,400,0.21564022339347685,Deal Protection and Related Provisions
+160,roberta-base,0.1,103,1e-05,200,0.30812147162690645,Deal Protection and Related Provisions
+161,roberta-base,0.1,105.0,1e-05,300,0.11996336996336994,Deal Protection and Related Provisions
+162,roberta-base,0.1,105.1,3e-05,200,0.21527777777777776,Deal Protection and Related Provisions
+163,roberta-base,0.1,105.2,3e-05,400,0.6625898678121934,Deal Protection and Related Provisions
+164,roberta-base,0.1,105.3,0.0001,100,0.5388992838097014,Deal Protection and Related Provisions
+165,roberta-base,0.1,105.4,1e-05,200,0.7222222222222222,Deal Protection and Related Provisions
+166,roberta-base,0.1,105.5,3e-05,200,0.4175438596491228,Deal Protection and Related Provisions
+167,roberta-base,0.1,105.6,1e-05,100,0.20277777777777775,Deal Protection and Related Provisions
+168,roberta-base,0.1,105.7,3e-05,100,0.17319834303053216,Deal Protection and Related Provisions
+169,roberta-base,0.1,105.8,1e-05,400,0.5774620197153134,Deal Protection and Related Provisions
+170,roberta-base,0.1,105.9,0.0001,400,0.6134434464216681,Deal Protection and Related Provisions
+171,roberta-base,0.1,106,1e-05,300,0.5067556245497422,Deal Protection and Related Provisions
+172,roberta-base,0.1,107.0,3e-05,100,0.3850575731102311,Deal Protection and Related Provisions
+173,roberta-base,0.1,107.1,1e-05,200,0.5312419900067581,Deal Protection and Related Provisions
+174,roberta-base,0.1,107.2,3e-05,400,0.5562472774040542,Deal Protection and Related Provisions
+175,roberta-base,0.1,107.3,3e-05,200,0.5668517146556308,Deal Protection and Related Provisions
+176,roberta-base,0.1,108,1e-05,100,0.3027728970376029,Deal Protection and Related Provisions
+177,roberta-base,0.1,109,3e-05,200,0.9877547459260763,Deal Protection and Related Provisions
+178,roberta-base,0.1,11.0,1e-05,200,0.12373649054829593,Conditions to Closing
+179,roberta-base,0.1,11.1,3e-05,200,0.0826818327831499,Conditions to Closing
+180,roberta-base,0.1,11.2,0.0001,100,0.20071863668658455,Conditions to Closing
+181,roberta-base,0.1,11.3,1e-05,300,0.31142957846472874,Conditions to Closing
+182,roberta-base,0.1,113,3e-05,200,0.3328991328970689,Deal Protection and Related Provisions
+183,roberta-base,0.1,115,3e-05,100,0.6505291005291005,Deal Protection and Related Provisions
+184,roberta-base,0.1,117,0.0001,200,0.7033517368299976,Operating and Efforts Covenant
+185,roberta-base,0.1,118,1e-05,100,0.7970791448731328,Operating and Efforts Covenant
+186,roberta-base,0.1,119,3e-05,400,0.7950082312081896,Operating and Efforts Covenant
+187,roberta-base,0.1,120,1e-05,100,0.5287457912457912,Operating and Efforts Covenant
+188,roberta-base,0.1,122,3e-05,400,0.9408351188654219,Operating and Efforts Covenant
+189,roberta-base,0.1,123,3e-05,400,0.7775940261161937,Operating and Efforts Covenant
+190,roberta-base,0.1,124,3e-05,100,0.7277567465909529,Operating and Efforts Covenant
+191,roberta-base,0.1,126,3e-05,300,0.6901711635538228,Operating and Efforts Covenant
+192,roberta-base,0.1,13,0.0001,400,0.3309976216499397,Conditions to Closing
+193,roberta-base,0.1,130,3e-05,200,0.2736610450445169,Remedies
+194,roberta-base,0.1,15,1e-05,300,0.5026455026455027,Conditions to Closing
+195,roberta-base,0.1,16,0.0001,400,0.5484347442680776,Conditions to Closing
+196,roberta-base,0.1,21,1e-05,400,0.6707088572673751,Material Adverse Effect
+197,roberta-base,0.1,22,1e-05,300,0.4590039893816577,Material Adverse Effect
+198,roberta-base,0.1,23,3e-05,100,0.2865417021563066,Material Adverse Effect
+199,roberta-base,0.1,24,1e-05,200,0.4128770790612896,Material Adverse Effect
+200,roberta-base,0.1,25.0,1e-05,100,0.412764818027976,Material Adverse Effect
+201,roberta-base,0.1,25.1,3e-05,300,0.7444713433802127,Material Adverse Effect
+202,roberta-base,0.1,25.2,1e-05,200,0.39970886589703597,Material Adverse Effect
+203,roberta-base,0.1,26,3e-05,400,0.5165113583502128,Material Adverse Effect
+204,roberta-base,0.1,27,3e-05,100,0.21470524673562755,Material Adverse Effect
+205,roberta-base,0.1,28,1e-05,200,0.33089225589225585,Material Adverse Effect
+206,roberta-base,0.1,29,3e-05,200,0.23443038443038441,Material Adverse Effect
+207,roberta-base,0.1,3,3e-05,400,0.7134752030158152,General Information
+208,roberta-base,0.1,30,3e-05,300,0.6724867724867725,Material Adverse Effect
+209,roberta-base,0.1,31,1e-05,100,0.4723108219254264,Material Adverse Effect
+210,roberta-base,0.1,32,0.0001,100,0.3277878575672693,Material Adverse Effect
+211,roberta-base,0.1,33,1e-05,100,0.2255629755928136,Material Adverse Effect
+212,roberta-base,0.1,34,3e-05,100,0.24143808533514413,Material Adverse Effect
+213,roberta-base,0.1,35,3e-05,400,0.30912698412698414,Material Adverse Effect
+214,roberta-base,0.1,36,0.0001,100,0.3449614269641152,Material Adverse Effect
+215,roberta-base,0.1,37,1e-05,100,0.6143405205905206,Material Adverse Effect
+216,roberta-base,0.1,38,1e-05,200,0.3975008784793134,Material Adverse Effect
+217,roberta-base,0.1,39.0,3e-05,400,0.27756805756070413,Material Adverse Effect
+218,roberta-base,0.1,39.1,0.0001,300,0.2485766720371765,Material Adverse Effect
+219,roberta-base,0.1,39.2,3e-05,100,0.5771022646420207,Material Adverse Effect
+220,roberta-base,0.1,39.3,0.0001,300,0.7430247783383912,Material Adverse Effect
+221,roberta-base,0.1,42,3e-05,400,0.4006809409081775,Material Adverse Effect
+222,roberta-base,0.1,43,1e-05,400,0.2925132175374554,Material Adverse Effect
+223,roberta-base,0.1,44,3e-05,400,0.14262371615312794,Material Adverse Effect
+224,roberta-base,0.1,45,0.0001,100,0.2620735271268113,Material Adverse Effect
+225,roberta-base,0.1,46,3e-05,200,0.29799382716049383,Material Adverse Effect
+226,roberta-base,0.1,47.0,0.0001,100,0.4406034983914426,Material Adverse Effect
+227,roberta-base,0.1,47.1,3e-05,400,0.3794568510094938,Material Adverse Effect
+228,roberta-base,0.1,47.2,3e-05,100,0.2667989417989418,Material Adverse Effect
+229,roberta-base,0.1,47.3,3e-05,100,0.3382226738934056,Material Adverse Effect
+230,roberta-base,0.1,47.4,0.0001,100,0.5884310049033608,Material Adverse Effect
+231,roberta-base,0.1,48.0,1e-05,400,0.49348537785515695,Material Adverse Effect
+232,roberta-base,0.1,48.1,1e-05,100,0.3469168933480054,Material Adverse Effect
+233,roberta-base,0.1,48.2,3e-05,200,0.21530901347974518,Material Adverse Effect
+234,roberta-base,0.1,48.3,0.0001,400,0.3235256823951719,Material Adverse Effect
+235,roberta-base,0.1,48.4,3e-05,400,0.5698882728889131,Material Adverse Effect
+236,roberta-base,0.1,49,0.0001,300,0.4553586696919442,Material Adverse Effect
+237,roberta-base,0.1,50,3e-05,100,0.6525825433428687,Material Adverse Effect
+238,roberta-base,0.1,51,0.0001,200,0.7099763929561282,Material Adverse Effect
+239,roberta-base,0.1,52,3e-05,400,0.2717250257990999,Material Adverse Effect
+240,roberta-base,0.1,53,3e-05,100,0.3214285714285714,Material Adverse Effect
+241,roberta-base,0.1,54,1e-05,200,0.3182939232138317,Material Adverse Effect
+242,roberta-base,0.1,55,3e-05,100,0.508680330353503,Material Adverse Effect
+243,roberta-base,0.1,57,3e-05,400,0.296902142268275,Material Adverse Effect
+244,roberta-base,0.1,58,1e-05,100,0.26142909578979373,Material Adverse Effect
+245,roberta-base,0.1,59,1e-05,100,0.6710971866015725,Material Adverse Effect
+246,roberta-base,0.1,6,1e-05,400,0.5883658422929064,Conditions to Closing
+247,roberta-base,0.1,60,0.0001,400,0.5569400141768562,Material Adverse Effect
+248,roberta-base,0.1,61.0,1e-05,200,0.5230663635022117,Material Adverse Effect
+249,roberta-base,0.1,61.1,1e-05,100,0.5151820259023752,Material Adverse Effect
+250,roberta-base,0.1,61.2,3e-05,400,0.5000813713457367,Material Adverse Effect
+251,roberta-base,0.1,61.3,3e-05,400,0.4094624012930815,Material Adverse Effect
+252,roberta-base,0.1,61.4,3e-05,100,0.2148775776316427,Material Adverse Effect
+253,roberta-base,0.1,61.5,3e-05,100,0.5770609318996416,Material Adverse Effect
+254,roberta-base,0.1,61.6,1e-05,100,0.3369751631332181,Material Adverse Effect
+255,roberta-base,0.1,62,1e-05,200,0.35349459418466833,Material Adverse Effect
+256,roberta-base,0.1,66,1e-05,300,0.7280146582889094,Knowledge
+257,roberta-base,0.1,67,3e-05,100,0.7777777777777777,Knowledge
+258,roberta-base,0.1,68,3e-05,300,0.7023148148148147,Knowledge
+259,roberta-base,0.1,7,1e-05,400,0.17540392540602226,Conditions to Closing
+260,roberta-base,0.1,70,0.0001,100,0.27987303374300276,Deal Protection and Related Provisions
+261,roberta-base,0.1,72,1e-05,300,0.6575585508192692,Deal Protection and Related Provisions
+262,roberta-base,0.1,74,1e-05,400,0.4666402205658245,Deal Protection and Related Provisions
+263,roberta-base,0.1,75,3e-05,100,0.7667247038003034,Deal Protection and Related Provisions
+264,roberta-base,0.1,77,1e-05,400,0.6184289784289785,Deal Protection and Related Provisions
+265,roberta-base,0.1,78,1e-05,300,0.44023458701893714,Deal Protection and Related Provisions
+266,roberta-base,0.1,8,1e-05,200,0.26671186939398367,Conditions to Closing
+267,roberta-base,0.1,80,1e-05,400,0.3530041466971244,Deal Protection and Related Provisions
+268,roberta-base,0.1,81,1e-05,400,0.6319816879027406,Deal Protection and Related Provisions
+269,roberta-base,0.1,82,1e-05,400,0.4426948695510251,Deal Protection and Related Provisions
+270,roberta-base,0.1,84,1e-05,400,0.2667223190471933,Deal Protection and Related Provisions
+271,roberta-base,0.1,85,0.0001,400,0.20278298349339538,Deal Protection and Related Provisions
+272,roberta-base,0.1,86,3e-05,100,0.21214753822676022,Deal Protection and Related Provisions
+273,roberta-base,0.1,88,1e-05,400,0.7054185436811662,Deal Protection and Related Provisions
+274,roberta-base,0.1,89,3e-05,100,0.4358139766639366,Deal Protection and Related Provisions
+275,roberta-base,0.1,9,1e-05,300,0.2776513051674298,Conditions to Closing
+276,roberta-base,0.1,90,3e-05,200,0.3338069845916832,Deal Protection and Related Provisions
+277,roberta-base,0.1,92,3e-05,400,0.35961430429042973,Deal Protection and Related Provisions
+278,roberta-base,0.1,93,3e-05,200,0.8385795477314391,Deal Protection and Related Provisions
+279,roberta-base,0.1,94,1e-05,100,0.41116024531090334,Deal Protection and Related Provisions
+280,roberta-base,0.1,95,3e-05,100,0.4788690476190476,Deal Protection and Related Provisions
+281,roberta-base,0.1,97,3e-05,100,0.37124349080870817,Deal Protection and Related Provisions
+282,roberta-base,0.1,99.0,0.0001,400,0.3933677882000282,Deal Protection and Related Provisions
+283,roberta-base,0.1,99.1,1e-05,100,0.499765966195777,Deal Protection and Related Provisions
+284,roberta-base,0.1,99.2,1e-05,200,0.3616485834643233,Deal Protection and Related Provisions
+285,roberta-base,0.1,99.3,1e-05,100,0.41943653489809,Deal Protection and Related Provisions
+286,roberta-base,0.1,99.4,0.0001,200,0.5593546755144044,Deal Protection and Related Provisions
+287,roberta-base,0.1,99.5,1e-05,300,0.2708538375205042,Deal Protection and Related Provisions
+288,roberta-base,0.25,10.0,0.0001,200,0.16571428013601977,Conditions to Closing
+289,roberta-base,0.25,10.1,1e-05,400,0.19945962944044784,Conditions to Closing
+290,roberta-base,0.25,10.10,0.0001,100,0.401271173372983,Conditions to Closing
+291,roberta-base,0.25,10.11,1e-05,100,0.6044542976347781,Conditions to Closing
+292,roberta-base,0.25,10.12,1e-05,200,0.6651449348106225,Conditions to Closing
+293,roberta-base,0.25,10.13,0.0001,300,0.5142212725546059,Conditions to Closing
+294,roberta-base,0.25,10.2,1e-05,400,0.448342820562083,Conditions to Closing
+295,roberta-base,0.25,10.3,3e-05,100,0.2782258372189181,Conditions to Closing
+296,roberta-base,0.25,10.4,1e-05,100,0.319573687127771,Conditions to Closing
+297,roberta-base,0.25,10.5,1e-05,300,0.3853183223609808,Conditions to Closing
+298,roberta-base,0.25,10.6,0.0001,400,0.223162177328844,Conditions to Closing
+299,roberta-base,0.25,10.7,3e-05,200,0.6708256202987347,Conditions to Closing
+300,roberta-base,0.25,10.8,1e-05,100,0.42233108076544573,Conditions to Closing
+301,roberta-base,0.25,10.9,0.0001,400,0.3772583554108306,Conditions to Closing
+302,roberta-base,0.25,101,1e-05,400,0.2592917975018486,Deal Protection and Related Provisions
+303,roberta-base,0.25,102,0.0001,300,0.2771401938529931,Deal Protection and Related Provisions
+304,roberta-base,0.25,103,3e-05,100,0.269342031106737,Deal Protection and Related Provisions
+305,roberta-base,0.25,105.0,3e-05,300,0.09431153641679957,Deal Protection and Related Provisions
+306,roberta-base,0.25,105.1,3e-05,100,0.16960784313725488,Deal Protection and Related Provisions
+307,roberta-base,0.25,105.2,1e-05,100,0.6720327368766726,Deal Protection and Related Provisions
+308,roberta-base,0.25,105.3,0.0001,100,0.5997707816506376,Deal Protection and Related Provisions
+309,roberta-base,0.25,105.4,1e-05,100,0.6923076923076924,Deal Protection and Related Provisions
+310,roberta-base,0.25,105.5,1e-05,400,0.6770833333333334,Deal Protection and Related Provisions
+311,roberta-base,0.25,105.6,0.0001,400,0.3955555555555556,Deal Protection and Related Provisions
+312,roberta-base,0.25,105.7,0.0001,200,0.1425979888994136,Deal Protection and Related Provisions
+313,roberta-base,0.25,105.8,3e-05,200,0.8298035212904806,Deal Protection and Related Provisions
+314,roberta-base,0.25,105.9,3e-05,100,0.8220041615840893,Deal Protection and Related Provisions
+315,roberta-base,0.25,106,0.0001,300,0.6933908683908684,Deal Protection and Related Provisions
+316,roberta-base,0.25,107.0,3e-05,100,0.3744495446570324,Deal Protection and Related Provisions
+317,roberta-base,0.25,107.1,3e-05,400,0.6217201825625615,Deal Protection and Related Provisions
+318,roberta-base,0.25,107.2,3e-05,100,0.5945907054561091,Deal Protection and Related Provisions
+319,roberta-base,0.25,107.3,1e-05,400,0.5617089257992293,Deal Protection and Related Provisions
+320,roberta-base,0.25,108,0.0001,300,0.36484381903499546,Deal Protection and Related Provisions
+321,roberta-base,0.25,109,1e-05,200,0.9962328508237043,Deal Protection and Related Provisions
+322,roberta-base,0.25,11.0,0.0001,200,0.19875087548686868,Conditions to Closing
+323,roberta-base,0.25,11.1,3e-05,300,0.22665464940314548,Conditions to Closing
+324,roberta-base,0.25,11.2,0.0001,100,0.226521780549221,Conditions to Closing
+325,roberta-base,0.25,11.3,1e-05,100,0.33411650370678,Conditions to Closing
+326,roberta-base,0.25,113,0.0001,100,0.34984288587229767,Deal Protection and Related Provisions
+327,roberta-base,0.25,115,0.0001,100,0.6550505050505051,Deal Protection and Related Provisions
+328,roberta-base,0.25,117,3e-05,300,0.9052777777777777,Operating and Efforts Covenant
+329,roberta-base,0.25,118,3e-05,400,0.9112338273943044,Operating and Efforts Covenant
+330,roberta-base,0.25,119,1e-05,400,0.8761465424896601,Operating and Efforts Covenant
+331,roberta-base,0.25,120,0.0001,100,0.8606481481481482,Operating and Efforts Covenant
+332,roberta-base,0.25,122,3e-05,100,0.9974747474747474,Operating and Efforts Covenant
+333,roberta-base,0.25,123,1e-05,300,0.9179733846400512,Operating and Efforts Covenant
+334,roberta-base,0.25,124,0.0001,200,0.8107291955092037,Operating and Efforts Covenant
+335,roberta-base,0.25,126,1e-05,100,0.7254515779930603,Operating and Efforts Covenant
+336,roberta-base,0.25,13,3e-05,400,0.4424749246154474,Conditions to Closing
+337,roberta-base,0.25,130,0.0001,200,0.4296772726460227,Remedies
+338,roberta-base,0.25,15,3e-05,100,0.8365079365079365,Conditions to Closing
+339,roberta-base,0.25,16,3e-05,300,0.5558201058201058,Conditions to Closing
+340,roberta-base,0.25,21,3e-05,300,0.6662525360442026,Material Adverse Effect
+341,roberta-base,0.25,22,3e-05,100,0.5524911816578483,Material Adverse Effect
+342,roberta-base,0.25,23,0.0001,400,0.42149668668808477,Material Adverse Effect
+343,roberta-base,0.25,24,1e-05,300,0.6715842636895268,Material Adverse Effect
+344,roberta-base,0.25,25.0,3e-05,200,0.5994366635543106,Material Adverse Effect
+345,roberta-base,0.25,25.1,3e-05,100,0.7850748586767343,Material Adverse Effect
+346,roberta-base,0.25,25.2,0.0001,400,0.5409887716809846,Material Adverse Effect
+347,roberta-base,0.25,26,1e-05,400,0.6015018895634439,Material Adverse Effect
+348,roberta-base,0.25,27,1e-05,300,0.9056277056277056,Material Adverse Effect
+349,roberta-base,0.25,28,1e-05,400,0.27011784511784515,Material Adverse Effect
+350,roberta-base,0.25,29,0.0001,300,0.4384697884697884,Material Adverse Effect
+351,roberta-base,0.25,3,3e-05,300,0.7847589280263246,General Information
+352,roberta-base,0.25,30,1e-05,200,0.8126780626780626,Material Adverse Effect
+353,roberta-base,0.25,31,3e-05,200,0.6088552188552189,Material Adverse Effect
+354,roberta-base,0.25,32,0.0001,400,0.4376535702000098,Material Adverse Effect
+355,roberta-base,0.25,33,0.0001,400,0.2600432138667433,Material Adverse Effect
+356,roberta-base,0.25,34,3e-05,100,0.36890983245149905,Material Adverse Effect
+357,roberta-base,0.25,35,1e-05,200,0.28550682261208576,Material Adverse Effect
+358,roberta-base,0.25,36,0.0001,100,0.3660019139022444,Material Adverse Effect
+359,roberta-base,0.25,37,1e-05,400,0.43273399675823465,Material Adverse Effect
+360,roberta-base,0.25,38,0.0001,100,0.37736411906918815,Material Adverse Effect
+361,roberta-base,0.25,39.0,3e-05,200,0.3051897328822109,Material Adverse Effect
+362,roberta-base,0.25,39.1,0.0001,300,0.3540383113062933,Material Adverse Effect
+363,roberta-base,0.25,39.2,1e-05,400,0.7526179094311004,Material Adverse Effect
+364,roberta-base,0.25,39.3,1e-05,200,0.8518335712292098,Material Adverse Effect
+365,roberta-base,0.25,42,1e-05,400,0.3310458223924755,Material Adverse Effect
+366,roberta-base,0.25,43,3e-05,200,0.3697193610986715,Material Adverse Effect
+367,roberta-base,0.25,44,0.0001,400,0.25436507936507935,Material Adverse Effect
+368,roberta-base,0.25,45,3e-05,100,0.3962741956115107,Material Adverse Effect
+369,roberta-base,0.25,46,3e-05,300,0.43464775964775965,Material Adverse Effect
+370,roberta-base,0.25,47.0,1e-05,200,0.5452328414035511,Material Adverse Effect
+371,roberta-base,0.25,47.1,1e-05,100,0.5546143475219213,Material Adverse Effect
+372,roberta-base,0.25,47.2,0.0001,400,0.26113471355406837,Material Adverse Effect
+373,roberta-base,0.25,47.3,1e-05,200,0.36719154789330233,Material Adverse Effect
+374,roberta-base,0.25,47.4,3e-05,100,0.6505940991861751,Material Adverse Effect
+375,roberta-base,0.25,48.0,0.0001,100,0.3763779626141537,Material Adverse Effect
+376,roberta-base,0.25,48.1,3e-05,300,0.3553085577411097,Material Adverse Effect
+377,roberta-base,0.25,48.2,3e-05,400,0.21615992232319706,Material Adverse Effect
+378,roberta-base,0.25,48.3,3e-05,400,0.536063306694536,Material Adverse Effect
+379,roberta-base,0.25,48.4,3e-05,200,0.623930883121593,Material Adverse Effect
+380,roberta-base,0.25,49,0.0001,100,0.41133507930609375,Material Adverse Effect
+381,roberta-base,0.25,50,3e-05,300,0.8226462784673569,Material Adverse Effect
+382,roberta-base,0.25,51,0.0001,300,0.5445773631697011,Material Adverse Effect
+383,roberta-base,0.25,52,1e-05,100,0.36896154559553257,Material Adverse Effect
+384,roberta-base,0.25,53,1e-05,100,0.3521911663216011,Material Adverse Effect
+385,roberta-base,0.25,54,0.0001,100,0.4212137487729761,Material Adverse Effect
+386,roberta-base,0.25,55,3e-05,300,0.7109652947696427,Material Adverse Effect
+387,roberta-base,0.25,57,0.0001,100,0.4148481134878194,Material Adverse Effect
+388,roberta-base,0.25,58,3e-05,300,0.3640038066508655,Material Adverse Effect
+389,roberta-base,0.25,59,0.0001,200,0.6793297510502888,Material Adverse Effect
+390,roberta-base,0.25,6,1e-05,400,0.6746648511093826,Conditions to Closing
+391,roberta-base,0.25,60,0.0001,400,0.5950854700854701,Material Adverse Effect
+392,roberta-base,0.25,61.0,1e-05,100,0.5395675265980384,Material Adverse Effect
+393,roberta-base,0.25,61.1,3e-05,400,0.6074042401293954,Material Adverse Effect
+394,roberta-base,0.25,61.2,1e-05,400,0.4861680548119707,Material Adverse Effect
+395,roberta-base,0.25,61.3,3e-05,300,0.4135521678644567,Material Adverse Effect
+396,roberta-base,0.25,61.4,3e-05,100,0.4216310541310541,Material Adverse Effect
+397,roberta-base,0.25,61.5,0.0001,100,0.8333333333333334,Material Adverse Effect
+398,roberta-base,0.25,61.6,3e-05,300,0.3713197445754413,Material Adverse Effect
+399,roberta-base,0.25,62,3e-05,100,0.4636063550067177,Material Adverse Effect
+400,roberta-base,0.25,66,3e-05,200,0.9428708440094878,Knowledge
+401,roberta-base,0.25,67,0.0001,400,0.9111111111111111,Knowledge
+402,roberta-base,0.25,68,1e-05,100,0.9226190476190476,Knowledge
+403,roberta-base,0.25,7,0.0001,200,0.21460040544344833,Conditions to Closing
+404,roberta-base,0.25,70,0.0001,100,0.1630465051517683,Deal Protection and Related Provisions
+405,roberta-base,0.25,72,1e-05,300,0.7014090164098886,Deal Protection and Related Provisions
+406,roberta-base,0.25,74,3e-05,400,0.6939317911071154,Deal Protection and Related Provisions
+407,roberta-base,0.25,75,1e-05,200,0.8632270014409826,Deal Protection and Related Provisions
+408,roberta-base,0.25,77,1e-05,400,0.36152664575000903,Deal Protection and Related Provisions
+409,roberta-base,0.25,78,3e-05,200,0.5582483647927489,Deal Protection and Related Provisions
+410,roberta-base,0.25,8,3e-05,300,0.17921046062756296,Conditions to Closing
+411,roberta-base,0.25,80,3e-05,400,0.583767985331294,Deal Protection and Related Provisions
+412,roberta-base,0.25,81,1e-05,400,0.7238997113997113,Deal Protection and Related Provisions
+413,roberta-base,0.25,82,1e-05,400,0.7140716058045995,Deal Protection and Related Provisions
+414,roberta-base,0.25,84,3e-05,400,0.5576948974308822,Deal Protection and Related Provisions
+415,roberta-base,0.25,85,0.0001,300,0.21506344853916617,Deal Protection and Related Provisions
+416,roberta-base,0.25,86,3e-05,200,0.19588136445786142,Deal Protection and Related Provisions
+417,roberta-base,0.25,88,1e-05,200,0.6814526912572534,Deal Protection and Related Provisions
+418,roberta-base,0.25,89,3e-05,100,0.45399531685523997,Deal Protection and Related Provisions
+419,roberta-base,0.25,9,0.0001,300,0.2758743987090429,Conditions to Closing
+420,roberta-base,0.25,90,3e-05,400,0.45842406313866224,Deal Protection and Related Provisions
+421,roberta-base,0.25,92,0.0001,400,0.39621562886924583,Deal Protection and Related Provisions
+422,roberta-base,0.25,93,3e-05,200,0.994098973093466,Deal Protection and Related Provisions
+423,roberta-base,0.25,94,1e-05,200,0.49943177295500024,Deal Protection and Related Provisions
+424,roberta-base,0.25,95,1e-05,300,0.6018939393939394,Deal Protection and Related Provisions
+425,roberta-base,0.25,97,3e-05,300,0.7222222222222222,Deal Protection and Related Provisions
+426,roberta-base,0.25,99.0,0.0001,300,0.5779857927559083,Deal Protection and Related Provisions
+427,roberta-base,0.25,99.1,1e-05,100,0.5380888360890671,Deal Protection and Related Provisions
+428,roberta-base,0.25,99.2,0.0001,200,0.3204515357355666,Deal Protection and Related Provisions
+429,roberta-base,0.25,99.3,3e-05,300,0.34658122004928,Deal Protection and Related Provisions
+430,roberta-base,0.25,99.4,1e-05,200,0.4938741506354439,Deal Protection and Related Provisions
+431,roberta-base,0.25,99.5,0.0001,100,0.1701387037333286,Deal Protection and Related Provisions
+432,roberta-base,0.5,10.0,3e-05,400,0.23688691231294542,Conditions to Closing
+433,roberta-base,0.5,10.1,1e-05,200,0.3073754275732977,Conditions to Closing
+434,roberta-base,0.5,10.10,3e-05,100,0.3181680510623455,Conditions to Closing
+435,roberta-base,0.5,10.11,3e-05,100,0.6317406828928526,Conditions to Closing
+436,roberta-base,0.5,10.12,1e-05,100,0.7156019228267877,Conditions to Closing
+437,roberta-base,0.5,10.13,0.0001,400,0.5119658119658119,Conditions to Closing
+438,roberta-base,0.5,10.2,3e-05,100,0.39982632065962226,Conditions to Closing
+439,roberta-base,0.5,10.3,0.0001,100,0.2628146573979218,Conditions to Closing
+440,roberta-base,0.5,10.4,3e-05,200,0.34183375751226447,Conditions to Closing
+441,roberta-base,0.5,10.5,3e-05,200,0.5212979003436193,Conditions to Closing
+442,roberta-base,0.5,10.6,0.0001,200,0.08941670111255985,Conditions to Closing
+443,roberta-base,0.5,10.7,3e-05,300,0.6907132664047126,Conditions to Closing
+444,roberta-base,0.5,10.8,3e-05,300,0.4193353803115074,Conditions to Closing
+445,roberta-base,0.5,10.9,3e-05,400,0.2799461461003545,Conditions to Closing
+446,roberta-base,0.5,101,3e-05,400,0.48289025951887526,Deal Protection and Related Provisions
+447,roberta-base,0.5,102,0.0001,300,0.2696734372829259,Deal Protection and Related Provisions
+448,roberta-base,0.5,103,3e-05,200,0.388052466921728,Deal Protection and Related Provisions
+449,roberta-base,0.5,105.0,0.0001,100,0.08521303258145363,Deal Protection and Related Provisions
+450,roberta-base,0.5,105.1,1e-05,400,0.12698412698412698,Deal Protection and Related Provisions
+451,roberta-base,0.5,105.2,3e-05,300,0.7839548427080755,Deal Protection and Related Provisions
+452,roberta-base,0.5,105.3,3e-05,300,0.6953829548766541,Deal Protection and Related Provisions
+453,roberta-base,0.5,105.4,1e-05,400,0.6862745098039215,Deal Protection and Related Provisions
+454,roberta-base,0.5,105.5,1e-05,100,1.0,Deal Protection and Related Provisions
+455,roberta-base,0.5,105.6,3e-05,200,0.12083333333333333,Deal Protection and Related Provisions
+456,roberta-base,0.5,105.7,1e-05,100,0.18363285288572642,Deal Protection and Related Provisions
+457,roberta-base,0.5,105.8,1e-05,200,0.7514475904617482,Deal Protection and Related Provisions
+458,roberta-base,0.5,105.9,3e-05,400,0.9162648189973325,Deal Protection and Related Provisions
+459,roberta-base,0.5,106,3e-05,100,0.6691269805285822,Deal Protection and Related Provisions
+460,roberta-base,0.5,107.0,3e-05,200,0.45899420860328566,Deal Protection and Related Provisions
+461,roberta-base,0.5,107.1,1e-05,200,0.7245684702243462,Deal Protection and Related Provisions
+462,roberta-base,0.5,107.2,3e-05,300,0.650097096601428,Deal Protection and Related Provisions
+463,roberta-base,0.5,107.3,1e-05,300,0.6701279653265543,Deal Protection and Related Provisions
+464,roberta-base,0.5,108,1e-05,300,0.2880383284187632,Deal Protection and Related Provisions
+465,roberta-base,0.5,109,1e-05,400,0.9933590504179168,Deal Protection and Related Provisions
+466,roberta-base,0.5,11.0,0.0001,200,0.1150305947651233,Conditions to Closing
+467,roberta-base,0.5,11.1,0.0001,300,0.20474810869841029,Conditions to Closing
+468,roberta-base,0.5,11.2,3e-05,100,0.22504144222662867,Conditions to Closing
+469,roberta-base,0.5,11.3,3e-05,400,0.42831951328328133,Conditions to Closing
+470,roberta-base,0.5,113,3e-05,300,0.5743114909781576,Deal Protection and Related Provisions
+471,roberta-base,0.5,115,3e-05,200,0.8691919191919192,Deal Protection and Related Provisions
+472,roberta-base,0.5,117,1e-05,100,1.0,Operating and Efforts Covenant
+473,roberta-base,0.5,118,1e-05,300,0.9254512745132679,Operating and Efforts Covenant
+474,roberta-base,0.5,119,1e-05,400,0.9977949891451035,Operating and Efforts Covenant
+475,roberta-base,0.5,120,1e-05,300,0.733060458060458,Operating and Efforts Covenant
+476,roberta-base,0.5,122,1e-05,100,0.9974747474747474,Operating and Efforts Covenant
+477,roberta-base,0.5,123,1e-05,100,0.9282804909403373,Operating and Efforts Covenant
+478,roberta-base,0.5,124,3e-05,400,0.8688483001450916,Operating and Efforts Covenant
+479,roberta-base,0.5,126,1e-05,100,0.8547118914916072,Operating and Efforts Covenant
+480,roberta-base,0.5,13,0.0001,200,0.5782871262903743,Conditions to Closing
+481,roberta-base,0.5,130,1e-05,400,0.5425998958813197,Remedies
+482,roberta-base,0.5,15,3e-05,100,0.697089947089947,Conditions to Closing
+483,roberta-base,0.5,16,1e-05,300,0.6200433568489124,Conditions to Closing
+484,roberta-base,0.5,21,3e-05,300,0.8627736779457794,Material Adverse Effect
+485,roberta-base,0.5,22,3e-05,200,0.43234224724372505,Material Adverse Effect
+486,roberta-base,0.5,23,3e-05,200,0.5570323958043256,Material Adverse Effect
+487,roberta-base,0.5,24,3e-05,100,0.687765246449457,Material Adverse Effect
+488,roberta-base,0.5,25.0,3e-05,300,0.8878632478632479,Material Adverse Effect
+489,roberta-base,0.5,25.1,1e-05,400,0.8766570358411608,Material Adverse Effect
+490,roberta-base,0.5,25.2,3e-05,400,0.7722508394383394,Material Adverse Effect
+491,roberta-base,0.5,26,3e-05,400,0.8357779258431239,Material Adverse Effect
+492,roberta-base,0.5,27,3e-05,100,1.0,Material Adverse Effect
+493,roberta-base,0.5,28,1e-05,300,0.3372510115157174,Material Adverse Effect
+494,roberta-base,0.5,29,0.0001,100,0.277116143513993,Material Adverse Effect
+495,roberta-base,0.5,3,3e-05,200,0.9496832642665977,General Information
+496,roberta-base,0.5,30,3e-05,100,0.9351851851851851,Material Adverse Effect
+497,roberta-base,0.5,31,1e-05,300,0.586694702221018,Material Adverse Effect
+498,roberta-base,0.5,32,0.0001,300,0.42644417780287336,Material Adverse Effect
+499,roberta-base,0.5,33,0.0001,200,0.22870321587360123,Material Adverse Effect
+500,roberta-base,0.5,34,3e-05,400,0.20481754321268386,Material Adverse Effect
+501,roberta-base,0.5,35,3e-05,100,0.30266280016280017,Material Adverse Effect
+502,roberta-base,0.5,36,3e-05,400,0.37902716800743114,Material Adverse Effect
+503,roberta-base,0.5,37,1e-05,100,0.5826885990894858,Material Adverse Effect
+504,roberta-base,0.5,38,1e-05,100,0.48432057221248764,Material Adverse Effect
+505,roberta-base,0.5,39.0,3e-05,300,0.34077945880691124,Material Adverse Effect
+506,roberta-base,0.5,39.1,3e-05,400,0.3578670294289425,Material Adverse Effect
+507,roberta-base,0.5,39.2,3e-05,400,0.7449667270041722,Material Adverse Effect
+508,roberta-base,0.5,39.3,1e-05,400,0.8339479134366327,Material Adverse Effect
+509,roberta-base,0.5,42,0.0001,200,0.4227698027205416,Material Adverse Effect
+510,roberta-base,0.5,43,3e-05,200,0.3399214236056341,Material Adverse Effect
+511,roberta-base,0.5,44,0.0001,100,0.2836700336700337,Material Adverse Effect
+512,roberta-base,0.5,45,1e-05,100,0.24964680943163012,Material Adverse Effect
+513,roberta-base,0.5,46,0.0001,100,0.2898602337008134,Material Adverse Effect
+514,roberta-base,0.5,47.0,3e-05,100,0.5655500369192856,Material Adverse Effect
+515,roberta-base,0.5,47.1,1e-05,200,0.44329068382704634,Material Adverse Effect
+516,roberta-base,0.5,47.2,3e-05,100,0.3785954785954786,Material Adverse Effect
+517,roberta-base,0.5,47.3,0.0001,400,0.349400871459695,Material Adverse Effect
+518,roberta-base,0.5,47.4,1e-05,400,0.8476099945779773,Material Adverse Effect
+519,roberta-base,0.5,48.0,0.0001,100,0.4107091398230909,Material Adverse Effect
+520,roberta-base,0.5,48.1,3e-05,300,0.2588016895273559,Material Adverse Effect
+521,roberta-base,0.5,48.2,0.0001,300,0.28504334923975433,Material Adverse Effect
+522,roberta-base,0.5,48.3,3e-05,400,0.6833295723189341,Material Adverse Effect
+523,roberta-base,0.5,48.4,1e-05,200,0.6762986422187635,Material Adverse Effect
+524,roberta-base,0.5,49,3e-05,200,0.5836760461760462,Material Adverse Effect
+525,roberta-base,0.5,50,1e-05,100,0.7276067153488549,Material Adverse Effect
+526,roberta-base,0.5,51,1e-05,200,0.7363989787237659,Material Adverse Effect
+527,roberta-base,0.5,52,1e-05,400,0.2736061632937358,Material Adverse Effect
+528,roberta-base,0.5,53,1e-05,100,0.21080932955932954,Material Adverse Effect
+529,roberta-base,0.5,54,1e-05,200,0.3581881081881082,Material Adverse Effect
+530,roberta-base,0.5,55,1e-05,100,0.6039746055831666,Material Adverse Effect
+531,roberta-base,0.5,57,3e-05,200,0.42509296259296253,Material Adverse Effect
+532,roberta-base,0.5,58,3e-05,400,0.3821623002601264,Material Adverse Effect
+533,roberta-base,0.5,59,1e-05,300,0.5995309670868153,Material Adverse Effect
+534,roberta-base,0.5,6,3e-05,400,0.9186498339671253,Conditions to Closing
+535,roberta-base,0.5,60,3e-05,100,0.6384356384356384,Material Adverse Effect
+536,roberta-base,0.5,61.0,1e-05,200,0.7369773063174577,Material Adverse Effect
+537,roberta-base,0.5,61.1,3e-05,300,0.6465981608403211,Material Adverse Effect
+538,roberta-base,0.5,61.2,1e-05,200,0.5223989061144944,Material Adverse Effect
+539,roberta-base,0.5,61.3,0.0001,400,0.41432488267890505,Material Adverse Effect
+540,roberta-base,0.5,61.4,3e-05,400,0.4774126330534034,Material Adverse Effect
+541,roberta-base,0.5,61.5,1e-05,300,0.49722222222222223,Material Adverse Effect
+542,roberta-base,0.5,61.6,1e-05,400,0.5248593708005703,Material Adverse Effect
+543,roberta-base,0.5,62,3e-05,400,0.38872493768554434,Material Adverse Effect
+544,roberta-base,0.5,66,1e-05,100,0.9195335796848073,Knowledge
+545,roberta-base,0.5,67,1e-05,100,0.8108465608465608,Knowledge
+546,roberta-base,0.5,68,0.0001,100,0.9642857142857143,Knowledge
+547,roberta-base,0.5,7,1e-05,400,0.24870950436402134,Conditions to Closing
+548,roberta-base,0.5,70,0.0001,400,0.3676984126984127,Deal Protection and Related Provisions
+549,roberta-base,0.5,72,3e-05,100,0.6668951482322045,Deal Protection and Related Provisions
+550,roberta-base,0.5,74,1e-05,400,0.8375091748475599,Deal Protection and Related Provisions
+551,roberta-base,0.5,75,3e-05,200,1.0,Deal Protection and Related Provisions
+552,roberta-base,0.5,77,1e-05,100,0.4755449907133344,Deal Protection and Related Provisions
+553,roberta-base,0.5,78,3e-05,300,0.8393390945474279,Deal Protection and Related Provisions
+554,roberta-base,0.5,8,3e-05,400,0.18157498541220007,Conditions to Closing
+555,roberta-base,0.5,80,1e-05,400,0.6356275289858032,Deal Protection and Related Provisions
+556,roberta-base,0.5,81,1e-05,400,0.8114197530864197,Deal Protection and Related Provisions
+557,roberta-base,0.5,82,1e-05,400,0.8209121535743029,Deal Protection and Related Provisions
+558,roberta-base,0.5,84,3e-05,400,0.7064996342093719,Deal Protection and Related Provisions
+559,roberta-base,0.5,85,3e-05,100,0.1937351768461602,Deal Protection and Related Provisions
+560,roberta-base,0.5,86,0.0001,100,0.2917936851440688,Deal Protection and Related Provisions
+561,roberta-base,0.5,88,1e-05,400,0.7057664285259542,Deal Protection and Related Provisions
+562,roberta-base,0.5,89,3e-05,200,0.4964305537672423,Deal Protection and Related Provisions
+563,roberta-base,0.5,9,3e-05,200,0.3290809856482479,Conditions to Closing
+564,roberta-base,0.5,90,3e-05,200,0.555018011946869,Deal Protection and Related Provisions
+565,roberta-base,0.5,92,3e-05,400,0.43642582026958626,Deal Protection and Related Provisions
+566,roberta-base,0.5,93,1e-05,100,0.9999999999999997,Deal Protection and Related Provisions
+567,roberta-base,0.5,94,3e-05,400,0.6997314201416426,Deal Protection and Related Provisions
+568,roberta-base,0.5,95,1e-05,400,0.4688492063492064,Deal Protection and Related Provisions
+569,roberta-base,0.5,97,0.0001,100,1.0,Deal Protection and Related Provisions
+570,roberta-base,0.5,99.0,1e-05,400,0.5283829201929421,Deal Protection and Related Provisions
+571,roberta-base,0.5,99.1,1e-05,100,0.6348256475825925,Deal Protection and Related Provisions
+572,roberta-base,0.5,99.2,3e-05,400,0.4220084235018488,Deal Protection and Related Provisions
+573,roberta-base,0.5,99.3,1e-05,100,0.3514137219460949,Deal Protection and Related Provisions
+574,roberta-base,0.5,99.4,3e-05,300,0.5028599694912534,Deal Protection and Related Provisions
+575,roberta-base,0.5,99.5,0.0001,400,0.23348440545808966,Deal Protection and Related Provisions
