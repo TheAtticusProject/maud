@@ -2,10 +2,7 @@
 
 <img align="center" src="main_figure.png" width="1000">
 
-[[Paper]](https://arxiv.org/abs/2301.00876)
-[[Dataset]](https://drive.google.com/drive/folders/1RujOK2FZKdFSCJ15tqdyd42g8WLsYagj)
-
-This repository contains code for the [Merger Agreement Understanding Dataset (MAUD)](https://www.atticusprojectai.org/maud), a dataset for merger agreement review curated by the Atticus Project and used in the 2021 American Bar Association Public Target Deal Points Study.
+This repository contains code for the Merger Agreement Understanding Dataset (MAUD), a dataset for merger agreement review used in the 2021 American Bar Association Public Tagget Deal Points Study.
 
 
 ## Installation
@@ -20,17 +17,3 @@ Best found hyperparameters and corresponding validation scores, are available in
 
 ## Training and Evaluation
 Run `train.sh`, `train_multi.sh`, and `evaluate.sh` to train and evaluate models on best found hyperparameters.
-
-
-## Citation
-If you find MAUD useful in your research, please consider citing:
-```
-@misc{wang2023maud,
-      title={MAUD: An Expert-Annotated Legal NLP Dataset for Merger Agreement Understanding}, 
-      author={Steven H. Wang and Antoine Scardigli and Leonard Tang and Wei Chen and Dimitry Levkin and Anya Chen and Spencer Ball and Thomas Woodside and Oliver Zhang and Dan Hendrycks},
-      year={2023},
-      eprint={2301.00876},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
